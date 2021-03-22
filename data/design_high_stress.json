@@ -1,0 +1,1866 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/31233309",
+      "properties": {
+        "id": "way/31233309",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8809166,
+            49.2800904
+          ],
+          [
+            -122.880538,
+            49.2806947
+          ],
+          [
+            -122.8798963,
+            49.2817139
+          ],
+          [
+            -122.8798792,
+            49.2817427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31487132",
+      "properties": {
+        "id": "way/31487132",
+        "cycleway": "shared",
+        "highway": "unclassified",
+        "lanes": "2",
+        "name": "Ailsa Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='unclassified'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8926175,
+            49.2712378
+          ],
+          [
+            -122.8926445,
+            49.2711253
+          ],
+          [
+            -122.8925577,
+            49.2710382
+          ],
+          [
+            -122.8923173,
+            49.270934
+          ],
+          [
+            -122.8919201,
+            49.2708913
+          ],
+          [
+            -122.8896405,
+            49.2709138
+          ],
+          [
+            -122.8889978,
+            49.270921
+          ],
+          [
+            -122.8885973,
+            49.2709201
+          ],
+          [
+            -122.887429,
+            49.2709337
+          ],
+          [
+            -122.8861367,
+            49.2709442
+          ],
+          [
+            -122.8848585,
+            49.2709461
+          ],
+          [
+            -122.8842363,
+            49.2709397
+          ],
+          [
+            -122.883893,
+            49.2708501
+          ],
+          [
+            -122.8837845,
+            49.2708063
+          ],
+          [
+            -122.8834896,
+            49.2706429
+          ],
+          [
+            -122.8832781,
+            49.270571
+          ],
+          [
+            -122.8830432,
+            49.2705477
+          ],
+          [
+            -122.8822961,
+            49.2705634
+          ],
+          [
+            -122.880308,
+            49.2705659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31487145",
+      "properties": {
+        "id": "way/31487145",
+        "cycleway": "shared",
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Glencoe Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 3 because maxspeed is up to 40 km/h and 3 or fewer lanes on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8886968,
+            49.2743182
+          ],
+          [
+            -122.8884248,
+            49.274535
+          ],
+          [
+            -122.8880472,
+            49.2746302
+          ],
+          [
+            -122.8877711,
+            49.2746287
+          ],
+          [
+            -122.8854893,
+            49.2746164
+          ],
+          [
+            -122.8842019,
+            49.2746094
+          ],
+          [
+            -122.8840448,
+            49.2746086
+          ],
+          [
+            -122.882917,
+            49.2746025
+          ],
+          [
+            -122.882863,
+            49.2746022
+          ],
+          [
+            -122.8815346,
+            49.2745888
+          ],
+          [
+            -122.8813011,
+            49.2745641
+          ],
+          [
+            -122.8806774,
+            49.2745774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34319287",
+      "properties": {
+        "id": "way/34319287",
+        "cycleway": "shared_lane",
+        "highway": "service",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8703069,
+            49.285291
+          ],
+          [
+            -122.8703861,
+            49.2852334
+          ],
+          [
+            -122.870413,
+            49.2851621
+          ],
+          [
+            -122.8704575,
+            49.2848971
+          ],
+          [
+            -122.8705326,
+            49.2845015
+          ],
+          [
+            -122.8706435,
+            49.2842
+          ],
+          [
+            -122.870892,
+            49.2835778
+          ],
+          [
+            -122.8710562,
+            49.2831814
+          ],
+          [
+            -122.8711037,
+            49.283122
+          ],
+          [
+            -122.871195,
+            49.28308
+          ],
+          [
+            -122.8712915,
+            49.2830112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/194585989",
+      "properties": {
+        "id": "way/194585989",
+        "bicycle": "yes",
+        "cycleway": "crossing",
+        "footway": "crossing",
+        "highway": "footway",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='crossing'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.880734,
+            49.290466
+          ],
+          [
+            -122.8807717,
+            49.2905326
+          ],
+          [
+            -122.8808241,
+            49.2906251
+          ],
+          [
+            -122.8808496,
+            49.2906702
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378583271",
+      "properties": {
+        "id": "way/378583271",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Barnet Highway",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8666574,
+            49.2808062
+          ],
+          [
+            -122.8666611,
+            49.2811064
+          ],
+          [
+            -122.8666908,
+            49.2816763
+          ],
+          [
+            -122.8667915,
+            49.2826598
+          ],
+          [
+            -122.8668768,
+            49.2833664
+          ],
+          [
+            -122.8669825,
+            49.2840846
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378583272",
+      "properties": {
+        "id": "way/378583272",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "motor_vehicle:conditional": "no @ (Mo-Fr 06:00-0830)",
+        "name": "Barnet Highway",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.866795,
+            49.2782504
+          ],
+          [
+            -122.866668,
+            49.278627
+          ],
+          [
+            -122.8666037,
+            49.278857
+          ],
+          [
+            -122.8665729,
+            49.2791737
+          ],
+          [
+            -122.8665394,
+            49.2794624
+          ],
+          [
+            -122.8665442,
+            49.2797206
+          ],
+          [
+            -122.8665661,
+            49.2799068
+          ],
+          [
+            -122.866587,
+            49.2802815
+          ],
+          [
+            -122.8666064,
+            49.2807343
+          ],
+          [
+            -122.8666574,
+            49.2808062
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378583276",
+      "properties": {
+        "id": "way/378583276",
+        "cycleway": "shared_lane",
+        "highway": "unclassified",
+        "lanes": "2",
+        "name": "Union Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='unclassified'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.868125,
+            49.2863455
+          ],
+          [
+            -122.8692927,
+            49.2872171
+          ],
+          [
+            -122.8699314,
+            49.2876624
+          ],
+          [
+            -122.8708479,
+            49.2883674
+          ],
+          [
+            -122.8712009,
+            49.2885313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378583277",
+      "properties": {
+        "id": "way/378583277",
+        "bicycle": "designated",
+        "highway": "primary_link",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='primary_link'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8680836,
+            49.2870858
+          ],
+          [
+            -122.868095,
+            49.2869638
+          ],
+          [
+            -122.867985,
+            49.2867504
+          ],
+          [
+            -122.8678436,
+            49.2864527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378584505",
+      "properties": {
+        "id": "way/378584505",
+        "bicycle": "designated",
+        "highway": "primary_link",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='primary_link'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8678436,
+            49.2864527
+          ],
+          [
+            -122.8678469,
+            49.2864084
+          ],
+          [
+            -122.8678858,
+            49.2863717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378584872",
+      "properties": {
+        "id": "way/378584872",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Barnet Highway",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8668007,
+            49.2780831
+          ],
+          [
+            -122.866795,
+            49.2782504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/379001130",
+      "properties": {
+        "id": "way/379001130",
+        "cycleway": "lane",
+        "highway": "primary_link",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='primary_link'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8761288,
+            49.2912442
+          ],
+          [
+            -122.8762622,
+            49.2913031
+          ],
+          [
+            -122.8768404,
+            49.2913181
+          ],
+          [
+            -122.8772905,
+            49.2913151
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/464680255",
+      "properties": {
+        "id": "way/464680255",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "College Park Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8798792,
+            49.2817427
+          ],
+          [
+            -122.8796572,
+            49.2817011
+          ],
+          [
+            -122.879306,
+            49.2816746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/464680256",
+      "properties": {
+        "id": "way/464680256",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8798792,
+            49.2817427
+          ],
+          [
+            -122.8797682,
+            49.2819047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/464680257",
+      "properties": {
+        "id": "way/464680257",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8797497,
+            49.2819355
+          ],
+          [
+            -122.8796061,
+            49.2821704
+          ],
+          [
+            -122.8795383,
+            49.2822731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/464681853",
+      "properties": {
+        "id": "way/464681853",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "College Park Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8738103,
+            49.2816791
+          ],
+          [
+            -122.8734236,
+            49.2816779
+          ],
+          [
+            -122.8730577,
+            49.2816937
+          ],
+          [
+            -122.8727869,
+            49.2817273
+          ],
+          [
+            -122.8725553,
+            49.2817866
+          ],
+          [
+            -122.8723316,
+            49.2818601
+          ],
+          [
+            -122.8719872,
+            49.2820303
+          ],
+          [
+            -122.8717137,
+            49.2822396
+          ],
+          [
+            -122.8714819,
+            49.282521
+          ],
+          [
+            -122.8713228,
+            49.282872
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/464681855",
+      "properties": {
+        "id": "way/464681855",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "College Park Way",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.879306,
+            49.2816746
+          ],
+          [
+            -122.8751,
+            49.2816823
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/480226734",
+      "properties": {
+        "id": "way/480226734",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Cecile Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 3 because maxspeed is up to 40 km/h and 3 or fewer lanes on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8755294,
+            49.278738
+          ],
+          [
+            -122.8754941,
+            49.2778636
+          ],
+          [
+            -122.8754582,
+            49.2770292
+          ],
+          [
+            -122.8754533,
+            49.2763162
+          ],
+          [
+            -122.8754447,
+            49.276181
+          ],
+          [
+            -122.8753661,
+            49.2761007
+          ],
+          [
+            -122.8752042,
+            49.2760472
+          ],
+          [
+            -122.8751117,
+            49.2760111
+          ],
+          [
+            -122.874611,
+            49.2758155
+          ],
+          [
+            -122.8745664,
+            49.2757981
+          ],
+          [
+            -122.8741331,
+            49.2756289
+          ],
+          [
+            -122.8735175,
+            49.2753884
+          ],
+          [
+            -122.8723448,
+            49.2749304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/480226735",
+      "properties": {
+        "id": "way/480226735",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "College Park Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8745559,
+            49.2816781
+          ],
+          [
+            -122.8742593,
+            49.2816799
+          ],
+          [
+            -122.8738103,
+            49.2816791
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/480226736",
+      "properties": {
+        "id": "way/480226736",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "College Park Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8751,
+            49.2816823
+          ],
+          [
+            -122.8745559,
+            49.2816781
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/480349392",
+      "properties": {
+        "id": "way/480349392",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8797682,
+            49.2819047
+          ],
+          [
+            -122.8797497,
+            49.2819355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/827973785",
+      "properties": {
+        "id": "way/827973785",
+        "bicycle": "designated",
+        "highway": "primary_link",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='primary_link'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8678858,
+            49.2863717
+          ],
+          [
+            -122.8679905,
+            49.2863419
+          ],
+          [
+            -122.868125,
+            49.2863455
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/828560068",
+      "properties": {
+        "id": "way/828560068",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "maxspeed": "60",
+        "name": "Barnet Highway",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8723307,
+            49.2901711
+          ],
+          [
+            -122.8713126,
+            49.2897028
+          ],
+          [
+            -122.870828,
+            49.2894659
+          ],
+          [
+            -122.8703704,
+            49.2892156
+          ],
+          [
+            -122.8700764,
+            49.2890387
+          ],
+          [
+            -122.8696841,
+            49.2887715
+          ],
+          [
+            -122.8693529,
+            49.2885184
+          ],
+          [
+            -122.8689477,
+            49.2881487
+          ],
+          [
+            -122.8687899,
+            49.2879768
+          ],
+          [
+            -122.8685622,
+            49.28772
+          ],
+          [
+            -122.8683291,
+            49.2874518
+          ],
+          [
+            -122.8680836,
+            49.2870858
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/828560069",
+      "properties": {
+        "id": "way/828560069",
+        "cycleway": "separate",
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Barnet Highway",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8669625,
+            49.2816729
+          ],
+          [
+            -122.8669165,
+            49.2810784
+          ],
+          [
+            -122.8668981,
+            49.2804623
+          ],
+          [
+            -122.8668967,
+            49.2796596
+          ],
+          [
+            -122.8668961,
+            49.2795718
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295949",
+      "properties": {
+        "id": "way/915295949",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8804407,
+            49.2707475
+          ],
+          [
+            -122.8804616,
+            49.2708753
+          ],
+          [
+            -122.8805114,
+            49.2719594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295950",
+      "properties": {
+        "id": "way/915295950",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8805114,
+            49.2719594
+          ],
+          [
+            -122.8805463,
+            49.2725746
+          ],
+          [
+            -122.8805935,
+            49.2732449
+          ],
+          [
+            -122.8806458,
+            49.2740825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295951",
+      "properties": {
+        "id": "way/915295951",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8806458,
+            49.2740825
+          ],
+          [
+            -122.8806527,
+            49.2741916
+          ],
+          [
+            -122.8806774,
+            49.2745774
+          ],
+          [
+            -122.8806876,
+            49.2750081
+          ],
+          [
+            -122.8806891,
+            49.2750459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295952",
+      "properties": {
+        "id": "way/915295952",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8806891,
+            49.2750459
+          ],
+          [
+            -122.8807389,
+            49.2759248
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295953",
+      "properties": {
+        "id": "way/915295953",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8807389,
+            49.2759248
+          ],
+          [
+            -122.8807642,
+            49.2763693
+          ],
+          [
+            -122.8807709,
+            49.2765237
+          ],
+          [
+            -122.8807739,
+            49.2766134
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295954",
+      "properties": {
+        "id": "way/915295954",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8807739,
+            49.2766134
+          ],
+          [
+            -122.8808273,
+            49.2778476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295955",
+      "properties": {
+        "id": "way/915295955",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8808273,
+            49.2778476
+          ],
+          [
+            -122.8808456,
+            49.2782552
+          ],
+          [
+            -122.8808513,
+            49.2783982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915295956",
+      "properties": {
+        "id": "way/915295956",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "name": "Glenayre Drive",
+        "surface": "paved",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8808513,
+            49.2783982
+          ],
+          [
+            -122.8808683,
+            49.2787799
+          ],
+          [
+            -122.8809562,
+            49.2799026
+          ],
+          [
+            -122.8809526,
+            49.2800008
+          ],
+          [
+            -122.8809166,
+            49.2800904
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915559368",
+      "properties": {
+        "id": "way/915559368",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "College Park Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8713228,
+            49.282872
+          ],
+          [
+            -122.8712949,
+            49.2829375
+          ],
+          [
+            -122.8712915,
+            49.2830112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/915583635",
+      "properties": {
+        "id": "way/915583635",
+        "cycleway": "shared",
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Glencoe Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 3 because maxspeed is up to 40 km/h and 3 or fewer lanes on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8926175,
+            49.2712378
+          ],
+          [
+            -122.8924735,
+            49.2713415
+          ],
+          [
+            -122.8920823,
+            49.2716735
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/41790235",
+      "properties": {
+        "id": "way/41790235",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "maxspeed": "80",
+        "name": "Barnet Highway",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8776243,
+            49.2912505
+          ],
+          [
+            -122.8780838,
+            49.2912138
+          ],
+          [
+            -122.8783473,
+            49.2911883
+          ],
+          [
+            -122.8786582,
+            49.2911485
+          ],
+          [
+            -122.8791606,
+            49.2910564
+          ],
+          [
+            -122.8796017,
+            49.2909572
+          ],
+          [
+            -122.8798775,
+            49.2908917
+          ],
+          [
+            -122.8804693,
+            49.290723
+          ],
+          [
+            -122.880672,
+            49.290667
+          ],
+          [
+            -122.8808241,
+            49.2906251
+          ],
+          [
+            -122.8816088,
+            49.2903972
+          ],
+          [
+            -122.8821673,
+            49.2902537
+          ],
+          [
+            -122.8826407,
+            49.2901584
+          ],
+          [
+            -122.8829679,
+            49.2901129
+          ],
+          [
+            -122.8833797,
+            49.2900679
+          ],
+          [
+            -122.8842781,
+            49.290014
+          ],
+          [
+            -122.8850048,
+            49.2899875
+          ],
+          [
+            -122.8863065,
+            49.2899577
+          ],
+          [
+            -122.8870395,
+            49.2899834
+          ],
+          [
+            -122.8878933,
+            49.2900805
+          ],
+          [
+            -122.8889023,
+            49.2902179
+          ],
+          [
+            -122.889836,
+            49.2903292
+          ],
+          [
+            -122.8903008,
+            49.290366
+          ],
+          [
+            -122.8907932,
+            49.2903797
+          ],
+          [
+            -122.8913431,
+            49.2903666
+          ],
+          [
+            -122.8921331,
+            49.2903015
+          ],
+          [
+            -122.8925635,
+            49.2902371
+          ],
+          [
+            -122.8931767,
+            49.2901134
+          ],
+          [
+            -122.8937531,
+            49.2899642
+          ],
+          [
+            -122.8943458,
+            49.2897595
+          ],
+          [
+            -122.8945948,
+            49.2896594
+          ],
+          [
+            -122.8956507,
+            49.2891445
+          ],
+          [
+            -122.8966121,
+            49.2885822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/41790238",
+      "properties": {
+        "id": "way/41790238",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "maxspeed": "80",
+        "name": "Barnet Highway",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8969439,
+            49.2882394
+          ],
+          [
+            -122.896874,
+            49.2882771
+          ],
+          [
+            -122.8966713,
+            49.2883812
+          ],
+          [
+            -122.8955121,
+            49.2890374
+          ],
+          [
+            -122.8948069,
+            49.2894377
+          ],
+          [
+            -122.8947363,
+            49.289478
+          ],
+          [
+            -122.8945097,
+            49.2895851
+          ],
+          [
+            -122.8942935,
+            49.2896773
+          ],
+          [
+            -122.8936927,
+            49.2898855
+          ],
+          [
+            -122.893138,
+            49.2900353
+          ],
+          [
+            -122.8925308,
+            49.2901534
+          ],
+          [
+            -122.8921156,
+            49.2902135
+          ],
+          [
+            -122.891335,
+            49.2902782
+          ],
+          [
+            -122.890778,
+            49.2902914
+          ],
+          [
+            -122.8903121,
+            49.2902753
+          ],
+          [
+            -122.8898937,
+            49.2902476
+          ],
+          [
+            -122.8889348,
+            49.2901321
+          ],
+          [
+            -122.8879434,
+            49.2899961
+          ],
+          [
+            -122.8870613,
+            49.2898974
+          ],
+          [
+            -122.8863234,
+            49.28987
+          ],
+          [
+            -122.8850158,
+            49.289899
+          ],
+          [
+            -122.8842741,
+            49.2899266
+          ],
+          [
+            -122.8833675,
+            49.2899791
+          ],
+          [
+            -122.8829387,
+            49.2900246
+          ],
+          [
+            -122.8826093,
+            49.2900724
+          ],
+          [
+            -122.8821284,
+            49.2901724
+          ],
+          [
+            -122.881556,
+            49.2903138
+          ],
+          [
+            -122.8807717,
+            49.2905326
+          ],
+          [
+            -122.8806214,
+            49.2905712
+          ],
+          [
+            -122.8804012,
+            49.2906278
+          ],
+          [
+            -122.8800666,
+            49.2907105
+          ],
+          [
+            -122.8798189,
+            49.290779
+          ],
+          [
+            -122.8795642,
+            49.2908424
+          ],
+          [
+            -122.879111,
+            49.2909333
+          ],
+          [
+            -122.8788215,
+            49.2909841
+          ],
+          [
+            -122.8786504,
+            49.2910021
+          ],
+          [
+            -122.8784453,
+            49.2910325
+          ],
+          [
+            -122.8777376,
+            49.2910994
+          ],
+          [
+            -122.8773547,
+            49.2911218
+          ],
+          [
+            -122.8768569,
+            49.2911317
+          ],
+          [
+            -122.8762102,
+            49.2911194
+          ],
+          [
+            -122.8756603,
+            49.2910854
+          ],
+          [
+            -122.8753048,
+            49.2910514
+          ],
+          [
+            -122.8748215,
+            49.2909864
+          ],
+          [
+            -122.874478,
+            49.2909217
+          ],
+          [
+            -122.8739681,
+            49.290799
+          ],
+          [
+            -122.8735167,
+            49.2906584
+          ],
+          [
+            -122.8730027,
+            49.2904667
+          ],
+          [
+            -122.8723307,
+            49.2901711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378584503",
+      "properties": {
+        "id": "way/378584503",
+        "cycleway": "separate",
+        "highway": "primary",
+        "maxspeed": "60",
+        "name": "Barnet Highway",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8675469,
+            49.2859773
+          ],
+          [
+            -122.867423,
+            49.2854219
+          ],
+          [
+            -122.8673691,
+            49.285097
+          ],
+          [
+            -122.8672446,
+            49.2840718
+          ],
+          [
+            -122.8671615,
+            49.2833562
+          ],
+          [
+            -122.8670641,
+            49.2826557
+          ],
+          [
+            -122.8669625,
+            49.2816729
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/463682101",
+      "properties": {
+        "id": "way/463682101",
+        "cycleway": "separate",
+        "highway": "primary",
+        "maxspeed": "60",
+        "name": "Barnet Highway",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8676591,
+            49.286276
+          ],
+          [
+            -122.8676341,
+            49.2862097
+          ],
+          [
+            -122.8675469,
+            49.2859773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/828560067",
+      "properties": {
+        "id": "way/828560067",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "maxspeed": "80",
+        "name": "Barnet Highway",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8669825,
+            49.2840846
+          ],
+          [
+            -122.867111,
+            49.2851143
+          ],
+          [
+            -122.8671522,
+            49.28544
+          ],
+          [
+            -122.8672804,
+            49.2860045
+          ],
+          [
+            -122.8674142,
+            49.2864216
+          ],
+          [
+            -122.8675783,
+            49.2867589
+          ],
+          [
+            -122.8677903,
+            49.2871492
+          ],
+          [
+            -122.8680778,
+            49.2875203
+          ],
+          [
+            -122.8683311,
+            49.2878115
+          ],
+          [
+            -122.8687275,
+            49.2882192
+          ],
+          [
+            -122.8691611,
+            49.2886036
+          ],
+          [
+            -122.8695079,
+            49.2888645
+          ],
+          [
+            -122.8697797,
+            49.2890487
+          ],
+          [
+            -122.8699395,
+            49.2891034
+          ],
+          [
+            -122.8701276,
+            49.2892322
+          ],
+          [
+            -122.8707174,
+            49.2895329
+          ],
+          [
+            -122.8712375,
+            49.2897762
+          ],
+          [
+            -122.8722435,
+            49.2902353
+          ],
+          [
+            -122.8729303,
+            49.2905508
+          ],
+          [
+            -122.8734303,
+            49.2907427
+          ],
+          [
+            -122.8739048,
+            49.2908876
+          ],
+          [
+            -122.8744364,
+            49.2910171
+          ],
+          [
+            -122.8747684,
+            49.2910786
+          ],
+          [
+            -122.8752636,
+            49.2911592
+          ],
+          [
+            -122.8757736,
+            49.2912142
+          ],
+          [
+            -122.8761288,
+            49.2912442
+          ]
+        ]
+      }
+    }
+  ]
+}

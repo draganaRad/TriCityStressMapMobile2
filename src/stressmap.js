@@ -1,9 +1,13 @@
 
 // lines (layers)
-const settings = [{ color: '#08519C', weight: 3, key: 'LTS1', zIndex: 1, title: 'Low Stress (LTS 1)', url: 'data/level_1.json', checked: true},
-{ color: '#4292C6', weight: 3, key: 'LTS2', zIndex: 2, title: 'Minor Stress (LTS 2)', url: 'data/level_2.json', checked: true},
-{ color: '#F16913', weight: 3, key: 'LTS3', zIndex: 3, title: 'Moderate Stress (LTS 3)', url: 'data/level_3.json', checked: true},
-{ color: '#A63603', weight: 3, key: 'LTS4', zIndex: 4, title: 'High Stress (LTS 4)', url: 'data/level_4.json', checked: true}]
+const legendSettings = [{ color: '#4292C6', key: 'LS', title: 'Low Stress', checked: true},
+{ color: '#F16913', key: 'HS', title: 'High Stress', checked: true},
+{ key: 'desig', title: 'Bike Designated Only', checked: true}]
+
+const layerSettings = [{key: 'LSdesig', color: '#4292C6', url: 'data/design_low_stress.json'},
+{key: 'HSdesig', color: '#F16913', url: 'data/design_high_stress.json'},
+{key: 'LSother', color: '#4292C6', url: 'data/low_stress.json'},
+{key: 'HSother', color: '#F16913', url: 'data/high_stress.json'}]
 
 var lineWeight = 2
 if (!L.Browser.mobile) {
@@ -13,6 +17,7 @@ var lineOpacity = 0.6
 var lineHighOpacity = 0.9 //highligh opacity
 
 var layerGroup = new L.LayerGroup();
+var legendChecks = {}; //dictionary of legend checkbox ids(keys) and their states
 var layers = {};  //dictionary of layers with keys from settings
 
 // Create variable to hold map element, give initial settings to map
@@ -35,11 +40,11 @@ L.tileLayer(
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 
 addLegend()
-// show hide legend
+// show/hide legend
 document.getElementById('legendbtn').onclick = function () { toggleDisplay(['legendbtn', 'legend']) };
 document.getElementById('closebtn').onclick = function () { toggleDisplay(['legendbtn', 'legend']) };
 
-addStressLayers()
+addLayers()
 
 ///// Functions ////
 
@@ -55,10 +60,14 @@ function addLegend() {
       '<form><fieldset class="checkbox-pill clearfix">'
 
     legendHtml += '<div class="button quiet col12">Tri-Cities Cycling Traffic Stress</div>'
-    for (let setting of settings) {
+    for (let setting of legendSettings) {
       legendHtml += addLegendLine(setting)
     }
-    legendHtml += '<div class="button quiet col12">Click on map item for more info</div>'
+    var mapAction = "Click on"
+    if (L.Browser.mobile) {
+      mapAction = "Tap"
+    }
+    legendHtml += '<div class="button quiet col12">' + mapAction + ' map item for more info</div>'
 
     legendHtml += '</fieldset></form></div>'
     div.innerHTML = legendHtml
@@ -72,13 +81,23 @@ function addLegend() {
 }
 
 function addLegendLine(setting) {
-  var spanHtml = '<span style="display:inline-block; width:50px; height:8px; background-color:' + setting.color + '"></span>' +
+  var spanHtml
+  if (setting.color){
+    // add span element
+    spanHtml = '<span style="display:inline-block; width:50px; height:8px; background-color:' + setting.color + '"></span>' +
     '&nbsp;' + setting.title
+  }else{
+    // just title
+    spanHtml = setting.title
+  }
 
   checkedHtml = ""
   if (setting.checked) {
     checkedHtml = 'checked'
   }
+  // add item to dictionary of legend checkbox ids(keys) and their states
+  legendChecks[setting.key] = setting.checked
+
   var lineHtml = '<input type="checkbox" id="' + setting.key + '" onclick="toggleLayer(this)" ' + checkedHtml + ' >' +
     '<label for="' + setting.key + '" id="' + setting.key + '-label" class="button icon check quiet col12">' +
     '&nbsp;' + spanHtml + ' </label>'
@@ -98,21 +117,43 @@ function toggleDisplay(elementIds) {
 }
 
 function toggleLayer(checkbox) { 
-  var targetLayer = layers[checkbox.id]
-  if (targetLayer != null){
-    if (checkbox.checked){
-        layerGroup.addLayer(targetLayer);
+
+  if (checkbox.checked){
+      legendChecks[checkbox.id] = true
+  }else{
+      legendChecks[checkbox.id] = false 
+  }
+
+  layerGroup.clearLayers()
+  if (legendChecks['LS'] == true)
+  {
+    if (legendChecks['desig'] == true){
+      // add low stress designated
+      layerGroup.addLayer(layers['LSdesig'])
     }else{
-        layerGroup.removeLayer(targetLayer); 
+      // add all low stress 
+      layerGroup.addLayer(layers['LSdesig'])
+      layerGroup.addLayer(layers['LSother'])
+    }
+  }
+  if (legendChecks['HS'] == true)
+  {
+    if (legendChecks['desig'] == true){
+      // add high stress designated
+      layerGroup.addLayer(layers['HSdesig'])
+    }else{
+      // add all high stress
+      layerGroup.addLayer(layers['HSdesig'])
+      layerGroup.addLayer(layers['HSother'])
     }
   }
 }
 
 // ------ Layers
-
-function addStressLayers() {
+function addLayers() {
+  
   layerGroup.addTo(map);
-  for (let setting of settings) {
+  for (let setting of layerSettings) {
     var ltsLayer = new L.GeoJSON.AJAX(setting.url, {
       style: getLineStyle(setting.color),
       onEachFeature: onEachFeature,
@@ -120,9 +161,24 @@ function addStressLayers() {
     ltsLayer.layerID = setting.key;
     // add to global layers dictionary
     layers[setting.key] = ltsLayer
-    // add to map if checked
-    if (setting.checked){
-      layerGroup.addLayer(ltsLayer);
+  }
+  if (legendChecks['LS'] == true)
+  {
+    if (legendChecks['desig'] == true){
+      // add low stress designated
+      layerGroup.addLayer(layers['LSdesig'])
+    }else{
+      // add low stress other
+      layerGroup.addLayer(layers['LSother'])
+    }
+  }
+  if (legendChecks['HS'] == true)
+  {
+    if (legendChecks['desig'] == true){
+      // add high stress designated
+      layerGroup.addLayer(layers['HSdesig'])
+    }else{
+      layerGroup.addLayer(layers['HSother'])
     }
   }
 }
