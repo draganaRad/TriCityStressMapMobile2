@@ -39,6 +39,11 @@ L.tileLayer(
 // Add BikeOttawa attribution
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 
+// add geolocation on mobile
+//if (L.Browser.mobile) {
+  L.control.locate().addTo(map);
+//}
+
 addLegend()
 // show/hide legend
 document.getElementById('legendbtn').onclick = function () { toggleDisplay(['legendbtn', 'legend']) };
