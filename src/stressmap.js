@@ -62,8 +62,17 @@ function addLegend() {
   const legend = L.control({ position: 'topright' })
   legend.onAdd = function (map) {
     const div = L.DomUtil.create('div')
-    let legendHtml = '<div id="legendbtn" class="fill-darken2 pad1 icon menu button fr" style="display: none"></div>' +
-      '<div id="legend" class="fill-darken1 round" style="display: block">' +
+
+    // hide legend on mobile, show on desktop
+    closeButtonDisplay = "block"
+    legendDisplay = "none"
+    if (L.Browser.mobile) {
+      closeButtonDisplay = "none"
+      legendDisplay = "block"
+    }
+
+    let legendHtml = '<div id="legendbtn" class="fill-darken2 pad1 icon menu button fr" style="display: ' + legendDisplay +'"></div>' +
+      '<div id="legend" class="fill-darken1 round" style="display: ' + closeButtonDisplay +'">' +
       '<div id="closebtn" class="fill-darken2 pad1 icon close button fr"></div>' +
       '<div class="clearfix"></div>' +
       '<form><fieldset class="checkbox-pill clearfix">'
@@ -230,15 +239,17 @@ function resetHighlight(e) {
 function onEachFeature(feature, layer) {
   var popupContent = ""
   if (feature.properties) {
-    if (feature.properties.id) {
-      popupContent +='<b><a href="https://www.openstreetmap.org/' + feature.properties.id + '" target="_blank">' + feature.properties.id + '</a></b><hr>'
-      //popupContent += "<b>Id: </b>";
-      //popupContent += feature.properties.id;
-    }
+    // for this mobile version don't show link and id
+    // if (feature.properties.id) {
+    //   popupContent +='<b><a href="https://www.openstreetmap.org/' + feature.properties.id + '" target="_blank">' + feature.properties.id + '</a></b><hr>'
+    //   //popupContent += "<b>Id: </b>";
+    //   //popupContent += feature.properties.id;
+    // }
 
-    if (feature.properties.id == 'way/103095749'){
-      console.log('Dragana:: tag ' + JSON.stringify(feature.properties))
-    }
+    // for debug
+    // if (feature.properties.id == 'way/103095749'){
+    //   console.log('Dragana:: tag ' + JSON.stringify(feature.properties))
+    // }
 
     if (feature.properties.highway) {
       popupContent += "<b>category: </b>";
@@ -251,10 +262,11 @@ function onEachFeature(feature, layer) {
         popupContent += feature.properties[property];
       }
     }
-    if (feature.properties.decisionMsg) {
-      popupContent += "<br><br><b>Decision Msg: </b>";
-      popupContent += feature.properties.decisionMsg;
-    }
+    // for this mobile version don't show decision message
+    // if (feature.properties.decisionMsg) {
+    //   popupContent += "<br><br><b>Decision Msg: </b>";
+    //   popupContent += feature.properties.decisionMsg;
+    // }
   }
   layer.bindPopup(popupContent);
 
