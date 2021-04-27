@@ -40,13 +40,13 @@ L.tileLayer(
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 
 // add geolocation on mobile
-//if (L.Browser.mobile) {
-  // L.control.locate().addTo(map);
-  lc = L.control.locate({
-    icon: "fa fa-location-arrow",
-    showPopup: false
-}).addTo(map);
-//}
+if (L.Browser.mobile) {
+  L.control.locate({
+      position: "bottomleft",
+      icon: "fa fa-location-arrow",
+      showPopup: false
+  }).addTo(map);
+}
 
 addLegend()
 // show/hide legend
