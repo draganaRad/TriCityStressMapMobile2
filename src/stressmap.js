@@ -41,7 +41,11 @@ map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">B
 
 // add geolocation on mobile
 //if (L.Browser.mobile) {
-  L.control.locate().addTo(map);
+  // L.control.locate().addTo(map);
+  lc = L.control.locate({
+    icon: "fa fa-location-arrow",
+    showPopup: false
+}).addTo(map);
 //}
 
 addLegend()
