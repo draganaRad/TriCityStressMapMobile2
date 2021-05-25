@@ -252,8 +252,29 @@ function onEachFeature(feature, layer) {
     // }
 
     if (feature.properties.highway) {
-      popupContent += "<b>category: </b>";
-      popupContent += feature.properties.highway;
+      // customize title for road categories
+      let highwayValue = feature.properties.highway
+      let highwayValueToShow = feature.properties.highway
+      if (highwayValue == "motorway" || highwayValue == "trunk" || highwayValue == "primary" || 
+          highwayValue == "secondary" || highwayValue == "tertiary" || 
+          highwayValue == "unclassified" || highwayValue == "residential" || 
+          highwayValue == "motorway_link" || highwayValue == "trunk_link" || highwayValue == "primary_link" ||
+          highwayValue == "secondary_link" || highwayValue == "tertiary_link"){
+
+            popupContent += "<b>road category: </b>";
+            if (highwayValue != "unclassified" && highwayValue != "residential"){
+              highwayValueToShow = "highway"
+            }
+            if (highwayValue == "tertiary" || highwayValue == "tertiary_link"){
+              highwayValueToShow = "collector"
+            }
+            if (highwayValue == "secondary" || highwayValue == "secondary_link"){
+              highwayValueToShow = "arterial"
+            }
+      }else{
+        popupContent += "<b>category: </b>";
+      }
+      popupContent += highwayValueToShow;
     }
     for (let property in feature.properties) {
         //console.log('Dragana:: tag ' + JSON.stringify(tag) +', value: '+ way.tags[tag])
