@@ -904,7 +904,8 @@
         "id": "way/34319287",
         "cycleway": "shared_lane",
         "highway": "service",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
+        "foot": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -1225,12 +1226,20 @@
             49.2765708
           ],
           [
+            -122.7881724,
+            49.2765809
+          ],
+          [
             -122.7883127,
             49.2765813
           ],
           [
             -122.7890608,
             49.2765954
+          ],
+          [
+            -122.7891539,
+            49.2766241
           ],
           [
             -122.7892533,
@@ -5534,10 +5543,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8920512,
-            49.2454889
-          ],
-          [
             -122.8915928,
             49.2452397
           ],
@@ -6714,7 +6719,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -6740,7 +6746,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -7656,6 +7663,7 @@
         "cycleway": "crossing",
         "highway": "footway",
         "decisionMsg": "Way has a bike lane because 'cycleway'='crossing'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "foot": "designated",
         "footway": "crossing"
       },
       "geometry": {
@@ -8550,24 +8558,20 @@
             49.245482
           ],
           [
-            -122.8913303,
+            -122.8913276,
+            49.2455199
+          ],
+          [
+            -122.8914646,
             49.2455059
           ],
           [
-            -122.8914324,
-            49.245505
+            -122.8915608,
+            49.245463
           ],
           [
-            -122.8914629,
-            49.2454971
-          ],
-          [
-            -122.8915273,
-            49.2454691
-          ],
-          [
-            -122.8916105,
-            49.2454184
+            -122.8916481,
+            49.2453965
           ]
         ]
       }
@@ -9258,7 +9262,8 @@
         "highway": "service",
         "name": "Poco Trail/TCT",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
-        "surface": "paved"
+        "surface": "paved",
+        "foot": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -10680,6 +10685,10 @@
             49.2701505
           ],
           [
+            -122.7823211,
+            49.2701915
+          ],
+          [
             -122.7823188,
             49.2703372
           ]
@@ -10734,6 +10743,10 @@
           [
             -122.7823269,
             49.2699127
+          ],
+          [
+            -122.7823259,
+            49.2699209
           ],
           [
             -122.7823245,
@@ -11086,36 +11099,6 @@
           [
             -122.8381697,
             49.2936719
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/463875949",
-        "bicycle": "yes",
-        "cycleway": "lane",
-        "highway": "primary",
-        "maxspeed": "60",
-        "name": "Lougheed Highway",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking.",
-        "lanes": "2"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.892615,
-            49.2457762
-          ],
-          [
-            -122.8925128,
-            49.2457241
-          ],
-          [
-            -122.8920512,
-            49.2454889
           ]
         ]
       }
@@ -11518,6 +11501,10 @@
             49.2779303
           ],
           [
+            -122.8184721,
+            49.2779297
+          ],
+          [
             -122.8187074,
             49.2779287
           ]
@@ -11542,6 +11529,10 @@
             49.2778176
           ],
           [
+            -122.8182564,
+            49.2778178
+          ],
+          [
             -122.8180529,
             49.2778181
           ]
@@ -11564,6 +11555,10 @@
           [
             -122.8179991,
             49.2779281
+          ],
+          [
+            -122.8182537,
+            49.2779297
           ],
           [
             -122.8183443,
@@ -11592,6 +11587,10 @@
           [
             -122.818555,
             49.27782
+          ],
+          [
+            -122.8184746,
+            49.2778191
           ],
           [
             -122.8183462,
@@ -12210,20 +12209,16 @@
             49.2444463
           ],
           [
-            -122.8912525,
-            49.2452257
+            -122.8912927,
+            49.2452064
           ],
           [
-            -122.8916105,
-            49.2454184
+            -122.8916481,
+            49.2453965
           ],
           [
-            -122.8917263,
-            49.2454749
-          ],
-          [
-            -122.8917911,
-            49.2455111
+            -122.8918327,
+            49.2454962
           ]
         ]
       }
@@ -13525,7 +13520,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -14218,8 +14214,16 @@
             49.2812719
           ],
           [
+            -122.808317,
+            49.2808379
+          ],
+          [
             -122.8083183,
             49.2807243
+          ],
+          [
+            -122.8083171,
+            49.2806571
           ],
           [
             -122.8082991,
@@ -14230,8 +14234,16 @@
             49.2789785
           ],
           [
+            -122.8082924,
+            49.2788919
+          ],
+          [
             -122.8082918,
             49.2788132
+          ],
+          [
+            -122.8082937,
+            49.2787289
           ],
           [
             -122.808312,
@@ -14593,7 +14605,8 @@
         "id": "way/838922320",
         "bicycle": "designated",
         "highway": "service",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
+        "foot": "designated"
       },
       "geometry": {
         "type": "LineString",
@@ -16687,7 +16700,7 @@
             49.2944826
           ],
           [
-            -122.7709705,
+            -122.77097,
             49.2946476
           ],
           [
@@ -17234,6 +17247,32 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/35196877",
+        "highway": "secondary",
+        "name": "Lincoln Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "cycleway.right": "lane",
+        "cycleway.left": "no",
+        "cycleway.right.lane": "exclusive"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7609789,
+            49.2784189
+          ],
+          [
+            -122.7603024,
+            49.2784351
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/35196976",
         "cycleway": "lane",
         "highway": "secondary",
@@ -17386,6 +17425,33 @@
           [
             -122.7631117,
             49.2930428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35197706",
+        "highway": "secondary",
+        "name": "Lincoln Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.left": "no",
+        "cycleway.right.lane": "exclusive"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7617233,
+            49.2784012
+          ],
+          [
+            -122.7609789,
+            49.2784189
           ]
         ]
       }
@@ -19568,7 +19634,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "2",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -21295,20 +21362,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8917911,
-            49.2455111
+            -122.8918327,
+            49.2454962
           ],
           [
-            -122.892449,
-            49.2458684
+            -122.8924718,
+            49.2458404
           ],
           [
-            -122.892498,
-            49.2458952
+            -122.8925163,
+            49.2458655
           ],
           [
-            -122.892618,
-            49.24596
+            -122.8926217,
+            49.2459311
           ]
         ]
       }
@@ -21542,7 +21609,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "4",
         "surface": "asphalt",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -21673,7 +21741,8 @@
         "name": "Fremont Connector Street",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "4",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "foot": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -21965,7 +22034,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "4",
         "surface": "asphalt",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -22415,7 +22485,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "2",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -22496,7 +22567,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "2",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -22720,7 +22792,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "3",
         "surface": "paved",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -22903,7 +22976,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "4",
         "surface": "asphalt",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "foot": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -23291,7 +23365,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "2",
         "surface": "asphalt",
-        "lit": "yes"
+        "lit": "yes",
+        "foot": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -23447,7 +23522,9 @@
         "cycleway": "shared_lane",
         "highway": "secondary",
         "name": "Oxford Street",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h.",
+        "lanes": "2",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
