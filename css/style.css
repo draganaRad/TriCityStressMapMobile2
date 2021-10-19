@@ -5,8 +5,10 @@ html, body, div, span, fieldset, form, label {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-/*     -webkit-touch-callout: none;
-    -webkit-user-select: none; */
+    /* https://www.gitmemory.com/issue/Leaflet/Leaflet/7394/752966368 */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    user-select: none;
     /* background-color: rgba(241, 54, 8, 1); */
 }
 
