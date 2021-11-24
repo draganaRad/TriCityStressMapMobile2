@@ -275,7 +275,11 @@ function onEachFeature(feature, layer) {
         // path
         if (highwayValue == "path"){
           if (footValue == "yes" && bicycleValue == "yes"){
-            categoryValueToShow = "shared path"
+            if (feature.properties.segregated && feature.properties.segregated == "yes"){
+              categoryValueToShow = "bike path"
+            }else{
+              categoryValueToShow = "shared path"
+            }
           }else{
             categoryValueToShow = "path"
           }

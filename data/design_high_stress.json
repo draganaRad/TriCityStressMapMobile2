@@ -585,16 +585,16 @@
             49.2800904
           ],
           [
-            -122.880538,
-            49.2806947
+            -122.8805498,
+            49.2806996
           ],
           [
-            -122.8798963,
-            49.2817139
+            -122.8799142,
+            49.2817169
           ],
           [
-            -122.8798792,
-            49.2817427
+            -122.8798714,
+            49.2817754
           ]
         ]
       }
@@ -670,7 +670,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/31487132",
-        "cycleway": "shared",
+        "cycleway": "shared_lane",
         "highway": "unclassified",
         "name": "Ailsa Avenue",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='unclassified'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
@@ -681,80 +681,104 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8926175,
-            49.2712378
+            -122.8926322,
+            49.2712121
           ],
           [
-            -122.8926445,
-            49.2711253
+            -122.8926455,
+            49.2711478
           ],
           [
-            -122.8925577,
-            49.2710382
+            -122.8926076,
+            49.2710758
           ],
           [
-            -122.8923173,
-            49.270934
+            -122.892508,
+            49.2710145
           ],
           [
-            -122.8919201,
-            49.2708913
+            -122.8923506,
+            49.2709441
           ],
           [
-            -122.8896405,
-            49.2709138
+            -122.8922351,
+            49.2709152
+          ],
+          [
+            -122.8921006,
+            49.2709042
+          ],
+          [
+            -122.8896454,
+            49.2709209
           ],
           [
             -122.8889978,
             49.270921
           ],
           [
-            -122.8885973,
+            -122.888597,
             49.2709201
           ],
           [
-            -122.887429,
-            49.2709337
+            -122.8879381,
+            49.2709278
+          ],
+          [
+            -122.8874226,
+            49.2709345
           ],
           [
             -122.8861367,
             49.2709442
           ],
           [
+            -122.8854572,
+            49.2709452
+          ],
+          [
             -122.8848585,
             49.2709461
           ],
           [
-            -122.8842363,
-            49.2709397
+            -122.8842468,
+            49.2709538
+          ],
+          [
+            -122.8840781,
+            49.2709313
           ],
           [
             -122.883893,
-            49.2708501
+            49.2708607
           ],
           [
             -122.8837845,
             49.2708063
           ],
           [
-            -122.8834896,
-            49.2706429
+            -122.8835738,
+            49.2706606
           ],
           [
             -122.8832781,
             49.270571
           ],
           [
-            -122.8830432,
-            49.2705477
+            -122.8831639,
+            49.2705665
           ],
           [
-            -122.8822961,
-            49.2705634
+            -122.8822978,
+            49.2705693
           ],
           [
-            -122.880308,
-            49.2705659
+            -122.8804764,
+            49.270585
+          ],
+          [
+            -122.8803592,
+            49.2706116
           ]
         ]
       }
@@ -763,7 +787,8 @@
       "type": "Feature",
       "properties": {
         "id": "way/31487145",
-        "cycleway": "shared",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
         "highway": "unclassified",
         "maxspeed": "30",
         "name": "Glencoe Drive",
@@ -776,52 +801,68 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8886968,
-            49.2743182
+            -122.8887464,
+            49.2743567
           ],
           [
-            -122.8884248,
-            49.274535
+            -122.8884948,
+            49.2745469
           ],
           [
-            -122.8880472,
-            49.2746302
+            -122.8883728,
+            49.2746039
           ],
           [
-            -122.8877711,
-            49.2746287
+            -122.8882529,
+            49.2746351
           ],
           [
-            -122.8854893,
-            49.2746164
+            -122.8881307,
+            49.2746512
           ],
           [
-            -122.8842019,
-            49.2746094
+            -122.887771,
+            49.2746462
           ],
           [
-            -122.8840448,
-            49.2746086
+            -122.8856158,
+            49.2746321
           ],
           [
-            -122.882917,
-            49.2746025
+            -122.8854989,
+            49.2746322
           ],
           [
-            -122.882863,
-            49.2746022
+            -122.884226,
+            49.2746213
+          ],
+          [
+            -122.884044,
+            49.274621
+          ],
+          [
+            -122.8829412,
+            49.2746108
+          ],
+          [
+            -122.8817395,
+            49.2746072
           ],
           [
             -122.8815346,
             49.2745888
           ],
           [
-            -122.8813011,
-            49.2745641
+            -122.8813506,
+            49.2745747
           ],
           [
-            -122.8806774,
-            49.2745774
+            -122.8808185,
+            49.2745796
+          ],
+          [
+            -122.8806716,
+            49.2745815
           ]
         ]
       }
@@ -832,21 +873,14 @@
         "id": "way/31687974",
         "cycleway": "shared_lane",
         "highway": "tertiary",
-        "name": "Delestre Avenue",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
+        "name": "Alderson Avenue",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
+        "lanes": "2",
         "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -122.8881296,
-            49.2419144
-          ],
-          [
-            -122.8892366,
-            49.2419174
-          ],
           [
             -122.8901158,
             49.2419245
@@ -856,44 +890,16 @@
             49.2419255
           ],
           [
-            -122.8912054,
-            49.2419461
+            -122.8911168,
+            49.2419832
           ],
           [
-            -122.8913637,
-            49.242007
+            -122.8911803,
+            49.2420845
           ],
           [
-            -122.8916052,
-            49.2421566
-          ],
-          [
-            -122.8921015,
-            49.2424754
-          ],
-          [
-            -122.8921894,
-            49.2425186
-          ],
-          [
-            -122.8922804,
-            49.2425538
-          ],
-          [
-            -122.8923616,
-            49.2425725
-          ],
-          [
-            -122.8924582,
-            49.2425851
-          ],
-          [
-            -122.8925023,
-            49.2425888
-          ],
-          [
-            -122.8926207,
-            49.2425944
+            -122.8911987,
+            49.2431468
           ]
         ]
       }
@@ -1326,7 +1332,8 @@
         "maxspeed": "50",
         "name": "Guildford Way",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2"
+        "lanes": "2",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -1521,12 +1528,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8300377,
-            49.2804774
+            -122.830859,
+            49.280489
           ],
           [
-            -122.829685,
-            49.2804792
+            -122.8297004,
+            49.2804862
           ],
           [
             -122.8295492,
@@ -1685,6 +1692,41 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/35196494",
+        "highway": "secondary",
+        "maxspeed": "50",
+        "name": "Murray Street",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='advisory'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "advisory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8280253,
+            49.2806997
+          ],
+          [
+            -122.8282022,
+            49.2806665
+          ],
+          [
+            -122.8285164,
+            49.2806286
+          ],
+          [
+            -122.8287475,
+            49.2806156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/35196566",
         "cycleway": "lane",
         "highway": "secondary",
@@ -1817,12 +1859,12 @@
             49.2641602
           ],
           [
-            -122.8132076,
-            49.2641569
+            -122.8132324,
+            49.2641619
           ],
           [
-            -122.8131248,
-            49.2641495
+            -122.8131479,
+            49.2641555
           ],
           [
             -122.813038,
@@ -3130,9 +3172,11 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
-        "cycleway.right": "lane"
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
@@ -3201,6 +3245,7 @@
         "name": "Murray Street",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -3295,8 +3340,16 @@
             49.2806076
           ],
           [
-            -122.8350554,
-            49.2805737
+            -122.8348592,
+            49.2805689
+          ],
+          [
+            -122.8334686,
+            49.2805354
+          ],
+          [
+            -122.8332121,
+            49.2805264
           ]
         ]
       }
@@ -4887,31 +4940,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/70954835",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Murray Street",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2",
-        "cycleway.right": "lane"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8350554,
-            49.2805737
-          ],
-          [
-            -122.8348921,
-            49.2805697
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/70954842",
         "highway": "secondary",
         "maxspeed": "50",
@@ -4928,41 +4956,16 @@
             49.2805264
           ],
           [
-            -122.8319305,
-            49.2804787
+            -122.8327259,
+            49.2805119
           ],
           [
-            -122.8318912,
-            49.280477
+            -122.8319051,
+            49.2804914
           ],
           [
-            -122.8313455,
-            49.2804686
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/70954850",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Murray Street",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2",
-        "cycleway.right": "lane"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8302991,
-            49.2804761
-          ],
-          [
-            -122.8300377,
-            49.2804774
+            -122.8313839,
+            49.2804909
           ]
         ]
       }
@@ -5060,16 +5063,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8015871,
-            49.2852376
+            -122.8015715,
+            49.2852359
           ],
           [
-            -122.8017527,
-            49.28523
+            -122.801752,
+            49.2852287
           ],
           [
-            -122.8018861,
-            49.2852243
+            -122.801877,
+            49.285223
           ],
           [
             -122.8030084,
@@ -5240,6 +5243,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking.",
         "lanes": "2",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -5813,36 +5817,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8016119,
-            49.282712
+            -122.8016473,
+            49.2827306
           ],
           [
-            -122.8015514,
-            49.2827117
+            -122.8015571,
+            49.2827268
           ],
           [
-            -122.8002615,
-            49.2827271
+            -122.8002616,
+            49.2827292
           ],
           [
-            -122.799673,
-            49.2827215
+            -122.7996801,
+            49.2827267
           ],
           [
-            -122.7989691,
-            49.2827183
+            -122.7989695,
+            49.282719
           ],
           [
-            -122.7988301,
-            49.2827172
+            -122.7988281,
+            49.2827176
           ],
           [
-            -122.7987008,
-            49.2827168
+            -122.7987,
+            49.2827164
           ],
           [
-            -122.7975272,
-            49.2827101
+            -122.7981608,
+            49.2827136
           ]
         ]
       }
@@ -5887,12 +5891,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.808312,
-            49.2781588
+            -122.8083228,
+            49.2782211
           ],
           [
-            -122.808314,
-            49.2780945
+            -122.8083217,
+            49.2781377
           ]
         ]
       }
@@ -5911,16 +5915,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.808314,
-            49.2780945
+            -122.8083217,
+            49.2781377
           ],
           [
-            -122.8084185,
-            49.2779967
+            -122.8085292,
+            49.2780134
           ],
           [
-            -122.8087309,
-            49.2779022
+            -122.8085505,
+            49.2780007
+          ],
+          [
+            -122.8088463,
+            49.2779027
           ]
         ]
       }
@@ -6360,36 +6368,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8578919,
-            49.2514109
+            -122.8579316,
+            49.2514104
           ],
           [
-            -122.85789,
-            49.2514832
+            -122.8579296,
+            49.2514853
           ],
           [
-            -122.8578742,
-            49.2526468
+            -122.857898,
+            49.2526459
           ],
           [
-            -122.8578531,
-            49.2532496
+            -122.8578815,
+            49.2532519
           ],
           [
-            -122.8578325,
-            49.2538379
+            -122.8578651,
+            49.2538563
           ],
           [
-            -122.8578166,
-            49.254456
+            -122.8578488,
+            49.2544553
           ],
           [
-            -122.8578117,
-            49.2550634
+            -122.8578321,
+            49.2550698
           ],
           [
-            -122.8578408,
-            49.2561505
+            -122.8578026,
+            49.256155
           ]
         ]
       }
@@ -6457,8 +6465,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8087309,
-            49.2779022
+            -122.8088463,
+            49.2779027
           ],
           [
             -122.809343,
@@ -6525,8 +6533,12 @@
             49.2779687
           ],
           [
-            -122.808314,
-            49.2780945
+            -122.8081752,
+            49.2780318
+          ],
+          [
+            -122.8083217,
+            49.2781377
           ]
         ]
       }
@@ -7376,8 +7388,8 @@
             49.2562258
           ],
           [
-            -122.8633534,
-            49.2562066
+            -122.8633584,
+            49.2562081
           ]
         ]
       }
@@ -7446,6 +7458,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "4",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -7498,6 +7511,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "4",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -7731,6 +7745,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "3",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -8017,12 +8032,14 @@
       "type": "Feature",
       "properties": {
         "id": "way/305606784",
-        "cycleway": "lane",
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
@@ -8068,12 +8085,12 @@
             49.2850707
           ],
           [
-            -122.8018767,
-            49.2851197
+            -122.8018667,
+            49.2851162
           ],
           [
-            -122.8017463,
-            49.2851262
+            -122.8017453,
+            49.2851206
           ]
         ]
       }
@@ -8248,6 +8265,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "4",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -8414,8 +8432,8 @@
             49.2826875
           ],
           [
-            -122.7905715,
-            49.2826668
+            -122.7905796,
+            49.2826669
           ],
           [
             -122.7904535,
@@ -8706,8 +8724,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8575996,
-            49.2634799
+            -122.8576163,
+            49.2634833
           ],
           [
             -122.8575649,
@@ -8770,16 +8788,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8633534,
-            49.2562066
+            -122.8633584,
+            49.2562081
           ],
           [
             -122.8626695,
             49.2561996
           ],
           [
-            -122.8578408,
-            49.2561505
+            -122.8578026,
+            49.256155
           ]
         ]
       }
@@ -8798,96 +8816,236 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8578408,
-            49.2561505
+            -122.8578026,
+            49.256155
           ],
           [
-            -122.8569705,
-            49.2567022
+            -122.8576601,
+            49.2562627
           ],
           [
-            -122.8567578,
-            49.256837
+            -122.8569821,
+            49.2567104
           ],
           [
-            -122.8565313,
-            49.2570264
+            -122.8567738,
+            49.2568466
           ],
           [
-            -122.8564698,
-            49.2571408
+            -122.8566519,
+            49.2569314
           ],
           [
-            -122.8564516,
-            49.2572433
+            -122.8565688,
+            49.2570038
           ],
           [
-            -122.8564812,
-            49.2575567
+            -122.8565147,
+            49.2570713
           ],
           [
-            -122.8565131,
-            49.2579727
+            -122.8564743,
+            49.2571425
           ],
           [
-            -122.8565356,
+            -122.8564532,
+            49.2571912
+          ],
+          [
+            -122.8564415,
+            49.2572399
+          ],
+          [
+            -122.856433,
+            49.2572817
+          ],
+          [
+            -122.8564307,
+            49.2573235
+          ],
+          [
+            -122.856432,
+            49.2573599
+          ],
+          [
+            -122.8564366,
+            49.2573942
+          ],
+          [
+            -122.8564568,
+            49.2575738
+          ],
+          [
+            -122.8565044,
+            49.2579856
+          ],
+          [
+            -122.8565539,
             49.2584095
           ],
           [
-            -122.8565256,
-            49.2584711
+            -122.8565612,
+            49.2584752
           ],
           [
-            -122.8563516,
-            49.2595472
+            -122.8565895,
+            49.258709
           ],
           [
-            -122.8563024,
-            49.2597218
+            -122.8565915,
+            49.2587398
           ],
           [
-            -122.856306,
-            49.2598058
+            -122.8565924,
+            49.2587689
           ],
           [
-            -122.8563133,
-            49.2598696
+            -122.8565922,
+            49.2588002
           ],
           [
-            -122.8563733,
-            49.2600164
+            -122.8565913,
+            49.258828
           ],
           [
-            -122.8568669,
-            49.2607459
+            -122.856589,
+            49.2588625
           ],
           [
-            -122.8574342,
-            49.2615421
+            -122.8565872,
+            49.2588801
           ],
           [
-            -122.8575099,
-            49.2616484
+            -122.8565855,
+            49.2588957
           ],
           [
-            -122.8575547,
-            49.2617073
+            -122.8565825,
+            49.2589125
           ],
           [
-            -122.8576142,
-            49.2619768
+            -122.8565794,
+            49.2589268
           ],
           [
-            -122.8576301,
-            49.2623755
+            -122.8565746,
+            49.2589477
           ],
           [
-            -122.857631,
-            49.2625888
+            -122.8565683,
+            49.258971
           ],
           [
-            -122.8575996,
-            49.2634799
+            -122.8565617,
+            49.2589931
+          ],
+          [
+            -122.8565357,
+            49.2590706
+          ],
+          [
+            -122.8563044,
+            49.2597521
+          ],
+          [
+            -122.8562978,
+            49.2597847
+          ],
+          [
+            -122.8562953,
+            49.2598173
+          ],
+          [
+            -122.8562993,
+            49.2598415
+          ],
+          [
+            -122.8563054,
+            49.2598658
+          ],
+          [
+            -122.8563192,
+            49.2599038
+          ],
+          [
+            -122.856335,
+            49.2599401
+          ],
+          [
+            -122.8563544,
+            49.2599783
+          ],
+          [
+            -122.8563772,
+            49.2600166
+          ],
+          [
+            -122.8566328,
+            49.2603752
+          ],
+          [
+            -122.8568919,
+            49.2607342
+          ],
+          [
+            -122.8569056,
+            49.2607532
+          ],
+          [
+            -122.857481,
+            49.2615474
+          ],
+          [
+            -122.8575592,
+            49.2616553
+          ],
+          [
+            -122.8575995,
+            49.2617135
+          ],
+          [
+            -122.8576189,
+            49.2617461
+          ],
+          [
+            -122.8576341,
+            49.2617736
+          ],
+          [
+            -122.857644,
+            49.2617951
+          ],
+          [
+            -122.857652,
+            49.261818
+          ],
+          [
+            -122.857657,
+            49.261842
+          ],
+          [
+            -122.8576597,
+            49.2618712
+          ],
+          [
+            -122.8576577,
+            49.2619473
+          ],
+          [
+            -122.8576447,
+            49.2624014
+          ],
+          [
+            -122.8576399,
+            49.2625765
+          ],
+          [
+            -122.857639,
+            49.2626133
+          ],
+          [
+            -122.8576163,
+            49.2634833
           ]
         ]
       }
@@ -8905,8 +9063,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8578408,
-            49.2561505
+            -122.8578026,
+            49.256155
           ],
           [
             -122.8556977,
@@ -9131,12 +9289,24 @@
             49.2876624
           ],
           [
-            -122.8708479,
-            49.2883674
+            -122.8707956,
+            49.288311
           ],
           [
-            -122.8712009,
-            49.2885313
+            -122.8709564,
+            49.2884178
+          ],
+          [
+            -122.8710988,
+            49.288482
+          ],
+          [
+            -122.8712704,
+            49.2885404
+          ],
+          [
+            -122.8713384,
+            49.2885635
           ]
         ]
       }
@@ -9455,6 +9625,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking.",
         "lanes": "2",
+        "surface": "asphalt",
         "cycleway.right": "lane",
         "cycleway.right.lane": "exclusive"
       },
@@ -9793,7 +9964,8 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
-        "lanes": "3"
+        "lanes": "3",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -9819,6 +9991,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "4",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -9849,6 +10022,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "3",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -9993,6 +10167,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "4",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -10119,16 +10294,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8170316,
-            49.2631916
+            -122.8170653,
+            49.2631934
+          ],
+          [
+            -122.8171361,
+            49.2631946
+          ],
+          [
+            -122.8174417,
+            49.263196
           ],
           [
             -122.8174957,
             49.2631966
           ],
           [
-            -122.8175956,
-            49.2631961
+            -122.8176057,
+            49.2631975
           ]
         ]
       }
@@ -11252,6 +11435,10 @@
             49.2777856
           ],
           [
+            -122.8082703,
+            49.2777849
+          ],
+          [
             -122.8079603,
             49.2777803
           ]
@@ -11276,8 +11463,12 @@
             49.2778946
           ],
           [
-            -122.8087309,
-            49.2779022
+            -122.8084837,
+            49.2778971
+          ],
+          [
+            -122.8088463,
+            49.2779027
           ]
         ]
       }
@@ -11296,8 +11487,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8086727,
-            49.2777909
+            -122.8087479,
+            49.277784
+          ],
+          [
+            -122.808487,
+            49.277785
           ],
           [
             -122.8083179,
@@ -11322,6 +11517,10 @@
           [
             -122.8078433,
             49.2778914
+          ],
+          [
+            -122.8082682,
+            49.2778943
           ],
           [
             -122.8083199,
@@ -11477,8 +11676,8 @@
             49.2777798
           ],
           [
-            -122.8086727,
-            49.2777909
+            -122.8087479,
+            49.277784
           ]
         ]
       }
@@ -11683,40 +11882,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8798792,
-            49.2817427
+            -122.8798714,
+            49.2817754
           ],
           [
-            -122.8796572,
-            49.2817011
+            -122.8797819,
+            49.2817484
+          ],
+          [
+            -122.8797445,
+            49.2817372
+          ],
+          [
+            -122.8796509,
+            49.281709
           ],
           [
             -122.879306,
             49.2816746
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/464680256",
-        "cycleway": "shared_lane",
-        "highway": "tertiary",
-        "name": "Glenayre Drive",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8798792,
-            49.2817427
-          ],
-          [
-            -122.8797682,
-            49.2819047
           ]
         ]
       }
@@ -11735,16 +11918,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8797497,
-            49.2819355
+            -122.8798714,
+            49.2817754
           ],
           [
-            -122.8796061,
-            49.2821704
-          ],
-          [
-            -122.8795383,
-            49.2822731
+            -122.8795353,
+            49.2823443
           ]
         ]
       }
@@ -11831,68 +12010,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/464717824",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Murray Street",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2",
-        "cycleway.right": "lane"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8348921,
-            49.2805697
-          ],
-          [
-            -122.8334686,
-            49.2805354
-          ],
-          [
-            -122.8332121,
-            49.2805264
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/464717825",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Murray Street",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2",
-        "cycleway.right": "lane"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8309083,
-            49.2804711
-          ],
-          [
-            -122.8305537,
-            49.2804733
-          ],
-          [
-            -122.8304433,
-            49.280474
-          ],
-          [
-            -122.8302991,
-            49.2804761
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/464717826",
         "highway": "secondary",
         "maxspeed": "50",
@@ -11905,16 +12022,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8313455,
-            49.2804686
+            -122.8313839,
+            49.2804909
           ],
           [
-            -122.8312808,
-            49.280469
+            -122.8312733,
+            49.280489
           ],
           [
-            -122.8309083,
-            49.2804711
+            -122.830859,
+            49.280489
           ]
         ]
       }
@@ -12209,16 +12326,8 @@
             49.2444463
           ],
           [
-            -122.8912927,
-            49.2452064
-          ],
-          [
-            -122.8916481,
-            49.2453965
-          ],
-          [
-            -122.8918327,
-            49.2454962
+            -122.890355,
+            49.2447142
           ]
         ]
       }
@@ -12432,8 +12541,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8755294,
-            49.278738
+            -122.8755392,
+            49.2787638
           ],
           [
             -122.8754941,
@@ -12541,30 +12650,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/480349392",
-        "cycleway": "shared_lane",
-        "highway": "tertiary",
-        "name": "Glenayre Drive",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8797682,
-            49.2819047
-          ],
-          [
-            -122.8797497,
-            49.2819355
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/481970957",
         "highway": "primary",
         "maxspeed": "60",
@@ -12597,19 +12682,19 @@
         "highway": "tertiary",
         "name": "Spuraway Avenue",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
-        "lanes": "2",
+        "lanes": "1",
         "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8176189,
-            49.2631238
+            -122.8176302,
+            49.2631316
           ],
           [
-            -122.8175075,
-            49.2631257
+            -122.817508,
+            49.2631318
           ],
           [
             -122.8169314,
@@ -12646,7 +12731,7 @@
         "highway": "tertiary",
         "name": "Spuraway Avenue",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2",
+        "lanes": "1",
         "surface": "asphalt",
         "cycleway.right": "lane"
       },
@@ -12666,8 +12751,8 @@
             49.2631928
           ],
           [
-            -122.8170316,
-            49.2631916
+            -122.8170653,
+            49.2631934
           ]
         ]
       }
@@ -12676,12 +12761,14 @@
       "type": "Feature",
       "properties": {
         "id": "way/494682490",
-        "cycleway": "lane",
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
@@ -12824,7 +12911,7 @@
             49.2826659
           ],
           [
-            -122.7903374,
+            -122.7903283,
             49.2826655
           ],
           [
@@ -12846,6 +12933,10 @@
           [
             -122.7870149,
             49.2826565
+          ],
+          [
+            -122.7863415,
+            49.2826544
           ],
           [
             -122.7861728,
@@ -12912,23 +13003,23 @@
             49.2608782
           ],
           [
-            -122.7849093,
-            49.2608852
+            -122.7849235,
+            49.2608656
           ],
           [
-            -122.784441,
-            49.2608841
+            -122.784731,
+            49.2608642
           ],
           [
-            -122.7843586,
-            49.2608839
+            -122.7843371,
+            49.2608656
           ],
           [
-            -122.783791,
-            49.2608826
+            -122.7837898,
+            49.2608697
           ],
           [
-            -122.782688,
+            -122.7827032,
             49.2608802
           ]
         ]
@@ -13232,6 +13323,7 @@
         "name": "Murray Street",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -13294,16 +13386,16 @@
             49.2827274
           ],
           [
-            -122.8025084,
-            49.2827272
+            -122.8025887,
+            49.2827427
           ],
           [
-            -122.8018857,
-            49.2827141
+            -122.8018942,
+            49.2827407
           ],
           [
-            -122.8017466,
-            49.2827126
+            -122.8017925,
+            49.2827369
           ]
         ]
       }
@@ -13324,6 +13416,10 @@
           [
             -122.8086086,
             49.2827102
+          ],
+          [
+            -122.8085305,
+            49.282725
           ],
           [
             -122.8084384,
@@ -13555,6 +13651,10 @@
             49.2608781
           ],
           [
+            -122.777715,
+            49.2608793
+          ],
+          [
             -122.7776241,
             49.2608794
           ],
@@ -13595,12 +13695,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.782688,
+            -122.7827032,
             49.2608802
           ],
           [
             -122.7819937,
             49.2608843
+          ],
+          [
+            -122.7811463,
+            49.2608817
           ],
           [
             -122.7810557,
@@ -14136,6 +14240,10 @@
             49.2958669
           ],
           [
+            -122.7422518,
+            49.2957471
+          ],
+          [
             -122.741972,
             49.2956605
           ],
@@ -14190,8 +14298,16 @@
             49.2831356
           ],
           [
+            -122.8086629,
+            49.2828033
+          ],
+          [
             -122.8086086,
             49.2827102
+          ],
+          [
+            -122.8085683,
+            49.282646
           ],
           [
             -122.8083959,
@@ -14246,8 +14362,8 @@
             49.2787289
           ],
           [
-            -122.808312,
-            49.2781588
+            -122.8083228,
+            49.2782211
           ]
         ]
       }
@@ -14292,7 +14408,8 @@
         "highway": "service",
         "name": "Poco Trail/TCT",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
-        "surface": "gravel"
+        "surface": "gravel",
+        "segregated": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -14838,6 +14955,7 @@
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
         "lanes": "5",
+        "surface": "asphalt",
         "cycleway.right": "lane"
       },
       "geometry": {
@@ -15254,7 +15372,8 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking.",
-        "lanes": "2"
+        "lanes": "2",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -15449,16 +15568,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8804407,
-            49.2707475
+            -122.8804535,
+            49.2707419
           ],
           [
             -122.8804616,
             49.2708753
           ],
           [
-            -122.8805114,
-            49.2719594
+            -122.8805263,
+            49.2719602
           ]
         ]
       }
@@ -15477,12 +15596,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8805114,
-            49.2719594
+            -122.8805263,
+            49.2719602
           ],
           [
-            -122.8805463,
-            49.2725746
+            -122.8805532,
+            49.272604
           ],
           [
             -122.8805935,
@@ -15517,8 +15636,12 @@
             49.2741916
           ],
           [
-            -122.8806774,
-            49.2745774
+            -122.8806687,
+            49.2745243
+          ],
+          [
+            -122.8806716,
+            49.2745815
           ],
           [
             -122.8806876,
@@ -15558,12 +15681,13 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/915295953",
+        "id": "way/915295954",
         "cycleway": "lane",
         "highway": "tertiary",
         "name": "Glenayre Drive",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "surface": "paved"
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "surface": "paved",
+        "cycleway.right": "lane"
       },
       "geometry": {
         "type": "LineString",
@@ -15573,95 +15697,23 @@
             49.2759248
           ],
           [
-            -122.8807642,
-            49.2763693
+            -122.8807661,
+            49.2763992
           ],
           [
-            -122.8807709,
+            -122.8807736,
             49.2765237
           ],
           [
-            -122.8807739,
-            49.2766134
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/915295954",
-        "highway": "tertiary",
-        "name": "Glenayre Drive",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "surface": "paved",
-        "cycleway.right": "lane"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8807739,
-            49.2766134
+            -122.8808775,
+            49.2782528
           ],
           [
-            -122.8808273,
-            49.2778476
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/915295955",
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "name": "Glenayre Drive",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "surface": "paved"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8808273,
-            49.2778476
+            -122.8809088,
+            49.2787897
           ],
           [
-            -122.8808456,
-            49.2782552
-          ],
-          [
-            -122.8808513,
-            49.2783982
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/915295956",
-        "highway": "tertiary",
-        "name": "Glenayre Drive",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
-        "surface": "paved",
-        "cycleway.right": "lane"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8808513,
-            49.2783982
-          ],
-          [
-            -122.8808683,
-            49.2787799
-          ],
-          [
-            -122.8809562,
+            -122.8809614,
             49.2799026
           ],
           [
@@ -15720,12 +15772,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8926175,
-            49.2712378
+            -122.8926322,
+            49.2712121
           ],
           [
-            -122.8924735,
-            49.2713415
+            -122.8925838,
+            49.2712762
           ],
           [
             -122.8920823,
@@ -15776,16 +15828,20 @@
             49.2616492
           ],
           [
-            -122.846423,
-            49.2625357
+            -122.8464492,
+            49.2625478
           ],
           [
-            -122.8464339,
-            49.2629176
+            -122.8464561,
+            49.2629221
           ],
           [
-            -122.8464478,
-            49.2634045
+            -122.8464581,
+            49.263296
+          ],
+          [
+            -122.8464645,
+            49.2634201
           ]
         ]
       }
@@ -16044,38 +16100,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/970238351",
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "name": "Glen Drive",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Found tag 'parking:lane:both'='parallel'. Parking is present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 2 because the maxspeed is between 41-50 km/h and parking present.,Increasing LTS to 3 because highway is not 'residential'.",
-        "parking.lane.both": "parallel"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7975272,
-            49.2827101
-          ],
-          [
-            -122.796843,
-            49.2827086
-          ],
-          [
-            -122.796195,
-            49.2827135
-          ],
-          [
-            -122.7960768,
-            49.2827132
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/971799613",
         "cycleway": "lane",
         "highway": "tertiary",
@@ -16087,8 +16111,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7960768,
-            49.2827132
+            -122.7960783,
+            49.2827127
           ],
           [
             -122.7960465,
@@ -16260,6 +16284,331 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/992363022",
+        "bicycle": "yes",
+        "highway": "primary",
+        "maxspeed": "60",
+        "name": "Lougheed Highway",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
+        "lanes": "4",
+        "surface": "asphalt",
+        "cycleway.right": "lane"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8906315,
+            49.2448595
+          ],
+          [
+            -122.8913952,
+            49.2452657
+          ],
+          [
+            -122.8916481,
+            49.2453965
+          ],
+          [
+            -122.8918327,
+            49.2454962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/992363023",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "maxspeed": "60",
+        "name": "Lougheed Highway",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking.",
+        "lanes": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.890355,
+            49.2447142
+          ],
+          [
+            -122.8906315,
+            49.2448595
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/995777077",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "Delestre Avenue",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8881296,
+            49.2419144
+          ],
+          [
+            -122.8892366,
+            49.2419174
+          ],
+          [
+            -122.8901158,
+            49.2419245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1000371682",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glen Drive",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Found tag 'parking:lane:both'='parallel'. Parking is present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 2 because the maxspeed is between 41-50 km/h and parking present.,Increasing LTS to 3 because highway is not 'residential'.",
+        "parking.lane.both": "parallel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7967791,
+            49.2827146
+          ],
+          [
+            -122.796195,
+            49.2827135
+          ],
+          [
+            -122.7960783,
+            49.2827127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1000371683",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glen Drive",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Found tag 'parking:lane:both'='parallel'. Parking is present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 2 because the maxspeed is between 41-50 km/h and parking present.,Increasing LTS to 3 because highway is not 'residential'.",
+        "parking.lane.both": "parallel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7967791,
+            49.2827146
+          ],
+          [
+            -122.7968067,
+            49.2827158
+          ],
+          [
+            -122.7968307,
+            49.2827172
+          ],
+          [
+            -122.7968493,
+            49.2827191
+          ],
+          [
+            -122.7968679,
+            49.2827223
+          ],
+          [
+            -122.796925,
+            49.2827348
+          ],
+          [
+            -122.7969449,
+            49.2827381
+          ],
+          [
+            -122.7969622,
+            49.2827399
+          ],
+          [
+            -122.7969831,
+            49.2827413
+          ],
+          [
+            -122.7970078,
+            49.2827425
+          ],
+          [
+            -122.7970386,
+            49.2827434
+          ],
+          [
+            -122.7975285,
+            49.2827462
+          ],
+          [
+            -122.7979036,
+            49.2827467
+          ],
+          [
+            -122.7979339,
+            49.2827456
+          ],
+          [
+            -122.7979585,
+            49.2827439
+          ],
+          [
+            -122.7979794,
+            49.2827421
+          ],
+          [
+            -122.7979966,
+            49.2827399
+          ],
+          [
+            -122.7980163,
+            49.2827363
+          ],
+          [
+            -122.7980728,
+            49.2827226
+          ],
+          [
+            -122.7980913,
+            49.2827191
+          ],
+          [
+            -122.7981098,
+            49.2827168
+          ],
+          [
+            -122.7981337,
+            49.282715
+          ],
+          [
+            -122.7981608,
+            49.2827136
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1000371684",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Glen Drive",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Found tag 'parking:lane:both'='parallel'. Parking is present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 2 because the maxspeed is between 41-50 km/h and parking present.,Increasing LTS to 3 because highway is not 'residential'.",
+        "parking.lane.both": "parallel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7981608,
+            49.2827136
+          ],
+          [
+            -122.7981123,
+            49.2827111
+          ],
+          [
+            -122.7980915,
+            49.2827092
+          ],
+          [
+            -122.7980744,
+            49.282707
+          ],
+          [
+            -122.7980547,
+            49.2827032
+          ],
+          [
+            -122.7979984,
+            49.2826892
+          ],
+          [
+            -122.7979799,
+            49.2826856
+          ],
+          [
+            -122.7979615,
+            49.2826832
+          ],
+          [
+            -122.7979372,
+            49.2826817
+          ],
+          [
+            -122.7979141,
+            49.2826811
+          ],
+          [
+            -122.7970342,
+            49.2826768
+          ],
+          [
+            -122.7970043,
+            49.282678
+          ],
+          [
+            -122.7969798,
+            49.2826802
+          ],
+          [
+            -122.796959,
+            49.2826824
+          ],
+          [
+            -122.7969419,
+            49.2826849
+          ],
+          [
+            -122.7969224,
+            49.2826889
+          ],
+          [
+            -122.7968666,
+            49.2827038
+          ],
+          [
+            -122.7968483,
+            49.2827077
+          ],
+          [
+            -122.7968299,
+            49.2827104
+          ],
+          [
+            -122.7968061,
+            49.2827127
+          ],
+          [
+            -122.7967791,
+            49.2827146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/35194713",
         "cycleway": "lane",
         "highway": "secondary",
@@ -16271,7 +16620,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7810967,
+            -122.781096,
             49.2927909
           ],
           [
@@ -16422,11 +16771,13 @@
       "type": "Feature",
       "properties": {
         "id": "way/35195673",
-        "cycleway": "lane",
         "highway": "secondary",
         "name": "David Avenue",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
@@ -16580,8 +16931,8 @@
             49.2858767
           ],
           [
-            -122.7681626,
-            49.2869438
+            -122.7682281,
+            49.2869763
           ],
           [
             -122.7673772,
@@ -16612,12 +16963,20 @@
             49.2883829
           ],
           [
+            -122.7671319,
+            49.2883929
+          ],
+          [
             -122.7671315,
             49.2884746
           ],
           [
             -122.7671241,
             49.2889693
+          ],
+          [
+            -122.7671238,
+            49.2889841
           ],
           [
             -122.767122,
@@ -16648,8 +17007,16 @@
             49.2906744
           ],
           [
+            -122.7686709,
+            49.2912245
+          ],
+          [
             -122.7687351,
             49.2912546
+          ],
+          [
+            -122.7687992,
+            49.2912844
           ],
           [
             -122.7700687,
@@ -16708,32 +17075,8 @@
             49.2946851
           ],
           [
-            -122.7709645,
+            -122.770964,
             49.294721
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/35195902",
-        "cycleway": "lane",
-        "highway": "secondary",
-        "name": "David Avenue",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7861037,
-            49.2928767
-          ],
-          [
-            -122.7860448,
-            49.2928552
           ]
         ]
       }
@@ -16752,7 +17095,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7631117,
+            -122.763111,
             49.2930428
           ],
           [
@@ -16788,7 +17131,7 @@
             49.2947979
           ],
           [
-            -122.7709654,
+            -122.770965,
             49.2948042
           ]
         ]
@@ -17065,7 +17408,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7811433,
+            -122.781143,
             49.2928959
           ],
           [
@@ -17222,23 +17565,23 @@
             49.2590605
           ],
           [
+            -122.7827219,
+            49.259179
+          ],
+          [
             -122.7827165,
             49.2595108
           ],
           [
             -122.782708,
-            49.2599573
+            49.2599679
           ],
           [
-            -122.7826981,
-            49.2604131
+            -122.7827092,
+            49.2604204
           ],
           [
-            -122.7826897,
-            49.2607998
-          ],
-          [
-            -122.782688,
+            -122.7827032,
             49.2608802
           ]
         ]
@@ -17253,8 +17596,8 @@
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "2",
         "cycleway.right": "lane",
-        "cycleway.left": "no",
-        "cycleway.right.lane": "exclusive"
+        "cycleway.right.lane": "exclusive",
+        "cycleway.left": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -17423,7 +17766,7 @@
             49.2930347
           ],
           [
-            -122.7631117,
+            -122.763111,
             49.2930428
           ]
         ]
@@ -17439,8 +17782,8 @@
         "lanes": "2",
         "surface": "asphalt",
         "cycleway.right": "lane",
-        "cycleway.left": "no",
-        "cycleway.right.lane": "exclusive"
+        "cycleway.right.lane": "exclusive",
+        "cycleway.left": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -17483,46 +17826,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/35197807",
-        "cycleway": "lane",
-        "highway": "secondary",
-        "name": "David Avenue",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7896346,
-            49.2940149
-          ],
-          [
-            -122.7894956,
-            49.2939576
-          ],
-          [
-            -122.7875092,
-            49.2931382
-          ],
-          [
-            -122.7867623,
-            49.2929637
-          ],
-          [
-            -122.7862715,
-            49.2928972
-          ],
-          [
-            -122.7861037,
-            49.2928767
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/35197817",
         "cycleway": "lane",
         "highway": "secondary",
@@ -17534,7 +17837,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7631152,
+            -122.763115,
             49.2929394
           ],
           [
@@ -17606,7 +17909,7 @@
             49.2927971
           ],
           [
-            -122.7811906,
+            -122.78119,
             49.2927933
           ]
         ]
@@ -17698,28 +18001,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7980897,
-            49.2852031
+            -122.7980949,
+            49.2851988
           ],
           [
-            -122.797939,
-            49.2851965
+            -122.7980161,
+            49.2851956
           ],
           [
-            -122.7960709,
-            49.2850574
+            -122.7979442,
+            49.2851914
           ],
           [
-            -122.7956267,
-            49.2850227
+            -122.7961385,
+            49.2850603
           ],
           [
-            -122.7948013,
-            49.2849552
+            -122.7959415,
+            49.2850457
           ],
           [
-            -122.7946579,
-            49.2849481
+            -122.795795,
+            49.2850344
+          ],
+          [
+            -122.7955227,
+            49.2850094
+          ],
+          [
+            -122.7953967,
+            49.2849985
+          ],
+          [
+            -122.7952939,
+            49.2849902
+          ],
+          [
+            -122.7948,
+            49.284951
+          ],
+          [
+            -122.794729,
+            49.2849466
+          ],
+          [
+            -122.7946564,
+            49.2849431
           ]
         ]
       }
@@ -17738,7 +18065,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7709645,
+            -122.770964,
             49.294721
           ],
           [
@@ -17774,7 +18101,7 @@
             49.2929455
           ],
           [
-            -122.7631152,
+            -122.763115,
             49.2929394
           ]
         ]
@@ -18072,10 +18399,11 @@
         "id": "way/35199458",
         "highway": "secondary",
         "name": "David Avenue",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
         "lanes": "2",
         "surface": "asphalt",
-        "cycleway.right": "lane"
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
@@ -18205,16 +18533,92 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7980666,
-            49.285316
+            -122.7980779,
+            49.2853226
           ],
           [
-            -122.7982108,
-            49.2853307
+            -122.7982132,
+            49.2853276
           ],
           [
-            -122.7989095,
-            49.2853523
+            -122.7985925,
+            49.2853396
+          ],
+          [
+            -122.7986759,
+            49.2853416
+          ],
+          [
+            -122.7987625,
+            49.2853435
+          ],
+          [
+            -122.7988336,
+            49.2853444
+          ],
+          [
+            -122.798909,
+            49.2853447
+          ],
+          [
+            -122.7989847,
+            49.2853448
+          ],
+          [
+            -122.799063,
+            49.285344
+          ],
+          [
+            -122.7992093,
+            49.2853417
+          ],
+          [
+            -122.7993508,
+            49.2853395
+          ],
+          [
+            -122.7994939,
+            49.2853352
+          ],
+          [
+            -122.7996064,
+            49.2853313
+          ],
+          [
+            -122.7997289,
+            49.2853265
+          ],
+          [
+            -122.7998731,
+            49.2853195
+          ],
+          [
+            -122.800015,
+            49.2853119
+          ],
+          [
+            -122.8001408,
+            49.2853041
+          ],
+          [
+            -122.8003119,
+            49.2852931
+          ],
+          [
+            -122.800481,
+            49.2852832
+          ],
+          [
+            -122.8006341,
+            49.2852754
+          ],
+          [
+            -122.8014545,
+            49.2852405
+          ],
+          [
+            -122.8015715,
+            49.2852359
           ]
         ]
       }
@@ -18497,7 +18901,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7709654,
+            -122.770965,
             49.2948042
           ],
           [
@@ -18533,7 +18937,7 @@
             49.2947259
           ],
           [
-            -122.7709645,
+            -122.770964,
             49.294721
           ]
         ]
@@ -18909,6 +19313,55 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/47208349",
+        "highway": "secondary",
+        "name": "David Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "cycleway.right": "lane"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7606043,
+            49.2930204
+          ],
+          [
+            -122.7618512,
+            49.2930118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/47208351",
+        "highway": "secondary",
+        "name": "David Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7618603,
+            49.292898
+          ],
+          [
+            -122.7605819,
+            49.2928935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/47208383",
         "cycleway": "lane",
         "highway": "secondary",
@@ -19002,26 +19455,27 @@
         "highway": "secondary",
         "name": "Guildford Way",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "lanes": "2",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8015974,
-            49.2851342
+            -122.801572,
+            49.2851266
           ],
           [
-            -122.8014667,
-            49.2851413
+            -122.8014778,
+            49.2851303
           ],
           [
-            -122.8004815,
-            49.2851778
+            -122.800473,
+            49.2851726
           ],
           [
-            -122.7990721,
-            49.2852231
+            -122.7998029,
+            49.2851977
           ]
         ]
       }
@@ -19030,11 +19484,13 @@
       "type": "Feature",
       "properties": {
         "id": "way/76160132",
-        "cycleway": "lane",
         "highway": "secondary",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
@@ -20053,61 +20509,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7928228,
-            49.2849373
+            -122.7929476,
+            49.2849468
           ],
           [
-            -122.7933771,
-            49.2849721
+            -122.7933329,
+            49.2849769
           ],
           [
-            -122.79346,
-            49.2849778
+            -122.7936196,
+            49.2849972
           ],
           [
-            -122.7944699,
-            49.2850521
+            -122.7937152,
+            49.2850046
           ],
           [
-            -122.7946412,
-            49.2850623
+            -122.793816,
+            49.2850129
           ],
           [
-            -122.7947773,
-            49.2851
+            -122.7939732,
+            49.2850262
           ],
           [
-            -122.7960556,
-            49.2851868
+            -122.7941188,
+            49.2850394
           ],
           [
-            -122.7966758,
-            49.2852326
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/305606783",
-        "cycleway": "lane",
-        "highway": "secondary",
-        "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8017463,
-            49.2851262
+            -122.794467,
+            49.2850709
           ],
           [
-            -122.8015974,
-            49.2851342
+            -122.7946314,
+            49.2850844
+          ],
+          [
+            -122.794777,
+            49.2850958
+          ],
+          [
+            -122.7955279,
+            49.2851485
+          ],
+          [
+            -122.7962147,
+            49.2851937
+          ],
+          [
+            -122.7966706,
+            49.285226
           ]
         ]
       }
@@ -20300,6 +20751,32 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/390357953",
+        "highway": "secondary",
+        "name": "Guildford Way",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='advisory'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "advisory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.792564,
+            49.2848032
+          ],
+          [
+            -122.7923977,
+            49.2847913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/390357955",
         "cycleway": "lane",
         "highway": "secondary",
@@ -20311,8 +20788,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7924007,
-            49.2847928
+            -122.7923977,
+            49.2847913
           ],
           [
             -122.792215,
@@ -20329,30 +20806,60 @@
       "type": "Feature",
       "properties": {
         "id": "way/390357959",
-        "cycleway": "lane",
         "highway": "secondary",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.7946579,
-            49.2849481
+            -122.7946564,
+            49.2849431
           ],
           [
-            -122.794487,
-            49.2849413
+            -122.7945736,
+            49.2849401
           ],
           [
-            -122.7937867,
-            49.2848991
+            -122.794488,
+            49.2849363
           ],
           [
-            -122.7932619,
-            49.2848527
+            -122.7943007,
+            49.2849274
+          ],
+          [
+            -122.7942304,
+            49.2849236
+          ],
+          [
+            -122.7941622,
+            49.2849195
+          ],
+          [
+            -122.7941047,
+            49.2849158
+          ],
+          [
+            -122.7940354,
+            49.284911
+          ],
+          [
+            -122.7938062,
+            49.2848938
+          ],
+          [
+            -122.7926885,
+            49.284812
+          ],
+          [
+            -122.792564,
+            49.2848032
           ]
         ]
       }
@@ -20485,20 +20992,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7966758,
-            49.2852326
+            -122.7966706,
+            49.285226
           ],
           [
-            -122.7972319,
-            49.2852531
+            -122.7972259,
+            49.285266
           ],
           [
             -122.7979277,
-            49.2853019
+            49.2853137
           ],
           [
-            -122.7980666,
-            49.285316
+            -122.7980004,
+            49.2853183
+          ],
+          [
+            -122.7980779,
+            49.2853226
           ]
         ]
       }
@@ -20521,12 +21032,12 @@
             49.284914
           ],
           [
-            -122.792634,
-            49.2849243
+            -122.7926348,
+            49.2849238
           ],
           [
-            -122.7928228,
-            49.2849373
+            -122.7929476,
+            49.2849468
           ]
         ]
       }
@@ -20535,11 +21046,13 @@
       "type": "Feature",
       "properties": {
         "id": "way/461131152",
-        "cycleway": "lane",
         "highway": "secondary",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='advisory'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "advisory"
       },
       "geometry": {
         "type": "LineString",
@@ -20551,34 +21064,6 @@
           [
             -122.7925025,
             49.284914
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/462036703",
-        "cycleway": "lane",
-        "highway": "secondary",
-        "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7932619,
-            49.2848527
-          ],
-          [
-            -122.792689,
-            49.284813
-          ],
-          [
-            -122.7925642,
-            49.2848047
           ]
         ]
       }
@@ -20785,11 +21270,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7810337,
+            -122.781033,
             49.2928985
           ],
           [
-            -122.7811433,
+            -122.781143,
             49.2928959
           ]
         ]
@@ -20809,11 +21294,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7811906,
+            -122.78119,
             49.2927933
           ],
           [
-            -122.7810967,
+            -122.781096,
             49.2927909
           ]
         ]
@@ -20849,7 +21334,7 @@
             49.2929046
           ],
           [
-            -122.7810337,
+            -122.781033,
             49.2928985
           ]
         ]
@@ -20887,7 +21372,8 @@
         "highway": "secondary",
         "name": "David Avenue",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "lanes": "2",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -21355,8 +21841,8 @@
         "cycleway": "lane",
         "highway": "primary",
         "name": "Lougheed Highway",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "4"
       },
       "geometry": {
         "type": "LineString",
@@ -21374,8 +21860,8 @@
             49.2458655
           ],
           [
-            -122.8926217,
-            49.2459311
+            -122.8926021,
+            49.2459221
           ]
         ]
       }
@@ -21789,58 +22275,65 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/494676734",
-        "cycleway": "lane",
-        "highway": "secondary",
-        "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7989095,
-            49.2853523
-          ],
-          [
-            -122.7996437,
-            49.2853359
-          ],
-          [
-            -122.801443,
-            49.2852443
-          ],
-          [
-            -122.8015871,
-            49.2852376
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/494676736",
-        "cycleway": "lane",
         "highway": "secondary",
         "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2"
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "surface": "asphalt",
+        "cycleway.right": "lane",
+        "cycleway.right.lane": "exclusive"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.7990721,
-            49.2852231
+            -122.7998029,
+            49.2851977
           ],
           [
-            -122.7982269,
-            49.2852092
+            -122.7995913,
+            49.2852047
           ],
           [
-            -122.7980897,
-            49.2852031
+            -122.7994013,
+            49.2852107
+          ],
+          [
+            -122.7992005,
+            49.2852142
+          ],
+          [
+            -122.7989997,
+            49.2852157
+          ],
+          [
+            -122.7988509,
+            49.285216
+          ],
+          [
+            -122.7987606,
+            49.2852158
+          ],
+          [
+            -122.7986677,
+            49.2852145
+          ],
+          [
+            -122.7985752,
+            49.2852123
+          ],
+          [
+            -122.7984827,
+            49.2852101
+          ],
+          [
+            -122.7982282,
+            49.2852029
+          ],
+          [
+            -122.7980949,
+            49.2851988
           ]
         ]
       }
@@ -22063,110 +22556,6 @@
           [
             -122.7338432,
             49.2534442
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/573379922",
-        "cycleway": "lane",
-        "highway": "primary",
-        "name": "Lougheed Highway",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "3",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7986849,
-            49.2697147
-          ],
-          [
-            -122.798769,
-            49.2694032
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/573379988",
-        "cycleway": "lane",
-        "highway": "primary",
-        "name": "Lougheed Highway",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "3",
-        "surface": "paved"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7987903,
-            49.2686317
-          ],
-          [
-            -122.7987919,
-            49.268505
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/573379991",
-        "cycleway": "lane",
-        "highway": "primary",
-        "name": "Lougheed Highway",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "2",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.798769,
-            49.2694032
-          ],
-          [
-            -122.7987758,
-            49.2691778
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/573379993",
-        "cycleway": "lane",
-        "highway": "primary",
-        "name": "Lougheed Highway",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "3",
-        "surface": "paved"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7987758,
-            49.2691778
-          ],
-          [
-            -122.798789,
-            49.2687455
-          ],
-          [
-            -122.7987903,
-            49.2686317
           ]
         ]
       }
