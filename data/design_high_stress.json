@@ -383,27 +383,12 @@
         "highway": "tertiary",
         "name": "Foster Avenue",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway.",
-        "lanes": "2"
+        "lanes": "2",
+        "parking.lane.both": "parallel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -122.8929392,
-            49.2568189
-          ],
-          [
-            -122.8918635,
-            49.2568022
-          ],
-          [
-            -122.8906305,
-            49.2567881
-          ],
-          [
-            -122.8903025,
-            49.2567856
-          ],
           [
             -122.8895238,
             49.256777
@@ -2655,8 +2640,12 @@
             49.284841
           ],
           [
-            -122.7503583,
-            49.2857534
+            -122.7505937,
+            49.2856574
+          ],
+          [
+            -122.750485,
+            49.2857514
           ]
         ]
       }
@@ -4529,8 +4518,8 @@
             49.2737922
           ],
           [
-            -122.8028508,
-            49.2736198
+            -122.8027479,
+            49.2736967
           ]
         ]
       }
@@ -4746,6 +4735,10 @@
             49.2902577
           ],
           [
+            -122.7495992,
+            49.2902897
+          ],
+          [
             -122.7492148,
             49.2904833
           ],
@@ -4786,8 +4779,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7502469,
-            49.2895094
+            -122.750246,
+            49.2895093
           ],
           [
             -122.7502448,
@@ -4826,8 +4819,8 @@
             49.2915134
           ],
           [
-            -122.7484785,
-            49.2916172
+            -122.7484784,
+            49.2916181
           ],
           [
             -122.7485671,
@@ -7974,6 +7967,10 @@
             49.2945775
           ],
           [
+            -122.7376645,
+            49.294537
+          ],
+          [
             -122.7375247,
             49.2944909
           ]
@@ -9664,6 +9661,10 @@
             49.2327035
           ],
           [
+            -122.8527837,
+            49.2327354
+          ],
+          [
             -122.8532141,
             49.232827
           ]
@@ -9693,6 +9694,10 @@
           [
             -122.8528837,
             49.2325797
+          ],
+          [
+            -122.8528625,
+            49.2325756
           ],
           [
             -122.8527213,
@@ -10006,6 +10011,10 @@
             49.2359961
           ],
           [
+            -122.8685504,
+            49.2360097
+          ],
+          [
             -122.8686447,
             49.2360289
           ]
@@ -10031,6 +10040,10 @@
           [
             -122.8686413,
             49.2358985
+          ],
+          [
+            -122.8685438,
+            49.2358793
           ],
           [
             -122.8679957,
@@ -11886,8 +11899,8 @@
             49.2817754
           ],
           [
-            -122.8797819,
-            49.2817484
+            -122.8797777,
+            49.2817479
           ],
           [
             -122.8797445,
@@ -14216,8 +14229,16 @@
             49.2976576
           ],
           [
+            -122.7449724,
+            49.2976126
+          ],
+          [
             -122.7448924,
             49.2975607
+          ],
+          [
+            -122.7448447,
+            49.2975007
           ],
           [
             -122.7443585,
@@ -14232,8 +14253,16 @@
             49.2962853
           ],
           [
+            -122.7431745,
+            49.2960794
+          ],
+          [
             -122.7431272,
             49.2960584
+          ],
+          [
+            -122.7429951,
+            49.2960066
           ],
           [
             -122.7426392,
@@ -15721,6 +15750,10 @@
             49.2800008
           ],
           [
+            -122.8809215,
+            49.2800767
+          ],
+          [
             -122.8809166,
             49.2800904
           ]
@@ -16060,10 +16093,9 @@
       "type": "Feature",
       "properties": {
         "id": "way/930498272",
-        "cycleway": "lane",
         "highway": "tertiary",
         "name": "Dominion Avenue",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
         "lanes": "2",
         "cycleway.right": "lane"
       },
@@ -16071,16 +16103,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.746596,
-            49.2583788
-          ],
-          [
             -122.7485512,
             49.2584039
           ],
           [
-            -122.7496145,
-            49.2583883
+            -122.7496156,
+            49.2583958
           ],
           [
             -122.7509895,
@@ -16602,6 +16630,87 @@
           [
             -122.7967791,
             49.2827146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1009727585",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Foster Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Found tag 'parking:lane:both'='parallel'. Parking is present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 2 because the maxspeed is between 41-50 km/h and parking present.,Increasing LTS to 3 because highway is not 'residential'.",
+        "lanes": "2",
+        "parking.lane.both": "parallel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8918635,
+            49.2568022
+          ],
+          [
+            -122.8906305,
+            49.2567881
+          ],
+          [
+            -122.8903025,
+            49.2567856
+          ],
+          [
+            -122.8895238,
+            49.256777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1009727586",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Foster Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "lanes": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8929392,
+            49.2568189
+          ],
+          [
+            -122.8918635,
+            49.2568022
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1009734947",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "name": "Dominion Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking.",
+        "lanes": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.746596,
+            49.2583788
+          ],
+          [
+            -122.7485512,
+            49.2584039
           ]
         ]
       }
@@ -17571,18 +17680,6 @@
           [
             -122.7827165,
             49.2595108
-          ],
-          [
-            -122.782708,
-            49.2599679
-          ],
-          [
-            -122.7827092,
-            49.2604204
-          ],
-          [
-            -122.7827032,
-            49.2608802
           ]
         ]
       }
@@ -18151,8 +18248,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8027261,
-            49.2735525
+            -122.8026472,
+            49.2736281
           ],
           [
             -122.8024472,
@@ -19667,12 +19764,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8028508,
-            49.2736198
+            -122.8027479,
+            49.2736967
           ],
           [
-            -122.8038932,
-            49.2730063
+            -122.8029693,
+            49.2735647
+          ],
+          [
+            -122.8035162,
+            49.2732393
+          ],
+          [
+            -122.8038628,
+            49.2730388
+          ],
+          [
+            -122.8040291,
+            49.2729511
           ]
         ]
       }
@@ -21819,16 +21928,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8036552,
-            49.272992
+            -122.8034783,
+            49.2731166
           ],
           [
-            -122.803456,
-            49.2731101
+            -122.8028418,
+            49.2734991
           ],
           [
-            -122.8027261,
-            49.2735525
+            -122.8026472,
+            49.2736281
           ]
         ]
       }
@@ -21842,7 +21951,8 @@
         "highway": "primary",
         "name": "Lougheed Highway",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
-        "lanes": "4"
+        "lanes": "4",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -23106,6 +23216,10 @@
             49.2963405
           ],
           [
+            -122.7298882,
+            49.2963531
+          ],
+          [
             -122.7297093,
             49.2964218
           ]
@@ -23226,8 +23340,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7560217,
+            -122.756021,
             49.2857413
+          ],
+          [
+            -122.7560193,
+            49.2855993
           ],
           [
             -122.7560044,
@@ -24194,6 +24312,10 @@
             49.2964218
           ],
           [
+            -122.7299199,
+            49.296406
+          ],
+          [
             -122.7299576,
             49.2964032
           ],
@@ -24260,6 +24382,62 @@
           [
             -122.7368434,
             49.2955872
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1005833314",
+        "highway": "secondary",
+        "name": "Mariner Way",
+        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking.",
+        "lanes": "2",
+        "cycleway.right": "lane"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8036558,
+            49.2730116
+          ],
+          [
+            -122.8034783,
+            49.2731166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1009209015",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "name": "Shaughnessy Street",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h.",
+        "lanes": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7827165,
+            49.2595108
+          ],
+          [
+            -122.782708,
+            49.2599679
+          ],
+          [
+            -122.7827092,
+            49.2604204
+          ],
+          [
+            -122.7827032,
+            49.2608802
           ]
         ]
       }
