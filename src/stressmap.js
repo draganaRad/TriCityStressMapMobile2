@@ -66,10 +66,10 @@ function addLegend() {
     // hide legend on mobile, show on desktop
     closeButtonDisplay = "block"
     legendDisplay = "none"
-    if (L.Browser.mobile) {
-      closeButtonDisplay = "none"
-      legendDisplay = "block"
-    }
+    // if (L.Browser.mobile) {
+    //   closeButtonDisplay = "none"
+    //   legendDisplay = "block"
+    // }
 
     let legendHtml = '<div id="legendbtn" class="fill-darken2 pad1 icon menu button fr" style="display: ' + legendDisplay +'"></div>' +
       '<div id="legend" class="fill-darken1 round" style="display: ' + closeButtonDisplay +'">' +
