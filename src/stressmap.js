@@ -4,19 +4,23 @@ const legendSettings = [{ color: '#4292C6', key: 'LS', title: 'Low Stress', chec
 { color: '#F16913', key: 'HS', title: 'High Stress', checked: true},
 { key: 'desig', title: 'Bike Designated Only', checked: true}]
 
-const layerSettings = [{key: 'LSdesig', color: '#4292C6', url: 'data/design_low_stress.json'},
-{key: 'HSdesig', color: '#F16913', url: 'data/design_high_stress.json'},
-{key: 'LSother', color: '#4292C6', url: 'data/low_stress.json'},
-{key: 'HSother', color: '#F16913', url: 'data/high_stress.json'}]
+const layerSettings = [
+  {key: 'LSdesig', color: '#4292C6', opacity: 0.6, url: 'data/design_low_stress.json'},
+  {key: 'HSdesig', color: '#F16913', opacity: 0.6, url: 'data/design_high_stress.json'},
+  {key: 'LSother', color: '#4292C6', opacity: 0.6, url: 'data/low_stress.json'},
+  {key: 'HSother', color: '#F16913', opacity: 0.6, url: 'data/high_stress.json'},
+  {key: 'LSall', color: '#4292C6', opacity: 0.2, url: 'data/all_low_stress.json'},
+  {key: 'HSall', color: '#F16913', opacity: 0.2, url: 'data/all_high_stress.json'}]
 
 var lineWeight = 2
 if (!L.Browser.mobile) {
   lineWeight = lineWeight + 1
 }
-var lineOpacity = 0.6
-var lineHighOpacity = 0.9 //highligh opacity
+//var lineOpacity = 0.6
+//var lineHighOpacity = lineOpacity + 0.3 //0.9 - highligh opacity
 
 var layerGroup = new L.LayerGroup();
+var layerGroupAll = new L.LayerGroup(); // for detailed layers visible only on zoom greater then threshold (currently 15)
 var legendChecks = {}; //dictionary of legend checkbox ids(keys) and their states
 var layers = {};  //dictionary of layers with keys from settings
 
@@ -33,7 +37,8 @@ L.tileLayer(
   'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
   subdomains: 'abcd',
-  maxZoom: 19
+  maxZoom: 19,
+  minZoom: 10
 }
 ).addTo(map);
 // Add BikeOttawa attribution
@@ -48,12 +53,16 @@ if (L.Browser.mobile) {
   }).addTo(map);
 }
 
+//map.on("zoomend", function (e) { console.log("Z,DRAGANA::OOMEND", map.getZoom()); });
+
 addLegend()
 // show/hide legend
 document.getElementById('legendbtn').onclick = function () { toggleDisplay(['legendbtn', 'legend']) };
 document.getElementById('closebtn').onclick = function () { toggleDisplay(['legendbtn', 'legend']) };
 
 addLayers()
+// show/hide layer based on zoom level
+map.on("zoomend", function () { zoomChanged() });
 
 ///// Functions ////
 
@@ -165,15 +174,54 @@ function toggleLayer(checkbox) {
       layerGroup.addLayer(layers['HSother'])
     }
   }
+  // check if zoomed enough to displayed detailed layer
+  zoomChanged()
+}
+
+function zoomChanged() {
+  console.log("DRAGANA::ZOOMEND", map.getZoom())
+  designOnly = legendChecks['desig']
+  lowStress = legendChecks['LS']
+  highStress = legendChecks['HS']
+
+  // show all only if zoomed in and designated only NOT selected
+  if ((map.getZoom() > 15) && !designOnly){
+      if (lowStress && !layerGroupAll.hasLayer(layers['LSall'])){
+        layerGroupAll.addLayer(layers['LSall'])
+      }
+      if (!lowStress && layerGroupAll.hasLayer(layers['LSall'])){
+        layerGroupAll.removeLayer(layers['LSall'])
+      }
+      if (highStress && !layerGroupAll.hasLayer(layers['HSall'])){
+        layerGroupAll.addLayer(layers['HSall'])
+      }
+      if (!highStress && layerGroupAll.hasLayer(layers['HSall'])){
+        layerGroupAll.removeLayer(layers['HSall'])
+      }
+
+      // add group to map if not already there
+      if (!map.hasLayer(layerGroupAll)){
+        console.log("dragana:: adding layer");
+        layerGroupAll.addTo(map);
+      }
+  }else{
+    // zoom is below threshold, remove layerGroupAll
+    if (map.hasLayer(layerGroupAll)){
+      console.log("dragana:: removing layer");
+      layerGroupAll.clearLayers()
+      map.removeLayer(layerGroupAll)
+    }
+  }
 }
 
 // ------ Layers
 function addLayers() {
   
   layerGroup.addTo(map);
+
   for (let setting of layerSettings) {
     var ltsLayer = new L.GeoJSON.AJAX(setting.url, {
-      style: getLineStyle(setting.color),
+      style: getLineStyle(setting.color, setting.opacity),
       onEachFeature: onEachFeature,
     });
     ltsLayer.layerID = setting.key;
@@ -202,26 +250,26 @@ function addLayers() {
 }
 
 // lines style
-function getLineStyle(color) {
+function getLineStyle(color, opacity) {
   var lineStyle = {
     "color": color,
     "weight": lineWeight,
-    "opacity": lineOpacity
+    "opacity": opacity
   };
   return lineStyle
 }
-function getHighlightStyle(color) {
+function getHighlightStyle(color, opacity) {
   var highlighStyle = {
     "color": color,
     "weight": lineWeight + 1,
-    "opacity": lineHighOpacity
+    "opacity": opacity
   };
   return highlighStyle
 }
 
 function highlightFeature(e) {
   var layer = e.target;
-  var highlightStyle = getHighlightStyle(layer.options.color)
+  var highlightStyle = getHighlightStyle(layer.options.color, layer.options.opacity)
   layer.setStyle(highlightStyle);
 
   if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
@@ -231,7 +279,7 @@ function highlightFeature(e) {
 
 function resetHighlight(e) {
   var layer = e.target;
-  var lineStyle = getLineStyle(layer.options.color)
+  var lineStyle = getLineStyle(layer.options.color, layer.options.opacity)
   layer.setStyle(lineStyle);
 }
 
@@ -276,40 +324,40 @@ function onEachFeature(feature, layer) {
         if (highwayValue == "path"){
           if (footValue == "yes" && bicycleValue == "yes"){
             if (feature.properties.segregated && feature.properties.segregated == "yes"){
-              categoryValueToShow = "bike path"
+              categoryValueToShow = "Bike Path"
             }else{
-              categoryValueToShow = "shared path"
+              categoryValueToShow = "Shared Path"
             }
           }else{
-            categoryValueToShow = "path"
+            categoryValueToShow = "Path"
           }
         // cycleway
         }else if (highwayValue == "cycleway"){
           if (footValue == "yes"){
-            categoryValueToShow = "shared"
+            categoryValueToShow = "Shared"
           }else{
-            categoryValueToShow = "bike"
+            categoryValueToShow = "Bike"
           }
           // cycleway crossings
           let cyclewayValue = feature.properties.cycleway
           if (cyclewayValue == "crossing"){
-            categoryValueToShow += " crossing"
+            categoryValueToShow += " Crossing"
           }else{
-            categoryValueToShow += " path"
+            categoryValueToShow += " Path"
           }
           // footway
         }else if (highwayValue == "footway"){
           if (bicycleValue == "yes"){
-            categoryValueToShow = "shared"
+            categoryValueToShow = "Shared"
           }else{
-            categoryValueToShow = "foot"
+            categoryValueToShow = "Foot"
           }
           // footway crossings
           let footwayValue = feature.properties.footway
           if (footwayValue == "crossing"){
-            categoryValueToShow += " crossing"
+            categoryValueToShow += " Crossing"
           }else{
-            categoryValueToShow += " path"
+            categoryValueToShow += " Path"
           }
         }
       }else if (highwayValue == "motorway" || highwayValue == "trunk" || highwayValue == "primary" || 
@@ -341,6 +389,13 @@ function onEachFeature(feature, layer) {
                 highwayValueToShow += serviceValue;
               }
             }
+            // check if there's bike accessible shoulder
+            if (feature.properties["shoulder.bicycle"]){
+              let shoulderBicycleValue = feature.properties["shoulder.bicycle"]
+              if (shoulderBicycleValue == "yes"){
+                categoryValueToShow = "Bicycle accessible shoulder"
+              }
+            }
             // figure out bike infra categories ("cycleway" tag)
             let cyclewayValue = null
             if (feature.properties.cycleway) {
@@ -355,16 +410,16 @@ function onEachFeature(feature, layer) {
             }
             if (cyclewayValue){
               if (cyclewayValue == "shared_lane"  || cyclewayValue == "shared" || cyclewayValue == "share_busway"){
-                categoryValueToShow = "shared lane"
+                categoryValueToShow = "Shared Lane"
               }
               if (cyclewayValue == "lane"){
-                categoryValueToShow = "painted lane"
+                categoryValueToShow = "Painted Lane"
               }              
               if (cyclewayValue == "track"){
-                categoryValueToShow = "protected lane"
+                categoryValueToShow = "Protected Lane"
               }
               if (cyclewayValue == "crossing"){
-                categoryValueToShow = "crossing"
+                categoryValueToShow = "Crossing"
               }
             }
       }else{
@@ -374,8 +429,9 @@ function onEachFeature(feature, layer) {
     }
     // add bike category first
     if (categoryValueToShow){
-      popupContent += "<b>category: </b>";
+      popupContent += "<b>";
       popupContent += categoryValueToShow;
+      popupContent += "</b>";
     }
     // add name second
     if (feature.properties.name){
