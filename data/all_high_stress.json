@@ -435,32 +435,32 @@
             49.3267298
           ],
           [
-            -122.8566569,
-            49.3257465
+            -122.8572006,
+            49.3263742
           ],
           [
-            -122.8565635,
-            49.3256278
+            -122.8570856,
+            49.3262471
           ],
           [
-            -122.8557567,
-            49.3249173
+            -122.85699,
+            49.3261335
           ],
           [
-            -122.8557264,
-            49.324214
+            -122.85682,
+            49.3259041
           ],
           [
-            -122.8556896,
-            49.3233619
+            -122.8567396,
+            49.3257769
           ],
           [
-            -122.8556877,
-            49.3232576
+            -122.8566088,
+            49.3256603
           ],
           [
-            -122.8556122,
-            49.3230524
+            -122.8566023,
+            49.325655
           ]
         ]
       }
@@ -1908,6 +1908,7 @@
         "id": "way/35195122",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -3064,7 +3065,7 @@
             49.2979183
           ],
           [
-            -122.8068766,
+            -122.806876,
             49.2979978
           ],
           [
@@ -4812,6 +4813,7 @@
         "id": "way/35196920",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -6072,6 +6074,7 @@
         "id": "way/35197754",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -6629,6 +6632,7 @@
         "id": "way/35198154",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -6686,6 +6690,7 @@
         "id": "way/35198172",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -7549,6 +7554,7 @@
         "id": "way/35198859",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -8056,7 +8062,7 @@
             49.2990343
           ],
           [
-            -122.8024169,
+            -122.802416,
             49.2992073
           ],
           [
@@ -8319,6 +8325,7 @@
         "id": "way/35199405",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -8614,6 +8621,7 @@
         "id": "way/35199611",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -9669,6 +9677,10 @@
             49.2362081
           ],
           [
+            -122.7908357,
+            49.2362308
+          ],
+          [
             -122.7912532,
             49.2363279
           ]
@@ -9701,6 +9713,33 @@
           [
             -122.8515138,
             49.2362977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35483984",
+        "highway": "service",
+        "lanes": "2",
+        "name": "Henderson Avenue",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8736988,
+            49.2368596
+          ],
+          [
+            -122.8739808,
+            49.2368961
+          ],
+          [
+            -122.8742853,
+            49.2368939
           ]
         ]
       }
@@ -10006,8 +10045,8 @@
             49.2486833
           ],
           [
-            -122.8208845,
-            49.2486817
+            -122.8209225,
+            49.2486797
           ]
         ]
       }
@@ -14801,6 +14840,7 @@
         "id": "way/67738240",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -14847,6 +14887,7 @@
         "id": "way/67738244",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -14949,6 +14990,7 @@
         "id": "way/67738247",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -14971,6 +15013,7 @@
         "id": "way/67738248",
         "highway": "service",
         "lanes": "2",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -17537,36 +17580,52 @@
             49.2445188
           ],
           [
-            -122.8177049,
-            49.2443533
+            -122.8176796,
+            49.2443779
           ],
           [
-            -122.8178777,
-            49.244212
+            -122.8177422,
+            49.2443324
           ],
           [
-            -122.8180219,
-            49.2440149
+            -122.8178729,
+            49.2441968
           ],
           [
-            -122.818265,
-            49.2438314
+            -122.8180432,
+            49.2440191
           ],
           [
-            -122.818426,
-            49.2437456
+            -122.8181599,
+            49.2439136
           ],
           [
-            -122.8185225,
-            49.2437053
+            -122.818307,
+            49.2438249
           ],
           [
-            -122.8186003,
-            49.2436318
+            -122.8184204,
+            49.2437663
           ],
           [
-            -122.8186002,
-            49.2435594
+            -122.8185162,
+            49.2437081
+          ],
+          [
+            -122.8185755,
+            49.2436629
+          ],
+          [
+            -122.818591,
+            49.2436484
+          ],
+          [
+            -122.8186005,
+            49.2436291
+          ],
+          [
+            -122.8186006,
+            49.2435807
           ]
         ]
       }
@@ -18631,7 +18690,7 @@
             49.2281622
           ],
           [
-            -122.8413278,
+            -122.841327,
             49.2281192
           ],
           [
@@ -19063,12 +19122,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.775349,
-            49.2608878
+            -122.7753483,
+            49.2608911
           ],
           [
-            -122.775213,
-            49.2608866
+            -122.7752137,
+            49.2608908
           ],
           [
             -122.7747998,
@@ -19493,6 +19552,10 @@
             49.2384075
           ],
           [
+            -122.7828579,
+            49.2384262
+          ],
+          [
             -122.7829782,
             49.2384286
           ]
@@ -19512,6 +19575,10 @@
           [
             -122.7736216,
             49.2392437
+          ],
+          [
+            -122.7735704,
+            49.2392093
           ],
           [
             -122.7731985,
@@ -19546,6 +19613,10 @@
             49.2371945
           ],
           [
+            -122.7724496,
+            49.2371566
+          ],
+          [
             -122.7724542,
             49.237092
           ]
@@ -19565,6 +19636,10 @@
           [
             -122.7743673,
             49.2382129
+          ],
+          [
+            -122.774312,
+            49.2382479
           ],
           [
             -122.7731985,
@@ -19639,6 +19714,10 @@
           [
             -122.7899208,
             49.2390561
+          ],
+          [
+            -122.7898536,
+            49.2389913
           ],
           [
             -122.7897366,
@@ -20572,8 +20651,8 @@
             49.2885014
           ],
           [
-            -122.7978561,
-            49.2885033
+            -122.7978441,
+            49.288509
           ]
         ]
       }
@@ -21396,6 +21475,7 @@
       "properties": {
         "id": "way/114995787",
         "highway": "service",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -23116,12 +23196,12 @@
             49.2773055
           ],
           [
-            -122.7990802,
+            -122.79908,
             49.2769912
           ],
           [
-            -122.7990921,
-            49.2769635
+            -122.7990913,
+            49.2769648
           ],
           [
             -122.7991395,
@@ -25775,7 +25855,7 @@
             49.2766636
           ],
           [
-            -122.8430944,
+            -122.843094,
             49.276531
           ],
           [
@@ -30180,28 +30260,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8131345,
-            49.277813
+            -122.8131912,
+            49.2778349
           ],
           [
-            -122.8129077,
-            49.2777579
+            -122.8130113,
+            49.2777839
           ],
           [
-            -122.8128841,
-            49.2777455
+            -122.8129035,
+            49.2777319
           ],
           [
-            -122.8128485,
-            49.277726
+            -122.8128599,
+            49.2777026
           ],
           [
-            -122.8127801,
-            49.2776595
+            -122.8128089,
+            49.2776488
           ],
           [
-            -122.8127081,
-            49.2775754
+            -122.8127356,
+            49.2775776
           ]
         ]
       }
@@ -30217,24 +30297,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8127081,
-            49.2775754
+            -122.8127356,
+            49.2775776
           ],
           [
-            -122.8126582,
-            49.2776803
+            -122.8126706,
+            49.2776783
           ],
           [
-            -122.8126064,
-            49.2777187
+            -122.8126141,
+            49.2777257
           ],
           [
             -122.8125595,
             49.2777541
           ],
           [
-            -122.8123688,
-            49.2778139
+            -122.8124372,
+            49.2777957
+          ],
+          [
+            -122.8122982,
+            49.2778347
           ]
         ]
       }
@@ -30549,8 +30633,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8127081,
-            49.2775754
+            -122.8127356,
+            49.2775776
           ],
           [
             -122.8124841,
@@ -31095,43 +31179,6 @@
           [
             -122.8002616,
             49.2827292
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/282584529",
-        "highway": "service",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.803843,
-            49.270841
-          ],
-          [
-            -122.8038134,
-            49.271923
-          ],
-          [
-            -122.8038126,
-            49.2720495
-          ],
-          [
-            -122.8038037,
-            49.2721751
-          ],
-          [
-            -122.8034204,
-            49.2721855
-          ],
-          [
-            -122.8032754,
-            49.2722602
           ]
         ]
       }
@@ -36027,8 +36074,8 @@
             49.2779928
           ],
           [
-            -122.8119027,
-            49.2779131
+            -122.8119077,
+            49.2779383
           ]
         ]
       }
@@ -36673,12 +36720,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8758583,
-            49.2353397
+            -122.875888,
+            49.2353434
           ],
           [
-            -122.875831,
-            49.2353112
+            -122.8758438,
+            49.2353066
           ],
           [
             -122.8757811,
@@ -37190,7 +37237,7 @@
             49.2764566
           ],
           [
-            -122.8464947,
+            -122.846494,
             49.2765486
           ],
           [
@@ -38591,8 +38638,8 @@
             49.2269221
           ],
           [
-            -122.8399964,
-            49.2268382
+            -122.8399988,
+            49.2268385
           ]
         ]
       }
@@ -38733,8 +38780,8 @@
             49.2899447
           ],
           [
-            -122.7970584,
-            49.2898867
+            -122.7970538,
+            49.2898864
           ],
           [
             -122.7967659,
@@ -38749,7 +38796,7 @@
             49.2898864
           ],
           [
-            -122.7965621,
+            -122.796562,
             49.289898
           ],
           [
@@ -39033,7 +39080,7 @@
             49.2772348
           ],
           [
-            -122.8473656,
+            -122.847365,
             49.2772754
           ],
           [
@@ -39070,7 +39117,7 @@
             49.2772314
           ],
           [
-            -122.8462241,
+            -122.846224,
             49.2772771
           ],
           [
@@ -40800,8 +40847,8 @@
             49.2353477
           ],
           [
-            -122.8757287,
-            49.2353893
+            -122.8757298,
+            49.2353968
           ]
         ]
       }
@@ -42416,6 +42463,10 @@
             49.2323889
           ],
           [
+            -122.7819227,
+            49.2324441
+          ],
+          [
             -122.7819281,
             49.2325235
           ]
@@ -42485,6 +42536,7 @@
       "properties": {
         "id": "way/634756908",
         "highway": "service",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -42526,6 +42578,7 @@
       "properties": {
         "id": "way/634756911",
         "highway": "service",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -42557,7 +42610,7 @@
             49.2286466
           ],
           [
-            -122.8461212,
+            -122.846121,
             49.2286053
           ],
           [
@@ -43001,6 +43054,7 @@
       "properties": {
         "id": "way/635497092",
         "highway": "service",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -43367,6 +43421,10 @@
             49.2363976
           ],
           [
+            -122.7679106,
+            49.2363709
+          ],
+          [
             -122.7677693,
             49.2362089
           ],
@@ -43410,6 +43468,10 @@
           [
             -122.7685446,
             49.236181
+          ],
+          [
+            -122.7685147,
+            49.236149
           ],
           [
             -122.7683781,
@@ -44661,89 +44723,12 @@
             49.2282235
           ],
           [
-            -122.8438562,
+            -122.843856,
             49.2283715
           ],
           [
             -122.8438441,
             49.2284249
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/689238809",
-        "highway": "construction",
-        "lanes": "2",
-        "name": "Fremont Street",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='construction'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7340382,
-            49.256661
-          ],
-          [
-            -122.7340374,
-            49.2567463
-          ],
-          [
-            -122.7340644,
-            49.2573171
-          ],
-          [
-            -122.734059,
-            49.258396
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/689238811",
-        "highway": "construction",
-        "name": "Seaborne Avenue",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='construction'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7340382,
-            49.256661
-          ],
-          [
-            -122.7345731,
-            49.2566633
-          ],
-          [
-            -122.7346238,
-            49.2566655
-          ],
-          [
-            -122.7347041,
-            49.2566706
-          ],
-          [
-            -122.7347772,
-            49.2566807
-          ],
-          [
-            -122.7348809,
-            49.2566982
-          ],
-          [
-            -122.735045,
-            49.2567316
-          ],
-          [
-            -122.7354712,
-            49.2568161
           ]
         ]
       }
@@ -45852,6 +45837,7 @@
       "properties": {
         "id": "way/718465025",
         "highway": "service",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -48909,12 +48895,12 @@
             49.2239457
           ],
           [
-            -122.8163522,
-            49.2237184
+            -122.8163197,
+            49.2238285
           ],
           [
-            -122.8163766,
-            49.2236419
+            -122.816349,
+            49.2237441
           ],
           [
             -122.8164036,
@@ -53751,7 +53737,7 @@
             49.2992631
           ],
           [
-            -122.8024841,
+            -122.802484,
             49.2991887
           ],
           [
@@ -54179,35 +54165,6 @@
           [
             -122.8160686,
             49.2782611
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/934089437",
-        "highway": "service",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8127124,
-            49.2771573
-          ],
-          [
-            -122.8132352,
-            49.277174
-          ],
-          [
-            -122.8137382,
-            49.2772294
-          ],
-          [
-            -122.8143685,
-            49.2772442
           ]
         ]
       }
@@ -55824,7 +55781,7 @@
             49.275577
           ],
           [
-            -122.8400788,
+            -122.840078,
             49.2755611
           ],
           [
@@ -57498,6 +57455,10 @@
           [
             -122.8556979,
             49.3214969
+          ],
+          [
+            -122.8556099,
+            49.3214984
           ],
           [
             -122.854577,
@@ -59296,7 +59257,7 @@
             49.2282712
           ],
           [
-            -122.8424032,
+            -122.842403,
             49.2282267
           ],
           [
@@ -59915,6 +59876,7 @@
       "properties": {
         "id": "way/1019353762",
         "highway": "service",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -60271,496 +60233,6 @@
           [
             -122.818019,
             49.2788526
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1021682325",
-        "highway": "service",
-        "surface": "concrete",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.845475,
-            49.277356
-          ],
-          [
-            -122.845477,
-            49.2774076
-          ],
-          [
-            -122.84548,
-            49.2775726
-          ],
-          [
-            -122.8454791,
-            49.2775829
-          ],
-          [
-            -122.8454794,
-            49.2775907
-          ],
-          [
-            -122.845482,
-            49.2776015
-          ],
-          [
-            -122.8454864,
-            49.2776088
-          ],
-          [
-            -122.8454946,
-            49.277616
-          ],
-          [
-            -122.8455045,
-            49.2776233
-          ],
-          [
-            -122.8455159,
-            49.2776301
-          ],
-          [
-            -122.8455364,
-            49.2776383
-          ],
-          [
-            -122.8455446,
-            49.2776414
-          ],
-          [
-            -122.8455571,
-            49.2776439
-          ],
-          [
-            -122.8455712,
-            49.2776452
-          ],
-          [
-            -122.8455989,
-            49.2776462
-          ],
-          [
-            -122.8456422,
-            49.2776462
-          ],
-          [
-            -122.84572,
-            49.2776463
-          ],
-          [
-            -122.8457824,
-            49.2776467
-          ],
-          [
-            -122.8458748,
-            49.2776468
-          ],
-          [
-            -122.8459588,
-            49.2776469
-          ],
-          [
-            -122.84599,
-            49.2776468
-          ],
-          [
-            -122.8460116,
-            49.2776492
-          ],
-          [
-            -122.8460651,
-            49.2776567
-          ],
-          [
-            -122.8465084,
-            49.2777233
-          ],
-          [
-            -122.8465369,
-            49.2777267
-          ],
-          [
-            -122.8465731,
-            49.2777282
-          ],
-          [
-            -122.847721,
-            49.2777321
-          ],
-          [
-            -122.8477423,
-            49.2777295
-          ],
-          [
-            -122.8477551,
-            49.2777268
-          ],
-          [
-            -122.8477651,
-            49.2777236
-          ],
-          [
-            -122.8477727,
-            49.2777201
-          ],
-          [
-            -122.8477794,
-            49.2777158
-          ],
-          [
-            -122.8477864,
-            49.2777105
-          ],
-          [
-            -122.8477948,
-            49.2777013
-          ],
-          [
-            -122.8477998,
-            49.2776937
-          ],
-          [
-            -122.8478028,
-            49.2776846
-          ],
-          [
-            -122.8478045,
-            49.277671
-          ],
-          [
-            -122.8478074,
-            49.2773314
-          ],
-          [
-            -122.8478824,
-            49.2773323
-          ],
-          [
-            -122.847966,
-            49.2773333
-          ],
-          [
-            -122.8479586,
-            49.2776645
-          ],
-          [
-            -122.8479601,
-            49.2776749
-          ],
-          [
-            -122.8479637,
-            49.2776834
-          ],
-          [
-            -122.8479698,
-            49.2776923
-          ],
-          [
-            -122.8479766,
-            49.2776993
-          ],
-          [
-            -122.8479878,
-            49.2777069
-          ],
-          [
-            -122.8479957,
-            49.2777097
-          ],
-          [
-            -122.8480081,
-            49.2777109
-          ],
-          [
-            -122.8480259,
-            49.2777109
-          ],
-          [
-            -122.8480395,
-            49.27771
-          ],
-          [
-            -122.8480384,
-            49.2777488
-          ],
-          [
-            -122.8480384,
-            49.2777786
-          ],
-          [
-            -122.8480331,
-            49.2777784
-          ],
-          [
-            -122.8480242,
-            49.2777797
-          ],
-          [
-            -122.8480185,
-            49.2777823
-          ],
-          [
-            -122.8480149,
-            49.2777861
-          ],
-          [
-            -122.8480149,
-            49.2777905
-          ],
-          [
-            -122.8480178,
-            49.2777944
-          ],
-          [
-            -122.8480233,
-            49.2777985
-          ],
-          [
-            -122.8480601,
-            49.277816
-          ],
-          [
-            -122.8480977,
-            49.277834
-          ],
-          [
-            -122.8481076,
-            49.277838
-          ],
-          [
-            -122.8481179,
-            49.2778403
-          ],
-          [
-            -122.8480953,
-            49.277857
-          ],
-          [
-            -122.8480657,
-            49.2778803
-          ],
-          [
-            -122.8480139,
-            49.2778568
-          ],
-          [
-            -122.8479299,
-            49.2778178
-          ],
-          [
-            -122.8479155,
-            49.2778134
-          ],
-          [
-            -122.8478967,
-            49.2778119
-          ],
-          [
-            -122.8478665,
-            49.2778119
-          ],
-          [
-            -122.8477796,
-            49.2778123
-          ],
-          [
-            -122.8477717,
-            49.2778123
-          ],
-          [
-            -122.8477572,
-            49.2778125
-          ],
-          [
-            -122.8477364,
-            49.2778183
-          ],
-          [
-            -122.8476762,
-            49.2778312
-          ],
-          [
-            -122.8474842,
-            49.2778087
-          ],
-          [
-            -122.8474008,
-            49.2778319
-          ],
-          [
-            -122.8472087,
-            49.277809
-          ],
-          [
-            -122.8471305,
-            49.2778283
-          ],
-          [
-            -122.8469307,
-            49.2778067
-          ],
-          [
-            -122.846854,
-            49.2778263
-          ],
-          [
-            -122.8466589,
-            49.2778054
-          ],
-          [
-            -122.8465765,
-            49.2778263
-          ],
-          [
-            -122.8463169,
-            49.2777742
-          ],
-          [
-            -122.8462223,
-            49.2777968
-          ],
-          [
-            -122.8459596,
-            49.2777331
-          ],
-          [
-            -122.8458778,
-            49.277755
-          ],
-          [
-            -122.8454717,
-            49.2777543
-          ],
-          [
-            -122.8454564,
-            49.2777539
-          ],
-          [
-            -122.8454438,
-            49.2777528
-          ],
-          [
-            -122.8454391,
-            49.2777524
-          ],
-          [
-            -122.8454223,
-            49.2777499
-          ],
-          [
-            -122.8454085,
-            49.2777456
-          ],
-          [
-            -122.8453931,
-            49.2777377
-          ],
-          [
-            -122.8453811,
-            49.2777281
-          ],
-          [
-            -122.8453702,
-            49.2777163
-          ],
-          [
-            -122.8453653,
-            49.2777061
-          ],
-          [
-            -122.8453615,
-            49.2776919
-          ],
-          [
-            -122.8453609,
-            49.2776821
-          ],
-          [
-            -122.8453674,
-            49.2773739
-          ],
-          [
-            -122.8453656,
-            49.2773624
-          ],
-          [
-            -122.84536,
-            49.2773459
-          ],
-          [
-            -122.8453537,
-            49.2773261
-          ],
-          [
-            -122.8453435,
-            49.2772981
-          ],
-          [
-            -122.8453384,
-            49.2772902
-          ],
-          [
-            -122.8453295,
-            49.2772829
-          ],
-          [
-            -122.845312,
-            49.2772756
-          ],
-          [
-            -122.8453967,
-            49.2772714
-          ],
-          [
-            -122.8455032,
-            49.2772661
-          ],
-          [
-            -122.8455278,
-            49.2772649
-          ],
-          [
-            -122.8455168,
-            49.2772677
-          ],
-          [
-            -122.8455032,
-            49.2772743
-          ],
-          [
-            -122.8454985,
-            49.277278
-          ],
-          [
-            -122.8454881,
-            49.277288
-          ],
-          [
-            -122.8454814,
-            49.2772996
-          ],
-          [
-            -122.8454765,
-            49.2773119
-          ],
-          [
-            -122.8454748,
-            49.2773185
-          ],
-          [
-            -122.8454754,
-            49.2773365
-          ],
-          [
-            -122.845475,
-            49.277356
           ]
         ]
       }
@@ -64011,44 +63483,68 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8170367,
-            49.2443312
+            -122.8169874,
+            49.2443708
           ],
           [
-            -122.8169928,
-            49.244375
+            -122.8169689,
+            49.2443926
           ],
           [
-            -122.8169392,
-            49.2444293
+            -122.816945,
+            49.2444335
           ],
           [
-            -122.8169161,
-            49.2444661
+            -122.8169272,
+            49.2444731
           ],
           [
-            -122.8169095,
-            49.2445142
+            -122.8169187,
+            49.2444953
           ],
           [
-            -122.816924,
-            49.2445536
+            -122.816917,
+            49.244523
           ],
           [
-            -122.8169548,
-            49.2445765
+            -122.8169265,
+            49.2445433
           ],
           [
-            -122.8170143,
-            49.2445983
+            -122.8169377,
+            49.2445619
           ],
           [
-            -122.8170805,
-            49.2446122
+            -122.8169581,
+            49.2445805
           ],
           [
-            -122.8171626,
-            49.2446069
+            -122.8169843,
+            49.2445945
+          ],
+          [
+            -122.8170155,
+            49.2446053
+          ],
+          [
+            -122.8170467,
+            49.244613
+          ],
+          [
+            -122.817082,
+            49.2446149
+          ],
+          [
+            -122.8171261,
+            49.2446149
+          ],
+          [
+            -122.8171671,
+            49.2446096
+          ],
+          [
+            -122.8172017,
+            49.2445992
           ],
           [
             -122.8172357,
@@ -65518,24 +65014,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.829056,
-            49.2787069
+            -122.8290511,
+            49.2787063
           ],
           [
-            -122.8290557,
+            -122.8290509,
             49.2786491
           ],
           [
-            -122.8290414,
+            -122.8290481,
             49.2780851
           ],
           [
-            -122.8290404,
-            49.2780253
-          ],
-          [
-            -122.8291998,
-            49.2777799
+            -122.8290477,
+            49.2779991
           ]
         ]
       }
@@ -66514,7 +66006,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8290414,
+            -122.8290481,
             49.2780851
           ],
           [
@@ -66522,7 +66014,7 @@
             49.2780848
           ],
           [
-            -122.8285658,
+            -122.828565,
             49.278083
           ]
         ]
@@ -66709,6 +66201,255 @@
           [
             -122.8896296,
             49.2613867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1211746842",
+        "highway": "service",
+        "lanes": "2",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.823173,
+            49.2454031
+          ],
+          [
+            -122.8230183,
+            49.2453738
+          ],
+          [
+            -122.8227666,
+            49.2453566
+          ],
+          [
+            -122.8227435,
+            49.245358
+          ],
+          [
+            -122.8227229,
+            49.2453647
+          ],
+          [
+            -122.8227053,
+            49.2453746
+          ],
+          [
+            -122.822696,
+            49.2453883
+          ],
+          [
+            -122.8226919,
+            49.2454051
+          ],
+          [
+            -122.8226948,
+            49.2454192
+          ],
+          [
+            -122.8227701,
+            49.2455251
+          ],
+          [
+            -122.8229061,
+            49.2454908
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1212359711",
+        "construction": "residential",
+        "highway": "construction",
+        "name": "Adler Avenue",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='construction'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8841179,
+            49.2578942
+          ],
+          [
+            -122.8828945,
+            49.2578911
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1213224423",
+        "access": "permissive",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "name": "Pumphouse Road",
+        "surface": "unpaved",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.856549,
+            49.3256119
+          ],
+          [
+            -122.8563368,
+            49.3254436
+          ],
+          [
+            -122.8557567,
+            49.3249173
+          ],
+          [
+            -122.8557264,
+            49.324214
+          ],
+          [
+            -122.8557459,
+            49.3233174
+          ],
+          [
+            -122.855731,
+            49.3229881
+          ],
+          [
+            -122.8557291,
+            49.3229165
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1213224424",
+        "access": "permissive",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "name": "Pumphouse Road",
+        "surface": "unpaved",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8566023,
+            49.325655
+          ],
+          [
+            -122.856549,
+            49.3256119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1213528524",
+        "highway": "service",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7778426,
+            49.2608854
+          ],
+          [
+            -122.7778419,
+            49.2609408
+          ],
+          [
+            -122.7778374,
+            49.2609747
+          ],
+          [
+            -122.7778366,
+            49.2609815
+          ],
+          [
+            -122.7777167,
+            49.2613556
+          ],
+          [
+            -122.7776636,
+            49.2614062
+          ],
+          [
+            -122.7774503,
+            49.2614111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1213603502",
+        "highway": "service",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8038126,
+            49.2720495
+          ],
+          [
+            -122.8038037,
+            49.2721751
+          ],
+          [
+            -122.8034204,
+            49.2721855
+          ],
+          [
+            -122.8033952,
+            49.2721983
+          ],
+          [
+            -122.8032754,
+            49.2722602
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1214069088",
+        "highway": "service",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='service'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8290477,
+            49.2779991
+          ],
+          [
+            -122.8291904,
+            49.2777816
           ]
         ]
       }
