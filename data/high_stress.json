@@ -6913,6 +6913,10 @@
             49.2501333
           ],
           [
+            -122.7719859,
+            49.2501615
+          ],
+          [
             -122.7718978,
             49.2501808
           ],
@@ -6931,6 +6935,10 @@
           [
             -122.7667728,
             49.2501724
+          ],
+          [
+            -122.7666437,
+            49.2501721
           ],
           [
             -122.7633954,
@@ -6999,6 +7007,10 @@
           [
             -122.7877011,
             49.2546938
+          ],
+          [
+            -122.7877887,
+            49.2546859
           ],
           [
             -122.7878513,
@@ -9246,6 +9258,10 @@
             49.2522658
           ],
           [
+            -122.7691189,
+            49.2532298
+          ],
+          [
             -122.7691194,
             49.2532897
           ]
@@ -9432,6 +9448,72 @@
           [
             -122.7929432,
             49.2913188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35197092",
+        "cycleway.left": "lane",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Murray Street",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8342506,
+            49.2805784
+          ],
+          [
+            -122.8350233,
+            49.2805947
+          ],
+          [
+            -122.8361363,
+            49.2806253
+          ],
+          [
+            -122.8363673,
+            49.2806311
+          ],
+          [
+            -122.8364943,
+            49.280632
+          ],
+          [
+            -122.8366133,
+            49.2806303
+          ],
+          [
+            -122.8367143,
+            49.2806278
+          ],
+          [
+            -122.8368703,
+            49.280619
+          ],
+          [
+            -122.8369573,
+            49.2806103
+          ],
+          [
+            -122.8370593,
+            49.2805977
+          ],
+          [
+            -122.8371963,
+            49.2805744
+          ],
+          [
+            -122.8372711,
+            49.2805664
           ]
         ]
       }
@@ -10124,6 +10206,10 @@
           [
             -122.7667727,
             49.2533042
+          ],
+          [
+            -122.7675667,
+            49.2532993
           ],
           [
             -122.7684591,
@@ -12964,6 +13050,10 @@
             49.2545804
           ],
           [
+            -122.7877644,
+            49.2545914
+          ],
+          [
             -122.7876896,
             49.2546001
           ]
@@ -14568,6 +14658,10 @@
           [
             -122.7685288,
             49.3352055
+          ],
+          [
+            -122.7687908,
+            49.3357979
           ],
           [
             -122.7688354,
@@ -36539,6 +36633,10 @@
             49.2462194
           ],
           [
+            -122.7561209,
+            49.2466888
+          ],
+          [
             -122.7561203,
             49.2470419
           ],
@@ -36549,6 +36647,10 @@
           [
             -122.7561132,
             49.2473376
+          ],
+          [
+            -122.756113,
+            49.2474268
           ],
           [
             -122.7561133,
@@ -62024,6 +62126,10 @@
             49.2546956
           ],
           [
+            -122.7875116,
+            49.2546992
+          ],
+          [
             -122.787585,
             49.2546997
           ]
@@ -77067,6 +77173,10 @@
             49.2791109
           ],
           [
+            -122.8393592,
+            49.2790563
+          ],
+          [
             -122.8394046,
             49.2790398
           ],
@@ -77121,6 +77231,10 @@
             49.2789085
           ],
           [
+            -122.8392991,
+            49.2789874
+          ],
+          [
             -122.8391391,
             49.279051
           ],
@@ -77155,12 +77269,13 @@
       "type": "Feature",
       "properties": {
         "id": "way/1189447945",
+        "cycleway.left": "lane",
         "highway": "secondary",
         "lanes": "3",
         "maxspeed": "50",
         "name": "Murray Street",
         "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
       "geometry": {
         "type": "LineString",
@@ -78014,26 +78129,33 @@
       "type": "Feature",
       "properties": {
         "id": "way/25584158",
+        "cycleway": "separate",
+        "foot": "yes",
         "highway": "secondary",
         "lanes": "4",
         "maxspeed": "50",
         "name": "North Road",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because the number of lanes is greater than 3."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8925812,
-            49.2406571
+            -122.8925882,
+            49.240715
           ],
           [
-            -122.8924968,
-            49.2389645
+            -122.8925173,
+            49.2389648
           ],
           [
-            -122.8924999,
-            49.2385508
+            -122.8925113,
+            49.2384035
+          ],
+          [
+            -122.892512,
+            49.2381792
           ]
         ]
       }
@@ -80097,6 +80219,10 @@
             49.2501333
           ],
           [
+            -122.7721336,
+            49.2502064
+          ],
+          [
             -122.772301,
             49.2509019
           ],
@@ -80979,71 +81105,6 @@
           [
             -122.7783042,
             49.2655711
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/35197092",
-        "highway": "secondary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Murray Street",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because the number of lanes is greater than 3."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8342506,
-            49.2805784
-          ],
-          [
-            -122.8350233,
-            49.2805947
-          ],
-          [
-            -122.8361363,
-            49.2806253
-          ],
-          [
-            -122.8363673,
-            49.2806311
-          ],
-          [
-            -122.8364943,
-            49.280632
-          ],
-          [
-            -122.8366133,
-            49.2806303
-          ],
-          [
-            -122.8367143,
-            49.2806278
-          ],
-          [
-            -122.8368703,
-            49.280619
-          ],
-          [
-            -122.8369573,
-            49.2806103
-          ],
-          [
-            -122.8370593,
-            49.2805977
-          ],
-          [
-            -122.8371963,
-            49.2805744
-          ],
-          [
-            -122.8372711,
-            49.2805664
           ]
         ]
       }
@@ -83338,6 +83399,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Shaughnessy Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
@@ -86109,33 +86171,6 @@
           [
             -122.7709676,
             49.294721
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/41769641",
-        "cycleway": "separate",
-        "foot": "yes",
-        "highway": "secondary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "East Columbia Street",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because the number of lanes is greater than 3."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.892492,
-            49.2382848
-          ],
-          [
-            -122.8925092,
-            49.2378434
           ]
         ]
       }
@@ -90804,37 +90839,6 @@
           [
             -122.747725,
             49.2555733
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/137243751",
-        "cycleway": "separate",
-        "foot": "yes",
-        "highway": "secondary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "North Road",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because the number of lanes is greater than 3."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8924999,
-            49.2385508
-          ],
-          [
-            -122.892492,
-            49.2383818
-          ],
-          [
-            -122.892492,
-            49.2382848
           ]
         ]
       }
@@ -108116,6 +108120,10 @@
           [
             -122.7875797,
             49.2546061
+          ],
+          [
+            -122.7875092,
+            49.2546054
           ],
           [
             -122.7864072,

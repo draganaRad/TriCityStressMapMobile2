@@ -11987,6 +11987,10 @@
             49.2791449
           ],
           [
+            -122.8394232,
+            49.2791302
+          ],
+          [
             -122.8394585,
             49.279116
           ],
@@ -21565,31 +21569,35 @@
         "foot": "designated",
         "highway": "cycleway",
         "segregated": "no",
-        "surface": "paving_stones",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8380975,
-            49.2782203
+            -122.8381658,
+            49.2787158
           ],
           [
-            -122.8380936,
-            49.2786276
+            -122.8381665,
+            49.2787455
           ],
           [
-            -122.8380937,
-            49.2787058
+            -122.8386224,
+            49.2787801
           ],
           [
-            -122.8381301,
-            49.2787181
+            -122.8388961,
+            49.2788148
           ],
           [
-            -122.8380954,
-            49.2787732
+            -122.8390388,
+            49.2788688
+          ],
+          [
+            -122.8391498,
+            49.2789015
           ]
         ]
       }
@@ -32493,8 +32501,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7878232,
-            49.2547394
+            -122.787802,
+            49.2547375
           ],
           [
             -122.7878344,
@@ -32698,8 +32706,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7878232,
-            49.2547394
+            -122.787802,
+            49.2547375
           ],
           [
             -122.7878125,
@@ -43826,6 +43834,64 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/1225522675",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "no",
+        "surface": "paving_stones",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8380975,
+            49.2782203
+          ],
+          [
+            -122.8380936,
+            49.2786276
+          ],
+          [
+            -122.8380937,
+            49.2787058
+          ],
+          [
+            -122.8381658,
+            49.2787158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1225522676",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "no",
+        "surface": "concrete",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8391498,
+            49.2789015
+          ],
+          [
+            -122.8392277,
+            49.2789056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/16170950",
         "cycleway": "shared_lane",
         "highway": "residential",
@@ -49736,6 +49802,42 @@
           [
             -122.8348053,
             49.2567596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1225522674",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "no",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8392277,
+            49.2789056
+          ],
+          [
+            -122.8392991,
+            49.2789874
+          ],
+          [
+            -122.8393592,
+            49.2790563
+          ],
+          [
+            -122.839406,
+            49.2791099
+          ],
+          [
+            -122.8394232,
+            49.2791302
           ]
         ]
       }

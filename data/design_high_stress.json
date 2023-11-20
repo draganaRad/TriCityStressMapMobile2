@@ -1631,6 +1631,10 @@
             49.2501333
           ],
           [
+            -122.7719859,
+            49.2501615
+          ],
+          [
             -122.7718978,
             49.2501808
           ],
@@ -1649,6 +1653,10 @@
           [
             -122.7667728,
             49.2501724
+          ],
+          [
+            -122.7666437,
+            49.2501721
           ],
           [
             -122.7633954,
@@ -2003,8 +2011,78 @@
             49.2522658
           ],
           [
+            -122.7691189,
+            49.2532298
+          ],
+          [
             -122.7691194,
             49.2532897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35197092",
+        "cycleway.left": "lane",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Murray Street",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8342506,
+            49.2805784
+          ],
+          [
+            -122.8350233,
+            49.2805947
+          ],
+          [
+            -122.8361363,
+            49.2806253
+          ],
+          [
+            -122.8363673,
+            49.2806311
+          ],
+          [
+            -122.8364943,
+            49.280632
+          ],
+          [
+            -122.8366133,
+            49.2806303
+          ],
+          [
+            -122.8367143,
+            49.2806278
+          ],
+          [
+            -122.8368703,
+            49.280619
+          ],
+          [
+            -122.8369573,
+            49.2806103
+          ],
+          [
+            -122.8370593,
+            49.2805977
+          ],
+          [
+            -122.8371963,
+            49.2805744
+          ],
+          [
+            -122.8372711,
+            49.2805664
           ]
         ]
       }
@@ -2036,6 +2114,10 @@
           [
             -122.7667727,
             49.2533042
+          ],
+          [
+            -122.7675667,
+            49.2532993
           ],
           [
             -122.7684591,
@@ -17531,6 +17613,10 @@
             49.2789085
           ],
           [
+            -122.8392991,
+            49.2789874
+          ],
+          [
             -122.8391391,
             49.279051
           ],
@@ -17553,6 +17639,60 @@
           [
             -122.8381486,
             49.2799935
+          ],
+          [
+            -122.8381075,
+            49.2801365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1189447945",
+        "cycleway.left": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Murray Street",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8372711,
+            49.2805664
+          ],
+          [
+            -122.8373921,
+            49.2805331
+          ],
+          [
+            -122.8375021,
+            49.2804968
+          ],
+          [
+            -122.8376361,
+            49.2804455
+          ],
+          [
+            -122.8377481,
+            49.2803919
+          ],
+          [
+            -122.8378481,
+            49.2803363
+          ],
+          [
+            -122.8379361,
+            49.2802819
+          ],
+          [
+            -122.8380171,
+            49.2802285
           ],
           [
             -122.8381075,
@@ -18548,6 +18688,10 @@
             49.2501333
           ],
           [
+            -122.7721336,
+            49.2502064
+          ],
+          [
             -122.772301,
             49.2509019
           ],
@@ -19471,6 +19615,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Shaughnessy Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
