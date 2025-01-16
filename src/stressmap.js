@@ -44,7 +44,7 @@ L.tileLayer(
 // Add BikeOttawa attribution
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 if (!L.Browser.mobile) { // add date on desktop. too clutered on mobile
-  map.attributionControl.addAttribution('updated June 2024');
+  map.attributionControl.addAttribution('updated Jan 2025');
 }
 
 // add geolocation on mobile
@@ -182,7 +182,7 @@ function toggleLayer(checkbox) {
 }
 
 function zoomChanged() {
-  console.log("DRAGANA::ZOOMEND", map.getZoom())
+  //console.log("DRAGANA::ZOOMEND", map.getZoom())
   designOnly = legendChecks['desig']
   lowStress = legendChecks['LS']
   highStress = legendChecks['HS']
@@ -204,13 +204,13 @@ function zoomChanged() {
 
       // add group to map if not already there
       if (!map.hasLayer(layerGroupAll)){
-        console.log("dragana:: adding layer");
+        //console.log("dragana:: adding layer");
         layerGroupAll.addTo(map);
       }
   }else{
     // zoom is below threshold, remove layerGroupAll
     if (map.hasLayer(layerGroupAll)){
-      console.log("dragana:: removing layer");
+      //console.log("dragana:: removing layer");
       layerGroupAll.clearLayers()
       map.removeLayer(layerGroupAll)
     }
