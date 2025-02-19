@@ -44,7 +44,7 @@ L.tileLayer(
 // Add BikeOttawa attribution
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 if (!L.Browser.mobile) { // add date on desktop. too clutered on mobile
-  map.attributionControl.addAttribution('updated Jan 2025');
+  map.attributionControl.addAttribution('updated Feb 2025');
 }
 
 // add geolocation on mobile

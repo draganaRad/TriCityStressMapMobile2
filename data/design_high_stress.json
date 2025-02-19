@@ -905,8 +905,12 @@
             49.2484242
           ],
           [
-            -122.8896238,
-            49.2481997
+            -122.889628,
+            49.2482779
+          ],
+          [
+            -122.8896268,
+            49.2481838
           ],
           [
             -122.8896132,
@@ -1455,7 +1459,7 @@
           ],
           [
             -122.8911812,
-            49.2431472
+            49.2431465
           ]
         ]
       }
@@ -2327,8 +2331,8 @@
             49.2572482
           ],
           [
-            -122.7826955,
-            49.257887
+            -122.7826942,
+            49.2578831
           ],
           [
             -122.7826959,
@@ -9000,8 +9004,8 @@
             49.2413269
           ],
           [
-            -122.8881391,
-            49.2413091
+            -122.8881376,
+            49.2412975
           ],
           [
             -122.8881387,
@@ -12208,10 +12212,11 @@
         "cycleway.left": "no",
         "cycleway.right": "lane",
         "highway": "primary",
+        "lanes": "2",
         "maxspeed": "60",
         "name": "Barnet Highway",
         "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
       },
       "geometry": {
         "type": "LineString",
@@ -13411,6 +13416,10 @@
           [
             -122.7785786,
             49.2585774
+          ],
+          [
+            -122.7785788,
+            49.2586182
           ],
           [
             -122.7785813,
@@ -16054,10 +16063,11 @@
         "id": "way/1000371683",
         "cycleway": "lane",
         "highway": "tertiary",
+        "lanes": "1",
         "name": "Glen Drive",
         "parking.both": "parallel",
         "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
       },
       "geometry": {
         "type": "LineString",
@@ -16163,10 +16173,11 @@
         "id": "way/1000371684",
         "cycleway": "lane",
         "highway": "tertiary",
+        "lanes": "1",
         "name": "Glen Drive",
         "parking.both": "parallel",
         "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
       },
       "geometry": {
         "type": "LineString",
@@ -16679,9 +16690,10 @@
         "bicycle": "yes",
         "cycleway": "shared_lane",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Whiting Way",
         "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
         "type": "LineString",
@@ -23842,10 +23854,6 @@
             49.2478825
           ],
           [
-            -122.7826867,
-            49.2488895
-          ],
-          [
             -122.7826787,
             49.2490404
           ],
@@ -29662,7 +29670,7 @@
         "cycleway.left": "no",
         "cycleway.right": "lane",
         "highway": "primary",
-        "lanes": "3",
+        "lanes": "5",
         "name": "Barnet Highway",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
@@ -29826,7 +29834,7 @@
         "cycleway.left": "no",
         "cycleway.right": "lane",
         "highway": "primary",
-        "lanes": "3",
+        "lanes": "5",
         "name": "Barnet Highway",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
@@ -29834,10 +29842,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -122.7993973,
-            49.2767142
-          ],
           [
             -122.7992156,
             49.2766723
@@ -33449,6 +33453,32 @@
           [
             -122.7289679,
             49.2560172
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1359246177",
+        "cycleway.left": "no",
+        "cycleway.right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Barnet Highway",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7993973,
+            49.2767142
+          ],
+          [
+            -122.7992156,
+            49.2766723
           ]
         ]
       }
