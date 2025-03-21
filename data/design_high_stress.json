@@ -2327,20 +2327,24 @@
             49.2570002
           ],
           [
-            -122.7826902,
-            49.2572482
+            -122.7826897,
+            49.257253
+          ],
+          [
+            -122.7826922,
+            49.2575587
+          ],
+          [
+            -122.7826941,
+            49.2578608
           ],
           [
             -122.7826942,
             49.2578831
           ],
           [
-            -122.7826959,
-            49.2581496
-          ],
-          [
-            -122.7826981,
-            49.2584927
+            -122.7826955,
+            49.2581592
           ],
           [
             -122.7827001,
@@ -2355,8 +2359,8 @@
             49.2595257
           ],
           [
-            -122.782708,
-            49.2599076
+            -122.7827075,
+            49.259912
           ],
           [
             -122.782708,
@@ -3006,6 +3010,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Forest Park Way",
+        "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='shared_lane'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
       },
       "geometry": {
@@ -5440,8 +5445,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8615466,
-            49.2343728
+            -122.8616486,
+            49.2343967
           ],
           [
             -122.8614383,
@@ -10149,75 +10154,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/456406734",
-        "bicycle": "yes",
-        "cycleway": "lane",
-        "foot": "no",
-        "highway": "secondary",
-        "lanes": "2",
-        "lanes.backward": "4",
-        "lanes.forward": "2",
-        "maxspeed": "50",
-        "name": "King Edward Street",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8617288,
-            49.2344103
-          ],
-          [
-            -122.8617261,
-            49.234316
-          ],
-          [
-            -122.8617264,
-            49.2342741
-          ],
-          [
-            -122.8617212,
-            49.2342156
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/456406735",
-        "bicycle": "yes",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "foot": "no",
-        "highway": "secondary",
-        "lanes": "2",
-        "lanes.backward": "4",
-        "lanes.forward": "2",
-        "maxspeed": "50",
-        "name": "King Edward Street",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.861719,
-            49.2340624
-          ],
-          [
-            -122.8617048,
-            49.2333282
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/456406739",
         "bicycle": "designated",
         "cycleway.left": "no",
@@ -10287,8 +10223,8 @@
             49.2345065
           ],
           [
-            -122.8615585,
-            49.2345272
+            -122.8616432,
+            49.2345465
           ]
         ]
       }
@@ -10297,7 +10233,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/456406743",
-        "bicycle": "yes",
+        "bicycle": "designated",
         "cycleway.left": "no",
         "cycleway.right": "lane",
         "highway": "primary",
@@ -10324,8 +10260,8 @@
             49.2344355
           ],
           [
-            -122.8617288,
-            49.2344103
+            -122.8616486,
+            49.2343967
           ]
         ]
       }
@@ -10349,8 +10285,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8617356,
-            49.2345599
+            -122.8616432,
+            49.2345465
           ],
           [
             -122.8618322,
@@ -13350,8 +13286,8 @@
             49.254062
           ],
           [
-            -122.7785325,
-            49.2541591
+            -122.7785312,
+            49.2541626
           ],
           [
             -122.7785331,
@@ -13518,6 +13454,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Forest Park Way",
+        "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='shared_lane'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
       },
       "geometry": {
@@ -16289,8 +16226,8 @@
             49.2599679
           ],
           [
-            -122.7826657,
-            49.2600642
+            -122.7826756,
+            49.2600416
           ],
           [
             -122.7826535,
@@ -17972,36 +17909,6 @@
           [
             -122.8381075,
             49.2801365
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1201175290",
-        "bicycle": "yes",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "lanes.backward": "4",
-        "lanes.forward": "2",
-        "maxspeed": "50",
-        "name": "King Edward Street",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8617212,
-            49.2342156
-          ],
-          [
-            -122.861719,
-            49.2340624
           ]
         ]
       }
@@ -19981,6 +19888,7 @@
         "lanes.forward": "1",
         "maxspeed": "50",
         "name": "David Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -20394,56 +20302,37 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1276593440",
+        "id": "way/1276593428",
         "bicycle": "yes",
-        "cycleway.right": "lane",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "60",
-        "name": "Lougheed Highway",
-        "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8615585,
-            49.2345272
-          ],
-          [
-            -122.8617356,
-            49.2345599
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1276593449",
-        "bicycle": "yes",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
+        "cycleway": "lane",
         "foot": "no",
         "highway": "secondary",
-        "lanes": "2",
+        "lanes": "6",
+        "lanes.backward": "2",
+        "lanes.forward": "4",
         "maxspeed": "50",
         "name": "King Edward Street",
         "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8617048,
-            49.2333282
+            -122.8616522,
+            49.2341581
           ],
           [
-            -122.8616185,
-            49.2328284
+            -122.8616548,
+            49.2342678
+          ],
+          [
+            -122.8616534,
+            49.2343027
+          ],
+          [
+            -122.8616486,
+            49.2343967
           ]
         ]
       }
@@ -22370,28 +22259,29 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1349714983",
-        "bicycle": "designated",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "primary",
-        "lanes": "3",
-        "maxspeed": "60",
-        "name": "Lougheed Highway",
-        "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "id": "way/1349714989",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "6",
+        "lanes.backward": "2",
+        "lanes.forward": "4",
+        "maxspeed": "50",
+        "name": "King Edward Street",
         "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8617288,
-            49.2344103
+            -122.8616296,
+            49.2333569
           ],
           [
-            -122.8615466,
-            49.2343728
+            -122.8616509,
+            49.2340921
           ]
         ]
       }
@@ -22445,6 +22335,136 @@
           [
             -122.7577126,
             49.2507987
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1362899109",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "6",
+        "lanes.backward": "2",
+        "lanes.forward": "4",
+        "maxspeed": "50",
+        "name": "King Edward Street",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8616509,
+            49.2340921
+          ],
+          [
+            -122.8616522,
+            49.2341581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369229705",
+        "cycleway.both": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Sheffield Avenue",
+        "decisionMsg": "Way has a bike lane because 'cycleway:both'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7394368,
+            49.2979424
+          ],
+          [
+            -122.7393495,
+            49.2979422
+          ],
+          [
+            -122.738491,
+            49.2979397
+          ],
+          [
+            -122.7383895,
+            49.2979395
+          ],
+          [
+            -122.738284,
+            49.297938
+          ],
+          [
+            -122.7375534,
+            49.2979373
+          ],
+          [
+            -122.7374957,
+            49.2979369
+          ],
+          [
+            -122.7373869,
+            49.2979362
+          ],
+          [
+            -122.7372299,
+            49.2979481
+          ],
+          [
+            -122.7371461,
+            49.2979573
+          ],
+          [
+            -122.7370571,
+            49.2979691
+          ],
+          [
+            -122.7369692,
+            49.2979869
+          ],
+          [
+            -122.7368872,
+            49.2980073
+          ],
+          [
+            -122.7362789,
+            49.2981858
+          ],
+          [
+            -122.7351785,
+            49.29851
+          ],
+          [
+            -122.7351079,
+            49.2985305
+          ],
+          [
+            -122.7350368,
+            49.29855
+          ],
+          [
+            -122.7349631,
+            49.2985675
+          ],
+          [
+            -122.7348887,
+            49.2985832
+          ],
+          [
+            -122.734578,
+            49.2986477
+          ],
+          [
+            -122.7344443,
+            49.2986741
           ]
         ]
       }
@@ -25653,8 +25673,10 @@
         "id": "way/81605739",
         "cycleway": "shared_lane",
         "highway": "secondary",
+        "lanes": "2",
         "name": "David Avenue",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
         "type": "LineString",
@@ -25680,6 +25702,7 @@
         "lanes.backward": "1",
         "lanes.forward": "1",
         "name": "David Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
@@ -31810,6 +31833,7 @@
         "lanes.backward": "1",
         "lanes.forward": "2",
         "name": "David Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
@@ -31840,6 +31864,7 @@
         "lanes.backward": "1",
         "lanes.forward": "1",
         "name": "David Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
@@ -31878,6 +31903,7 @@
         "lanes.backward": "2",
         "lanes.forward": "1",
         "name": "David Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
@@ -31908,6 +31934,7 @@
         "lanes.backward": "1",
         "lanes.forward": "2",
         "name": "David Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
       "geometry": {
@@ -33369,8 +33396,8 @@
             49.2540507
           ],
           [
-            -122.7784054,
-            49.2540519
+            -122.778406,
+            49.254052
           ],
           [
             -122.7785303,

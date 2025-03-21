@@ -1236,6 +1236,7 @@
         "id": "way/35421737",
         "highway": "cycleway",
         "name": "Shoreline Trail Bike Route",
+        "surface": "concrete",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -2151,6 +2152,10 @@
           [
             -122.7731507,
             49.2829848
+          ],
+          [
+            -122.773167,
+            49.2829239
           ],
           [
             -122.7732207,
@@ -4920,6 +4925,7 @@
         "bicycle": "designated",
         "highway": "footway",
         "name": "Westside Trail",
+        "surface": "gravel",
         "decisionMsg": "This way is a separated path because highway='footway' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -8950,6 +8956,7 @@
         "id": "way/81610493",
         "highway": "cycleway",
         "name": "Shoreline Trail Bike Route",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -10205,6 +10212,7 @@
         "bicycle": "yes",
         "highway": "cycleway",
         "name": "Shoreline Trail Bike Route",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -12465,43 +12473,6 @@
           [
             -122.8661716,
             49.2530632
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/270775546",
-        "highway": "cycleway",
-        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8634776,
-            49.2538267
-          ],
-          [
-            -122.8635071,
-            49.2524001
-          ],
-          [
-            -122.8635149,
-            49.2519254
-          ],
-          [
-            -122.8634625,
-            49.2518481
-          ],
-          [
-            -122.8635831,
-            49.2518103
-          ],
-          [
-            -122.8636018,
-            49.2515595
           ]
         ]
       }
@@ -18455,7 +18426,8 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
-        "surface": "paved",
+        "segregated": "no",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -22532,6 +22504,104 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/716896401",
+        "highway": "cycleway",
+        "surface": "concrete",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.848514,
+            49.2793698
+          ],
+          [
+            -122.8484511,
+            49.2793684
+          ],
+          [
+            -122.8483252,
+            49.2793657
+          ],
+          [
+            -122.8480309,
+            49.2793594
+          ],
+          [
+            -122.847931,
+            49.2793647
+          ],
+          [
+            -122.8478455,
+            49.2793794
+          ],
+          [
+            -122.8477793,
+            49.2793985
+          ],
+          [
+            -122.8476275,
+            49.2794592
+          ],
+          [
+            -122.8475082,
+            49.2794814
+          ],
+          [
+            -122.8474013,
+            49.2794768
+          ],
+          [
+            -122.8472589,
+            49.2794603
+          ],
+          [
+            -122.8468536,
+            49.2794419
+          ],
+          [
+            -122.8466755,
+            49.2794254
+          ],
+          [
+            -122.8465999,
+            49.2794183
+          ],
+          [
+            -122.846562,
+            49.2794174
+          ],
+          [
+            -122.8465338,
+            49.2794198
+          ],
+          [
+            -122.8465056,
+            49.2794246
+          ],
+          [
+            -122.8464616,
+            49.2794424
+          ],
+          [
+            -122.8462966,
+            49.2795293
+          ],
+          [
+            -122.8459079,
+            49.2796851
+          ],
+          [
+            -122.8457529,
+            49.2797192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/717434626",
         "bicycle": "designated",
         "foot": "designated",
@@ -22615,35 +22685,6 @@
           [
             -122.8380975,
             49.2782203
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/720607330",
-        "bicycle": "yes",
-        "foot": "designated",
-        "highway": "cycleway",
-        "segregated": "no",
-        "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8584779,
-            49.2777613
-          ],
-          [
-            -122.8584751,
-            49.2777025
-          ],
-          [
-            -122.858461,
-            49.2772722
           ]
         ]
       }
@@ -29036,6 +29077,10 @@
             49.254478
           ],
           [
+            -122.7927104,
+            49.2544548
+          ],
+          [
             -122.7926971,
             49.25442
           ],
@@ -29152,20 +29197,20 @@
             49.2522856
           ],
           [
-            -122.7946582,
-            49.2521362
+            -122.7946368,
+            49.2521671
           ],
           [
-            -122.794684,
-            49.2521205
+            -122.7946876,
+            49.2521221
           ],
           [
-            -122.7947546,
-            49.2520591
+            -122.794721,
+            49.2520574
           ],
           [
-            -122.7947902,
-            49.2520288
+            -122.7947327,
+            49.2520451
           ]
         ]
       }
@@ -31772,8 +31817,8 @@
             49.2578287
           ],
           [
-            -122.7806383,
-            49.2578472
+            -122.780638,
+            49.2578448
           ],
           [
             -122.7806357,
@@ -31851,8 +31896,8 @@
             49.256511
           ],
           [
-            -122.7806737,
-            49.2565411
+            -122.7806733,
+            49.2565521
           ],
           [
             -122.780675,
@@ -33917,6 +33962,10 @@
             49.2514584
           ],
           [
+            -122.7957055,
+            49.2515195
+          ],
+          [
             -122.7954582,
             49.251605
           ]
@@ -33961,16 +34010,40 @@
             49.2589916
           ],
           [
-            -122.7882637,
-            49.2582108
+            -122.7882663,
+            49.2582421
           ],
           [
-            -122.7882571,
-            49.2581899
+            -122.7882735,
+            49.2582267
           ],
           [
-            -122.7882483,
-            49.2581744
+            -122.7882812,
+            49.2582146
+          ],
+          [
+            -122.7882996,
+            49.258205
+          ],
+          [
+            -122.7883258,
+            49.2581936
+          ],
+          [
+            -122.7883443,
+            49.2581862
+          ],
+          [
+            -122.7883632,
+            49.2581797
+          ],
+          [
+            -122.7883698,
+            49.2581676
+          ],
+          [
+            -122.7883649,
+            49.2581535
           ]
         ]
       }
@@ -34013,16 +34086,12 @@
             49.2549909
           ],
           [
-            -122.7879127,
-            49.2550385
+            -122.7879208,
+            49.2550498
           ],
           [
-            -122.787937,
-            49.2550832
-          ],
-          [
-            -122.7879412,
-            49.2550895
+            -122.7879444,
+            49.2550913
           ],
           [
             -122.7880069,
@@ -34081,32 +34150,44 @@
             49.2564293
           ],
           [
-            -122.788221,
-            49.2572977
+            -122.7882278,
+            49.257304
           ],
           [
-            -122.7882196,
-            49.2579601
+            -122.7882307,
+            49.2579542
           ],
           [
-            -122.7882194,
-            49.2580689
+            -122.7882308,
+            49.2580205
           ],
           [
-            -122.7882192,
-            49.2580766
+            -122.7882337,
+            49.2580371
           ],
           [
-            -122.7882207,
-            49.2580838
+            -122.788239,
+            49.258046
           ],
           [
-            -122.7882248,
-            49.2580893
+            -122.7882507,
+            49.2580576
           ],
           [
-            -122.7882312,
-            49.2580937
+            -122.7882724,
+            49.2580658
+          ],
+          [
+            -122.7882927,
+            49.2580642
+          ],
+          [
+            -122.7883203,
+            49.2580594
+          ],
+          [
+            -122.7883271,
+            49.2580732
           ]
         ]
       }
@@ -34265,12 +34346,8 @@
             49.251605
           ],
           [
-            -122.794819,
-            49.251978
-          ],
-          [
-            -122.7947902,
-            49.2520288
+            -122.7948251,
+            49.2519769
           ]
         ]
       }
@@ -35145,8 +35222,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8588538,
-            49.2776982
+            -122.8588548,
+            49.2777706
           ],
           [
             -122.8588554,
@@ -35367,7 +35444,8 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
-        "surface": "paved",
+        "segregated": "no",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -35396,7 +35474,8 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
-        "surface": "paved",
+        "segregated": "no",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -36298,6 +36377,10 @@
             49.2615045
           ],
           [
+            -122.7806996,
+            49.2614643
+          ],
+          [
             -122.7811147,
             49.2610472
           ],
@@ -36767,411 +36850,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1011550688",
-        "bicycle": "designated",
-        "foot": "designated",
-        "footway": "sidewalk",
-        "highway": "footway",
-        "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='footway' but it is not a crossing.,Separated paths are always LTS=1."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7463778,
-            49.2949982
-          ],
-          [
-            -122.7459421,
-            49.295104
-          ],
-          [
-            -122.7453864,
-            49.2952367
-          ],
-          [
-            -122.7447671,
-            49.2953891
-          ],
-          [
-            -122.7441778,
-            49.2955356
-          ],
-          [
-            -122.7442167,
-            49.2955841
-          ],
-          [
-            -122.7443282,
-            49.2956787
-          ],
-          [
-            -122.7445299,
-            49.295793
-          ],
-          [
-            -122.7448308,
-            49.295988
-          ],
-          [
-            -122.7449653,
-            49.2959419
-          ],
-          [
-            -122.74557,
-            49.2957947
-          ],
-          [
-            -122.7461129,
-            49.2956561
-          ],
-          [
-            -122.7461759,
-            49.295615
-          ],
-          [
-            -122.7463102,
-            49.2956127
-          ],
-          [
-            -122.7463849,
-            49.2956424
-          ],
-          [
-            -122.7464164,
-            49.2956843
-          ],
-          [
-            -122.7464211,
-            49.2957233
-          ],
-          [
-            -122.7464106,
-            49.2957467
-          ],
-          [
-            -122.746365,
-            49.2957855
-          ],
-          [
-            -122.7462915,
-            49.2958175
-          ],
-          [
-            -122.7462133,
-            49.2958122
-          ],
-          [
-            -122.7461479,
-            49.2957947
-          ],
-          [
-            -122.7455104,
-            49.2959569
-          ],
-          [
-            -122.7449687,
-            49.296084
-          ],
-          [
-            -122.7450364,
-            49.2961495
-          ],
-          [
-            -122.74518,
-            49.2962264
-          ],
-          [
-            -122.7453213,
-            49.2962698
-          ],
-          [
-            -122.7455676,
-            49.296298
-          ],
-          [
-            -122.74564,
-            49.2962842
-          ],
-          [
-            -122.7457007,
-            49.2962469
-          ],
-          [
-            -122.7457696,
-            49.2962363
-          ],
-          [
-            -122.745849,
-            49.2962439
-          ],
-          [
-            -122.7459156,
-            49.2962744
-          ],
-          [
-            -122.7459377,
-            49.2963292
-          ],
-          [
-            -122.7459307,
-            49.2963794
-          ],
-          [
-            -122.7458829,
-            49.2964259
-          ],
-          [
-            -122.7458094,
-            49.2964388
-          ],
-          [
-            -122.7457381,
-            49.296432
-          ],
-          [
-            -122.7456716,
-            49.2964213
-          ],
-          [
-            -122.7454266,
-            49.2964209
-          ],
-          [
-            -122.7451603,
-            49.2963758
-          ],
-          [
-            -122.7449306,
-            49.2962711
-          ],
-          [
-            -122.7447562,
-            49.2961296
-          ],
-          [
-            -122.7446094,
-            49.2960113
-          ],
-          [
-            -122.7442964,
-            49.2958323
-          ],
-          [
-            -122.7441175,
-            49.2957104
-          ],
-          [
-            -122.7440158,
-            49.2955963
-          ],
-          [
-            -122.7439894,
-            49.2955831
-          ],
-          [
-            -122.7437313,
-            49.2956454
-          ],
-          [
-            -122.7435747,
-            49.2957011
-          ],
-          [
-            -122.7434589,
-            49.2957727
-          ],
-          [
-            -122.7433288,
-            49.2959066
-          ],
-          [
-            -122.7432353,
-            49.2960153
-          ],
-          [
-            -122.7436743,
-            49.2962154
-          ],
-          [
-            -122.7439711,
-            49.2963997
-          ],
-          [
-            -122.7441077,
-            49.2964958
-          ],
-          [
-            -122.7442029,
-            49.2965627
-          ],
-          [
-            -122.7444569,
-            49.2967908
-          ],
-          [
-            -122.7446444,
-            49.2970025
-          ],
-          [
-            -122.7447845,
-            49.2971905
-          ],
-          [
-            -122.7449588,
-            49.297437
-          ],
-          [
-            -122.7449546,
-            49.2974563
-          ],
-          [
-            -122.7449761,
-            49.297451
-          ],
-          [
-            -122.7450058,
-            49.2974448
-          ],
-          [
-            -122.7452402,
-            49.2973503
-          ],
-          [
-            -122.7453602,
-            49.2972999
-          ],
-          [
-            -122.7454175,
-            49.2972763
-          ],
-          [
-            -122.7454363,
-            49.2972673
-          ],
-          [
-            -122.7454629,
-            49.2972511
-          ],
-          [
-            -122.7454815,
-            49.2972379
-          ],
-          [
-            -122.7454972,
-            49.2972253
-          ],
-          [
-            -122.7455106,
-            49.2972111
-          ],
-          [
-            -122.7455174,
-            49.2971975
-          ],
-          [
-            -122.7455101,
-            49.2971821
-          ],
-          [
-            -122.7454979,
-            49.2971715
-          ],
-          [
-            -122.7454792,
-            49.2971555
-          ],
-          [
-            -122.7454619,
-            49.2971365
-          ],
-          [
-            -122.7454552,
-            49.2971224
-          ],
-          [
-            -122.7454547,
-            49.2971049
-          ],
-          [
-            -122.745457,
-            49.2970871
-          ],
-          [
-            -122.7454623,
-            49.2970708
-          ],
-          [
-            -122.7454728,
-            49.2970545
-          ],
-          [
-            -122.7454974,
-            49.2970384
-          ],
-          [
-            -122.745523,
-            49.2970272
-          ],
-          [
-            -122.7455517,
-            49.2970194
-          ],
-          [
-            -122.7455788,
-            49.2970158
-          ],
-          [
-            -122.7456139,
-            49.2970162
-          ],
-          [
-            -122.745636,
-            49.2970196
-          ],
-          [
-            -122.7456564,
-            49.2970257
-          ],
-          [
-            -122.7456905,
-            49.2970421
-          ],
-          [
-            -122.7457068,
-            49.2970557
-          ],
-          [
-            -122.7457221,
-            49.2970789
-          ],
-          [
-            -122.7457271,
-            49.2971025
-          ],
-          [
-            -122.7457239,
-            49.2971364
-          ],
-          [
-            -122.745719,
-            49.2971614
-          ],
-          [
-            -122.7457076,
-            49.2971908
-          ],
-          [
-            -122.7456938,
-            49.2972184
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1011967118",
         "bicycle": "designated",
         "cycleway": "crossing",
@@ -37413,6 +37091,10 @@
           [
             -122.7806372,
             49.2579303
+          ],
+          [
+            -122.7806374,
+            49.2579576
           ],
           [
             -122.7806375,
@@ -45518,7 +45200,7 @@
         "highway": "cycleway",
         "name": "Poco Trail",
         "segregated": "no",
-        "surface": "asphalt",
+        "surface": "concrete",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -46034,35 +45716,6 @@
           [
             -122.7956951,
             49.275896
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1210627696",
-        "bicycle": "yes",
-        "foot": "designated",
-        "highway": "cycleway",
-        "segregated": "no",
-        "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.858845,
-            49.2772714
-          ],
-          [
-            -122.8588467,
-            49.2773666
-          ],
-          [
-            -122.8588538,
-            49.2776982
           ]
         ]
       }
@@ -46918,6 +46571,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "segregated": "no",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -46974,6 +46629,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "segregated": "no",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -47001,6 +46657,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "segregated": "no",
+        "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -51344,6 +51002,114 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/1368037555",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "concrete",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7883271,
+            49.2580732
+          ],
+          [
+            -122.7883418,
+            49.2581054
+          ],
+          [
+            -122.7883602,
+            49.2581423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1368037559",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "concrete",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7883649,
+            49.2581535
+          ],
+          [
+            -122.7883625,
+            49.2581478
+          ],
+          [
+            -122.7883602,
+            49.2581423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1368040890",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "Poco Trail",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7947327,
+            49.2520451
+          ],
+          [
+            -122.7947703,
+            49.2520173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1368040891",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7948251,
+            49.2519769
+          ],
+          [
+            -122.7947703,
+            49.2520173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/16170950",
         "cycleway": "shared_lane",
         "highway": "residential",
@@ -51725,6 +51491,7 @@
         "cycleway": "shared_lane",
         "highway": "residential",
         "name": "Chine Drive",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -52506,12 +52273,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.788019,
-            49.2590302
+            -122.7880335,
+            49.2590305
           ],
           [
             -122.7879513,
             49.2590305
+          ],
+          [
+            -122.7865303,
+            49.2590375
+          ],
+          [
+            -122.7854206,
+            49.259043
           ],
           [
             -122.785314,
@@ -52522,6 +52297,10 @@
             49.2590457
           ],
           [
+            -122.7845204,
+            49.2590505
+          ],
+          [
             -122.783391,
             49.2590591
           ],
@@ -52530,8 +52309,16 @@
             49.2590599
           ],
           [
+            -122.7828228,
+            49.25906
+          ],
+          [
             -122.7827001,
             49.2590602
+          ],
+          [
+            -122.7825936,
+            49.2590606
           ],
           [
             -122.782545,
@@ -53829,6 +53616,10 @@
             49.2560931
           ],
           [
+            -122.7825697,
+            49.2560936
+          ],
+          [
             -122.7825289,
             49.2560938
           ],
@@ -53845,8 +53636,8 @@
             49.2561018
           ],
           [
-            -122.7791984,
-            49.2560968
+            -122.7792061,
+            49.2560985
           ],
           [
             -122.7787037,
@@ -53884,6 +53675,7 @@
         "lanes": "2",
         "name": "McAllister Avenue",
         "parking.lane.both": "parallel",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -56665,8 +56457,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7947902,
-            49.2520288
+            -122.7947703,
+            49.2520173
+          ],
+          [
+            -122.7947903,
+            49.2520293
           ],
           [
             -122.7948067,
