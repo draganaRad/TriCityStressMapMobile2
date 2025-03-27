@@ -7301,10 +7301,6 @@
             49.2804893
           ],
           [
-            -122.8297004,
-            49.2804862
-          ],
-          [
             -122.8295492,
             49.2804807
           ],
@@ -8755,16 +8751,16 @@
             49.2806763
           ],
           [
-            -122.8283215,
-            49.2806475
+            -122.8283226,
+            49.2806459
           ],
           [
-            -122.8285164,
-            49.2806286
+            -122.8285058,
+            49.2806243
           ],
           [
-            -122.8287475,
-            49.2806156
+            -122.8287478,
+            49.2806122
           ]
         ]
       }
@@ -11932,8 +11928,8 @@
             49.2803175
           ],
           [
-            -122.831203,
-            49.2803756
+            -122.8311957,
+            49.2803822
           ],
           [
             -122.8311415,
@@ -11944,8 +11940,8 @@
             49.2804461
           ],
           [
-            -122.830859,
-            49.280489
+            -122.8308591,
+            49.2804863
           ]
         ]
       }
@@ -16511,12 +16507,12 @@
             49.2808608
           ],
           [
-            -122.8278395,
-            49.2808089
+            -122.8278529,
+            49.2807934
           ],
           [
-            -122.8278922,
-            49.2807411
+            -122.8279002,
+            49.2807305
           ]
         ]
       }
@@ -23110,20 +23106,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8686629,
-            49.236306
+            -122.8686732,
+            49.2363054
           ],
           [
-            -122.8688698,
-            49.236217
+            -122.8688738,
+            49.2362203
           ],
           [
-            -122.8689404,
-            49.2361877
+            -122.8689686,
+            49.2361938
           ],
           [
-            -122.869163,
-            49.2360954
+            -122.8690917,
+            49.2361591
+          ],
+          [
+            -122.8692785,
+            49.2361238
           ]
         ]
       }
@@ -24635,16 +24635,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8683521,
-            49.2359697
+            -122.8682231,
+            49.2359447
           ],
           [
             -122.868515,
             49.236139
           ],
           [
-            -122.868662,
-            49.2362767
+            -122.8686732,
+            49.2363054
           ]
         ]
       }
@@ -25303,6 +25303,10 @@
           [
             -122.8675175,
             49.2376554
+          ],
+          [
+            -122.8675181,
+            49.2377671
           ],
           [
             -122.8675182,
@@ -26376,8 +26380,8 @@
             49.2356592
           ],
           [
-            -122.8684783,
-            49.2357391
+            -122.8684846,
+            49.2357358
           ],
           [
             -122.868409,
@@ -30328,16 +30332,8 @@
             49.2806003
           ],
           [
-            -122.8319692,
-            49.280604
-          ],
-          [
-            -122.832335,
-            49.2806045
-          ],
-          [
-            -122.8327592,
-            49.2806064
+            -122.8315079,
+            49.2806011
           ]
         ]
       }
@@ -30358,20 +30354,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8332121,
-            49.2805264
+            -122.8332556,
+            49.2805225
           ],
           [
             -122.8327259,
             49.2805119
           ],
           [
-            -122.8319051,
-            49.2804914
+            -122.8319031,
+            49.2804889
           ],
           [
-            -122.8313839,
-            49.2804909
+            -122.8315728,
+            49.2804862
+          ],
+          [
+            -122.8313831,
+            49.2804859
           ]
         ]
       }
@@ -30391,12 +30391,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8287475,
-            49.2806156
+            -122.8287478,
+            49.2806122
           ],
           [
-            -122.8292187,
-            49.280602
+            -122.829216,
+            49.2805978
           ],
           [
             -122.8295789,
@@ -37429,8 +37429,8 @@
             49.2357015
           ],
           [
-            -122.8683521,
-            49.2359697
+            -122.8682231,
+            49.2359447
           ]
         ]
       }
@@ -37456,8 +37456,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8686654,
-            49.23599
+            -122.8686768,
+            49.2359916
           ],
           [
             -122.8689131,
@@ -47724,20 +47724,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8683521,
-            49.2359697
+            -122.8683659,
+            49.2359707
           ],
           [
-            -122.8684844,
-            49.2359961
+            -122.8685135,
+            49.2359806
           ],
           [
-            -122.86855,
-            49.2360097
+            -122.8685494,
+            49.235983
           ],
           [
-            -122.8686654,
-            49.23599
+            -122.8686768,
+            49.2359916
           ]
         ]
       }
@@ -47761,16 +47761,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8686654,
-            49.23599
+            -122.8686768,
+            49.2359916
           ],
           [
-            -122.868543,
-            49.2358793
+            -122.868547,
+            49.2359233
           ],
           [
-            -122.8682881,
-            49.235825
+            -122.8684081,
+            49.2358502
           ]
         ]
       }
@@ -47791,12 +47791,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8686629,
-            49.236306
+            -122.8686732,
+            49.2363054
           ],
           [
-            -122.868662,
-            49.2362767
+            -122.8686746,
+            49.2361774
+          ],
+          [
+            -122.8686745,
+            49.236149
+          ],
+          [
+            -122.8686768,
+            49.2359916
           ]
         ]
       }
@@ -50030,8 +50038,8 @@
             49.2807745
           ],
           [
-            -122.8278922,
-            49.2807411
+            -122.8279002,
+            49.2807305
           ]
         ]
       }
@@ -53575,16 +53583,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8313839,
-            49.2804909
+            -122.8313831,
+            49.2804859
           ],
           [
-            -122.831273,
-            49.280489
+            -122.8312757,
+            49.280486
           ],
           [
-            -122.830859,
-            49.280489
+            -122.8308591,
+            49.2804863
           ]
         ]
       }
@@ -70576,20 +70584,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8568569,
-            49.2287899
+            -122.856925,
+            49.2287998
           ],
           [
             -122.8581225,
             49.2288843
           ],
           [
-            -122.8583639,
-            49.2289007
+            -122.8583626,
+            49.228904
           ],
           [
-            -122.8591583,
-            49.2287238
+            -122.8585517,
+            49.2288996
+          ],
+          [
+            -122.8591606,
+            49.2287683
+          ],
+          [
+            -122.8593738,
+            49.2287507
           ],
           [
             -122.8615711,
@@ -78233,8 +78249,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8278922,
-            49.2807411
+            -122.8279002,
+            49.2807305
           ],
           [
             -122.8281549,
@@ -79222,8 +79238,8 @@
             49.2805784
           ],
           [
-            -122.8337456,
-            49.2805506
+            -122.8337539,
+            49.2805347
           ]
         ]
       }
@@ -83283,8 +83299,12 @@
             49.2806064
           ],
           [
-            -122.8332095,
-            49.2806084
+            -122.8330807,
+            49.2806078
+          ],
+          [
+            -122.833253,
+            49.2806082
           ]
         ]
       }
@@ -83305,16 +83325,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8337456,
-            49.2805506
+            -122.8337539,
+            49.2805347
           ],
           [
-            -122.833468,
-            49.2805354
+            -122.8335072,
+            49.2805294
           ],
           [
-            -122.8332121,
-            49.2805264
+            -122.8334694,
+            49.2805286
+          ],
+          [
+            -122.8332556,
+            49.2805225
           ]
         ]
       }
@@ -84119,7 +84143,11 @@
             49.2805983
           ],
           [
-            -122.831272,
+            -122.8312319,
+            49.280599
+          ],
+          [
+            -122.8312769,
             49.280599
           ],
           [
@@ -85693,40 +85721,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1276519979",
-        "highway": "residential",
-        "lanes": "3",
-        "lanes.backward": "1",
-        "lanes.forward": "2",
-        "name": "Woolridge Street",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.868662,
-            49.2362767
-          ],
-          [
-            -122.8686608,
-            49.2361773
-          ],
-          [
-            -122.868659,
-            49.2361444
-          ],
-          [
-            -122.8686654,
-            49.23599
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1276519980",
         "highway": "unclassified",
         "lanes": "3",
@@ -85748,8 +85742,8 @@
             49.235827
           ],
           [
-            -122.8686654,
-            49.23599
+            -122.8686768,
+            49.2359916
           ]
         ]
       }
@@ -85778,8 +85772,8 @@
             49.2360709
           ],
           [
-            -122.869163,
-            49.2360954
+            -122.8692785,
+            49.2361238
           ]
         ]
       }
@@ -86654,8 +86648,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.830859,
-            49.280489
+            -122.8308591,
+            49.2804863
           ],
           [
             -122.8304984,
@@ -90547,20 +90541,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8564682,
-            49.2298989
+            -122.8564905,
+            49.229905
           ],
           [
-            -122.8567329,
-            49.2293411
+            -122.8566648,
+            49.2295731
           ],
           [
-            -122.8568061,
-            49.2290156
+            -122.8567627,
+            49.2293612
           ],
           [
-            -122.8568569,
-            49.2287899
+            -122.8568687,
+            49.2290205
+          ],
+          [
+            -122.856925,
+            49.2287998
           ],
           [
             -122.8570436,
@@ -91064,6 +91062,97 @@
           [
             -122.7344443,
             49.2986741
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867804",
+        "bicycle": "yes",
+        "cycleway.left": "no",
+        "cycleway.right": "lane",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Lougheed Highway",
+        "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8684081,
+            49.2358502
+          ],
+          [
+            -122.8682881,
+            49.235825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867806",
+        "bicycle": "yes",
+        "cycleway.left": "no",
+        "cycleway.right": "lane",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "60",
+        "name": "Lougheed Highway",
+        "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "surface": "asphalt",
+        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8682231,
+            49.2359447
+          ],
+          [
+            -122.8683659,
+            49.2359707
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1370239797",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Murray Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8315079,
+            49.2806011
+          ],
+          [
+            -122.8319692,
+            49.280604
+          ],
+          [
+            -122.832335,
+            49.2806045
+          ],
+          [
+            -122.8327592,
+            49.2806064
           ]
         ]
       }
@@ -97157,28 +97246,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8677747,
-            49.2375999
+            -122.8681542,
+            49.2375434
           ],
           [
-            -122.8683882,
-            49.23752
-          ],
-          [
-            -122.868887,
-            49.237436
-          ],
-          [
-            -122.8691028,
-            49.2373969
-          ],
-          [
-            -122.8691532,
-            49.2373877
-          ],
-          [
-            -122.8692345,
-            49.2373731
+            -122.8683996,
+            49.2375224
           ]
         ]
       }
@@ -100000,6 +100073,10 @@
             49.2376998
           ],
           [
+            -122.866743,
+            49.2378261
+          ],
+          [
             -122.8658112,
             49.2380093
           ],
@@ -100615,24 +100692,12 @@
             49.2372884
           ],
           [
-            -122.869149,
+            -122.8691491,
             49.2373025
           ],
           [
-            -122.8690862,
-            49.2373131
-          ],
-          [
-            -122.868682,
-            49.2374083
-          ],
-          [
-            -122.8683862,
-            49.2374636
-          ],
-          [
-            -122.8677747,
-            49.2375999
+            -122.8686941,
+            49.2373983
           ]
         ]
       }
@@ -101496,14 +101561,6 @@
           [
             -122.832937,
             49.2490661
-          ],
-          [
-            -122.8287973,
-            49.2490802
-          ],
-          [
-            -122.8278852,
-            49.249086
           ],
           [
             -122.8245295,
@@ -104250,8 +104307,8 @@
             49.2362131
           ],
           [
-            -122.8704778,
-            49.2363719
+            -122.8698646,
+            49.2362432
           ]
         ]
       }
@@ -108537,8 +108594,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.869163,
-            49.2360954
+            -122.8692785,
+            49.2361238
           ],
           [
             -122.8697211,
@@ -119015,8 +119072,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8677747,
-            49.2375999
+            -122.8681542,
+            49.2375434
           ],
           [
             -122.8675175,
@@ -122219,8 +122276,8 @@
             49.2298595
           ],
           [
-            -122.8564682,
-            49.2298989
+            -122.8564905,
+            49.229905
           ],
           [
             -122.8566439,
@@ -126273,12 +126330,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8332095,
+            -122.833253,
+            49.2806082
+          ],
+          [
+            -122.8334653,
             49.2806084
           ],
           [
-            -122.833464,
-            49.2806084
+            -122.8337506,
+            49.2806101
           ],
           [
             -122.8342506,
@@ -134957,23 +135018,23 @@
           ],
           [
             -122.8706899,
-            49.2370841
+            49.2370842
           ],
           [
-            -122.8708436,
-            49.2370386
+            -122.8708437,
+            49.2370388
           ],
           [
-            -122.8712403,
-            49.2369213
+            -122.8712407,
+            49.2369218
           ],
           [
-            -122.8716521,
-            49.2367996
+            -122.8716526,
+            49.2368004
           ],
           [
-            -122.8717297,
-            49.2367764
+            -122.8717304,
+            49.2367775
           ],
           [
             -122.871867,
@@ -135225,36 +135286,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8692345,
-            49.2373731
+            -122.869795,
+            49.2372853
           ],
           [
-            -122.8695977,
-            49.2373157
+            -122.8699188,
+            49.2372586
           ],
           [
-            -122.8697903,
-            49.2372759
+            -122.8700273,
+            49.2372352
           ],
           [
-            -122.8699177,
-            49.2372496
-          ],
-          [
-            -122.87002,
-            49.2372284
-          ],
-          [
-            -122.8700577,
-            49.2372206
-          ],
-          [
-            -122.8703475,
-            49.2371643
-          ],
-          [
-            -122.870507,
-            49.237131
+            -122.8705073,
+            49.2371316
           ],
           [
             -122.8705883,
@@ -135281,12 +135326,12 @@
             49.2366999
           ],
           [
-            -122.8715633,
-            49.2367352
+            -122.8715647,
+            49.2367373
           ],
           [
-            -122.8711704,
-            49.2368525
+            -122.8711707,
+            49.236853
           ],
           [
             -122.8707456,
@@ -135313,8 +135358,8 @@
             49.2369778
           ],
           [
-            -122.8706403,
-            49.2370008
+            -122.8706408,
+            49.2370006
           ],
           [
             -122.8699895,
@@ -140444,6 +140489,165 @@
           [
             -122.8616296,
             49.2333569
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867788",
+        "cycleway.left": "no",
+        "highway": "secondary",
+        "name": "Brunette Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8683862,
+            49.2374604
+          ],
+          [
+            -122.8681542,
+            49.2375434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867790",
+        "cycleway.left": "no",
+        "highway": "secondary",
+        "name": "Brunette Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8683996,
+            49.2375224
+          ],
+          [
+            -122.8686943,
+            49.2374724
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867791",
+        "cycleway.left": "no",
+        "highway": "secondary",
+        "name": "Brunette Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8686943,
+            49.2374724
+          ],
+          [
+            -122.8691077,
+            49.237404
+          ],
+          [
+            -122.8691541,
+            49.2373963
+          ],
+          [
+            -122.869235,
+            49.2373829
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867793",
+        "cycleway.left": "no",
+        "highway": "secondary",
+        "name": "Brunette Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8686941,
+            49.2373983
+          ],
+          [
+            -122.8683862,
+            49.2374604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867796",
+        "cycleway.left": "no",
+        "highway": "secondary",
+        "name": "Brunette Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.869235,
+            49.2373829
+          ],
+          [
+            -122.869795,
+            49.2372853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1369867808",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "primary",
+        "lanes": "7",
+        "lanes.backward": "4",
+        "lanes.forward": "3",
+        "lit": "yes",
+        "maxspeed": "60",
+        "name": "Lougheed Highway",
+        "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8698646,
+            49.2362432
+          ],
+          [
+            -122.8704778,
+            49.2363719
           ]
         ]
       }
