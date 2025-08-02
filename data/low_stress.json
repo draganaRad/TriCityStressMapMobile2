@@ -178,6 +178,173 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/35198450",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.797941,
+            49.2851919
+          ],
+          [
+            -122.7961362,
+            49.2850652
+          ],
+          [
+            -122.7957397,
+            49.2850379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35198682",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Pinetree Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7922842,
+            49.2853086
+          ],
+          [
+            -122.7924231,
+            49.2850575
+          ],
+          [
+            -122.7924379,
+            49.28503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35210821",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.798078,
+            49.2853215
+          ],
+          [
+            -122.79821,
+            49.2853285
+          ],
+          [
+            -122.7985925,
+            49.2853396
+          ],
+          [
+            -122.7986759,
+            49.2853416
+          ],
+          [
+            -122.7987625,
+            49.2853435
+          ],
+          [
+            -122.7988336,
+            49.2853444
+          ],
+          [
+            -122.798909,
+            49.2853447
+          ],
+          [
+            -122.7989847,
+            49.2853448
+          ],
+          [
+            -122.799063,
+            49.285344
+          ],
+          [
+            -122.7992093,
+            49.2853417
+          ],
+          [
+            -122.7993508,
+            49.2853395
+          ],
+          [
+            -122.7994939,
+            49.2853352
+          ],
+          [
+            -122.7996064,
+            49.2853313
+          ],
+          [
+            -122.7997289,
+            49.2853265
+          ],
+          [
+            -122.7998731,
+            49.2853195
+          ],
+          [
+            -122.800015,
+            49.2853119
+          ],
+          [
+            -122.8001408,
+            49.2853041
+          ],
+          [
+            -122.8003119,
+            49.2852931
+          ],
+          [
+            -122.800481,
+            49.2852832
+          ],
+          [
+            -122.8006341,
+            49.2852754
+          ],
+          [
+            -122.8014147,
+            49.2852422
+          ],
+          [
+            -122.801454,
+            49.2852405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/40702320",
         "cycleway.left": "no",
         "cycleway.right": "track",
@@ -275,6 +442,35 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/76160131",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.801477,
+            49.2851303
+          ],
+          [
+            -122.800473,
+            49.2851726
+          ],
+          [
+            -122.7998029,
+            49.2851977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/76160132",
         "cycleway.right": "track",
         "highway": "secondary",
@@ -357,10 +553,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8184528,
-            49.2845769
-          ],
-          [
             -122.8185477,
             49.2846147
           ],
@@ -399,6 +591,49 @@
           [
             -122.821171,
             49.2847399
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/305606781",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7928278,
+            49.28494
+          ],
+          [
+            -122.7933329,
+            49.2849769
+          ],
+          [
+            -122.7936196,
+            49.2849972
+          ],
+          [
+            -122.7937152,
+            49.2850046
+          ],
+          [
+            -122.793816,
+            49.2850129
+          ],
+          [
+            -122.7940322,
+            49.2850325
           ]
         ]
       }
@@ -462,6 +697,170 @@
           [
             -122.8018755,
             49.2851158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/390357959",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7941047,
+            49.2849158
+          ],
+          [
+            -122.7940354,
+            49.284911
+          ],
+          [
+            -122.7938062,
+            49.2848938
+          ],
+          [
+            -122.7927432,
+            49.284816
+          ],
+          [
+            -122.7926891,
+            49.2848122
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/460228304",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7969736,
+            49.2852521
+          ],
+          [
+            -122.7978869,
+            49.285311
+          ],
+          [
+            -122.797924,
+            49.2853135
+          ],
+          [
+            -122.798078,
+            49.2853215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/461131151",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7926342,
+            49.2849238
+          ],
+          [
+            -122.7928278,
+            49.28494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/494676736",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7998029,
+            49.2851977
+          ],
+          [
+            -122.7995913,
+            49.2852047
+          ],
+          [
+            -122.7994013,
+            49.2852107
+          ],
+          [
+            -122.7992005,
+            49.2852142
+          ],
+          [
+            -122.7989997,
+            49.2852157
+          ],
+          [
+            -122.7988509,
+            49.285216
+          ],
+          [
+            -122.7987606,
+            49.2852158
+          ],
+          [
+            -122.7986677,
+            49.2852145
+          ],
+          [
+            -122.7985752,
+            49.2852123
+          ],
+          [
+            -122.7984827,
+            49.2852101
+          ],
+          [
+            -122.798262,
+            49.2852045
+          ],
+          [
+            -122.798228,
+            49.2852036
           ]
         ]
       }
@@ -618,10 +1017,6 @@
           [
             -122.818339,
             49.2845344
-          ],
-          [
-            -122.8184528,
-            49.2845769
           ]
         ]
       }
@@ -702,6 +1097,41 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/1299938836",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.794777,
+            49.2850958
+          ],
+          [
+            -122.7955279,
+            49.2851485
+          ],
+          [
+            -122.7962147,
+            49.2851937
+          ],
+          [
+            -122.7969736,
+            49.2852521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/1335805293",
         "cycleway.left": "no",
         "cycleway.right": "track",
@@ -730,6 +1160,129 @@
           [
             -122.8095441,
             49.2844823
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1338049312",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7957397,
+            49.2850379
+          ],
+          [
+            -122.7953975,
+            49.2850005
+          ],
+          [
+            -122.7948407,
+            49.2849595
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1338049313",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7940322,
+            49.2850325
+          ],
+          [
+            -122.7944232,
+            49.2850669
+          ],
+          [
+            -122.794467,
+            49.2850709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1338049316",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.794488,
+            49.2849363
+          ],
+          [
+            -122.7943007,
+            49.2849274
+          ],
+          [
+            -122.7942304,
+            49.2849236
+          ],
+          [
+            -122.7941622,
+            49.2849195
+          ],
+          [
+            -122.7941047,
+            49.2849158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418444281",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7948407,
+            49.2849595
+          ],
+          [
+            -122.7947992,
+            49.2849574
           ]
         ]
       }
@@ -836,14 +1389,6 @@
           [
             -122.8667499,
             49.2744936
-          ],
-          [
-            -122.8667509,
-            49.2744504
-          ],
-          [
-            -122.8667517,
-            49.2744144
           ]
         ]
       }
@@ -2282,6 +2827,10 @@
             49.2612352
           ],
           [
+            -122.8847751,
+            49.2611919
+          ],
+          [
             -122.8847416,
             49.260741
           ],
@@ -2296,6 +2845,49 @@
           [
             -122.8847316,
             49.2602317
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/31151562",
+        "highway": "residential",
+        "name": "Cottonwood Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8929699,
+            49.2588417
+          ],
+          [
+            -122.8929094,
+            49.258862
+          ],
+          [
+            -122.8928562,
+            49.2588714
+          ],
+          [
+            -122.8928089,
+            49.2588748
+          ],
+          [
+            -122.892769,
+            49.2588739
+          ],
+          [
+            -122.8926955,
+            49.2588629
+          ],
+          [
+            -122.8926145,
+            49.2588554
           ]
         ]
       }
@@ -2319,11 +2911,11 @@
           ],
           [
             -122.8828799,
-            49.2586756
+            49.2586717
           ],
           [
-            -122.8828799,
-            49.2586041
+            -122.8828817,
+            49.2585268
           ],
           [
             -122.8828945,
@@ -2426,30 +3018,51 @@
         "id": "way/31157329",
         "highway": "residential",
         "name": "Appian Way",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8827108,
-            49.25278
+            -122.8827131,
+            49.2527896
           ],
           [
-            -122.8826692,
-            49.2527674
+            -122.8826935,
+            49.2527771
           ],
           [
-            -122.879895,
-            49.2527545
+            -122.8826731,
+            49.2527709
           ],
           [
-            -122.8798558,
-            49.2527661
+            -122.8826406,
+            49.2527675
           ],
           [
-            -122.879846,
-            49.252792
+            -122.879988,
+            49.252751
+          ],
+          [
+            -122.8799572,
+            49.252756
+          ],
+          [
+            -122.8799208,
+            49.2527679
+          ],
+          [
+            -122.879897,
+            49.2527819
+          ],
+          [
+            -122.8798763,
+            49.2528002
+          ],
+          [
+            -122.879866,
+            49.2528229
           ]
         ]
       }
@@ -2685,8 +3298,12 @@
             49.2600815
           ],
           [
-            -122.8814969,
-            49.2601627
+            -122.8814929,
+            49.2600976
+          ],
+          [
+            -122.8814921,
+            49.2601676
           ]
         ]
       }
@@ -3339,8 +3956,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8826675,
-            49.2472266
+            -122.8823188,
+            49.2472178
+          ],
+          [
+            -122.882359,
+            49.247218
+          ],
+          [
+            -122.8823885,
+            49.2472181
           ],
           [
             -122.8852339,
@@ -3407,6 +4032,14 @@
           [
             -122.8822386,
             49.2472187
+          ],
+          [
+            -122.8822155,
+            49.2472183
+          ],
+          [
+            -122.882186,
+            49.2472179
           ],
           [
             -122.8819248,
@@ -4447,8 +5080,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8785161,
-            49.2599989
+            -122.8785471,
+            49.2600101
           ],
           [
             -122.8785387,
@@ -4529,6 +5162,10 @@
             49.2617501
           ],
           [
+            -122.8701053,
+            49.2617476
+          ],
+          [
             -122.869512,
             49.2617329
           ],
@@ -4553,6 +5190,7 @@
         "id": "way/31233013",
         "highway": "residential",
         "name": "Colinet Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -4895,8 +5533,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.858629,
-            49.2626036
+            -122.8582671,
+            49.2626055
           ],
           [
             -122.8586518,
@@ -8555,24 +9193,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8839344,
-            49.2405502
-          ],
-          [
-            -122.8839766,
-            49.2406087
-          ],
-          [
-            -122.8840513,
-            49.2406553
-          ],
-          [
-            -122.8841601,
-            49.2406866
-          ],
-          [
-            -122.8842893,
-            49.2407073
+            -122.884336,
+            49.2407074
           ],
           [
             -122.8851421,
@@ -10000,6 +10622,10 @@
             49.278836
           ],
           [
+            -122.8108265,
+            49.2788346
+          ],
+          [
             -122.8102606,
             49.2788298
           ],
@@ -10023,60 +10649,86 @@
       "properties": {
         "id": "way/34365970",
         "highway": "residential",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Flavelle Drive",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,Setting LTS to 2 because maxspeed is up to 40 km/h, 3 or fewer lanes and highway='residential'."
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 2 because maxspeed is up to 40 km/h, 3 or fewer lanes and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8579885,
-            49.3033614
+            -122.8583152,
+            49.3031833
           ],
           [
-            -122.8577899,
-            49.3034673
+            -122.8580007,
+            49.303369
           ],
           [
-            -122.8577013,
-            49.3035431
+            -122.8578192,
+            49.3034711
           ],
           [
-            -122.8576074,
-            49.3036686
+            -122.8577513,
+            49.3035226
           ],
           [
-            -122.857612,
-            49.3042012
+            -122.8576858,
+            49.3035887
           ],
           [
-            -122.8576132,
-            49.3043716
+            -122.8576336,
+            49.303666
           ],
           [
-            -122.8575862,
-            49.3045405
+            -122.8576122,
+            49.3037302
           ],
           [
-            -122.8575203,
-            49.3046585
+            -122.857605,
+            49.303818
           ],
           [
-            -122.8574234,
-            49.3047698
+            -122.8576293,
+            49.304192
           ],
           [
-            -122.8572636,
-            49.3048952
+            -122.8576397,
+            49.3043865
           ],
           [
-            -122.857056,
-            49.3049854
+            -122.8576022,
+            49.3045361
           ],
           [
-            -122.8559696,
-            49.3052913
+            -122.8575388,
+            49.3046641
+          ],
+          [
+            -122.8574348,
+            49.3047756
+          ],
+          [
+            -122.8573451,
+            49.3048545
+          ],
+          [
+            -122.8572587,
+            49.3049143
+          ],
+          [
+            -122.8570836,
+            49.3050077
+          ],
+          [
+            -122.8561473,
+            49.30529
+          ],
+          [
+            -122.8560665,
+            49.3052944
           ]
         ]
       }
@@ -10762,16 +11414,24 @@
             49.2739268
           ],
           [
-            -122.8908936,
-            49.2739189
+            -122.8906942,
+            49.2739149
           ],
           [
-            -122.8908653,
-            49.2738993
+            -122.8906526,
+            49.273903
           ],
           [
-            -122.8908701,
-            49.2738662
+            -122.8906553,
+            49.2738887
+          ],
+          [
+            -122.8906909,
+            49.2738796
+          ],
+          [
+            -122.8908316,
+            49.2738626
           ],
           [
             -122.8908893,
@@ -14898,6 +15558,10 @@
             49.2701199
           ],
           [
+            -122.7730121,
+            49.2701379
+          ],
+          [
             -122.7751218,
             49.270165
           ],
@@ -17090,8 +17754,12 @@
             49.2902793
           ],
           [
-            -122.8468438,
-            49.2902568
+            -122.8467826,
+            49.29027
+          ],
+          [
+            -122.8469342,
+            49.290254
           ],
           [
             -122.8471449,
@@ -19459,8 +20127,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.869351,
-            49.2766242
+            -122.8693483,
+            49.2766339
           ],
           [
             -122.869353,
@@ -22715,8 +23383,8 @@
             49.2782711
           ],
           [
-            -122.841354,
-            49.2787435
+            -122.8413556,
+            49.278734
           ],
           [
             -122.841354,
@@ -23368,6 +24036,10 @@
           [
             -122.8349525,
             49.2776448
+          ],
+          [
+            -122.8348377,
+            49.2776313
           ]
         ]
       }
@@ -23509,16 +24181,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.796264,
-            49.3031376
+            -122.7961882,
+            49.3030689
           ],
           [
-            -122.7962074,
-            49.3032593
+            -122.7962193,
+            49.3030777
           ],
           [
-            -122.7959402,
-            49.3034838
+            -122.7962503,
+            49.3030969
+          ],
+          [
+            -122.7962754,
+            49.3031254
+          ],
+          [
+            -122.7962842,
+            49.3031543
+          ],
+          [
+            -122.7962789,
+            49.3031879
+          ],
+          [
+            -122.7962589,
+            49.3032398
+          ],
+          [
+            -122.7962157,
+            49.3033007
+          ],
+          [
+            -122.7961277,
+            49.3033716
+          ],
+          [
+            -122.7960141,
+            49.3034251
+          ],
+          [
+            -122.7959776,
+            49.3034493
+          ],
+          [
+            -122.7959393,
+            49.3035137
           ]
         ]
       }
@@ -23622,8 +24330,8 @@
             49.2590742
           ],
           [
-            -122.7787059,
-            49.2590744
+            -122.7787082,
+            49.2590742
           ],
           [
             -122.7785813,
@@ -24020,16 +24728,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.869351,
-            49.2766242
-          ],
-          [
             -122.8693483,
-            49.2762353
+            49.2766339
           ],
           [
-            -122.8693283,
-            49.2761368
+            -122.8693249,
+            49.2764836
+          ],
+          [
+            -122.8692903,
+            49.2763981
           ]
         ]
       }
@@ -24242,8 +24950,8 @@
             49.2830885
           ],
           [
-            -122.8127949,
-            49.2833262
+            -122.8127958,
+            49.2833343
           ],
           [
             -122.8128072,
@@ -24256,6 +24964,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35195491",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Windsor Drive",
@@ -24293,32 +25002,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7959402,
-            49.3034838
+            -122.7959393,
+            49.3035137
           ],
           [
-            -122.7961887,
-            49.3035894
+            -122.7960531,
+            49.303541
           ],
           [
-            -122.7962662,
-            49.3037421
+            -122.7961264,
+            49.3035678
           ],
           [
-            -122.7962148,
-            49.3039081
+            -122.7961909,
+            49.303605
           ],
           [
-            -122.796036,
-            49.3039884
+            -122.7962292,
+            49.3036385
+          ],
+          [
+            -122.7962627,
+            49.3036946
+          ],
+          [
+            -122.7962731,
+            49.3037433
+          ],
+          [
+            -122.7962669,
+            49.3038612
+          ],
+          [
+            -122.7960117,
+            49.3040164
+          ],
+          [
+            -122.7957136,
+            49.3040646
           ],
           [
             -122.7952499,
             49.30417
           ],
           [
-            -122.7949822,
-            49.3042319
+            -122.7951583,
+            49.3041936
+          ],
+          [
+            -122.7949257,
+            49.304268
           ],
           [
             -122.7943702,
@@ -26783,28 +27516,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.832746,
-            49.2748035
+            -122.832744,
+            49.2748057
           ],
           [
             -122.8328798,
-            49.2748039
+            49.2748052
           ],
           [
             -122.8337874,
-            49.2747991
+            49.274802
           ],
           [
-            -122.8347283,
-            49.2747901
+            -122.8347284,
+            49.2747988
           ],
           [
-            -122.834741,
-            49.27479
+            -122.8347411,
+            49.2747987
           ],
           [
-            -122.8348725,
-            49.2747902
+            -122.834903,
+            49.2747981
           ]
         ]
       }
@@ -27505,7 +28238,7 @@
             49.272353
           ],
           [
-            -122.766506,
+            -122.766552,
             49.2723582
           ],
           [
@@ -27895,6 +28628,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35195684",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Edinburgh Drive",
@@ -28801,16 +29535,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8341646,
-            49.2974623
+            -122.8341418,
+            49.2975427
           ],
           [
-            -122.8341093,
-            49.297567
+            -122.8340634,
+            49.2975998
           ],
           [
-            -122.8334199,
-            49.297782
+            -122.833949,
+            49.2976476
+          ],
+          [
+            -122.8336803,
+            49.297731
+          ],
+          [
+            -122.833433,
+            49.2977994
           ],
           [
             -122.8332889,
@@ -31883,6 +32625,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35195922",
+        "access": "destination",
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
@@ -31901,28 +32644,64 @@
             49.2731888
           ],
           [
-            -122.8364901,
-            49.2735609
+            -122.8365686,
+            49.2734244
           ],
           [
-            -122.83647,
-            49.2735939
+            -122.8364573,
+            49.2736066
           ],
           [
-            -122.836375,
-            49.273819
+            -122.8364343,
+            49.273655
           ],
           [
-            -122.8363342,
-            49.2740737
+            -122.8364181,
+            49.2736995
           ],
           [
-            -122.8364129,
-            49.27423
+            -122.8363871,
+            49.2738138
           ],
           [
-            -122.8366057,
-            49.2742852
+            -122.8363623,
+            49.2739577
+          ],
+          [
+            -122.836359,
+            49.2739993
+          ],
+          [
+            -122.8363563,
+            49.2740335
+          ],
+          [
+            -122.8363597,
+            49.274069
+          ],
+          [
+            -122.8363713,
+            49.2741197
+          ],
+          [
+            -122.8363811,
+            49.274149
+          ],
+          [
+            -122.836397,
+            49.2741967
+          ],
+          [
+            -122.8364234,
+            49.2742256
+          ],
+          [
+            -122.8364672,
+            49.274251
+          ],
+          [
+            -122.8365386,
+            49.2742716
           ]
         ]
       }
@@ -32271,16 +33050,12 @@
             49.2597869
           ],
           [
-            -122.854073,
-            49.2598003
-          ],
-          [
             -122.8561422,
             49.2598152
           ],
           [
-            -122.8561874,
-            49.2598158
+            -122.8561932,
+            49.2598166
           ],
           [
             -122.8562953,
@@ -32355,6 +33130,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35195947",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Edinburgh Drive",
@@ -32674,12 +33450,12 @@
             49.2755056
           ],
           [
-            -122.8693089,
-            49.2755079
+            -122.8693036,
+            49.2755162
           ],
           [
-            -122.8695598,
-            49.2755135
+            -122.8695044,
+            49.2755562
           ]
         ]
       }
@@ -35859,24 +36635,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.840254,
-            49.2746463
+            -122.8402483,
+            49.274654
           ],
           [
-            -122.8402925,
-            49.274629
+            -122.8402824,
+            49.2746389
           ],
           [
-            -122.8403398,
-            49.2746154
+            -122.8403212,
+            49.2746281
           ],
           [
-            -122.8403886,
-            49.2746041
+            -122.8403841,
+            49.2746182
           ],
           [
-            -122.8404406,
-            49.2745991
+            -122.8404524,
+            49.2746129
+          ],
+          [
+            -122.8414939,
+            49.2746116
           ],
           [
             -122.8434568,
@@ -37840,6 +38620,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35196290",
+        "access": "destination",
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
@@ -37854,16 +38635,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8366057,
-            49.2742852
+            -122.8365386,
+            49.2742716
           ],
           [
-            -122.8360047,
-            49.2743447
+            -122.8364762,
+            49.2742886
           ],
           [
-            -122.8359864,
-            49.2743465
+            -122.8364205,
+            49.2743003
+          ],
+          [
+            -122.8360579,
+            49.2743364
+          ],
+          [
+            -122.8358865,
+            49.2743557
           ],
           [
             -122.8356011,
@@ -43592,8 +44381,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8578485,
-            49.2570588
+            -122.8578519,
+            49.2570536
+          ],
+          [
+            -122.8579479,
+            49.2570529
           ],
           [
             -122.8631806,
@@ -44668,36 +45461,8 @@
             49.2784446
           ],
           [
-            -122.784484,
-            49.2784467
-          ],
-          [
-            -122.7844246,
-            49.2784481
-          ],
-          [
-            -122.7843867,
-            49.278455
-          ],
-          [
-            -122.7843621,
-            49.278465
-          ],
-          [
-            -122.784345,
-            49.2784744
-          ],
-          [
-            -122.784332,
-            49.2784852
-          ],
-          [
-            -122.784325,
-            49.278498
-          ],
-          [
-            -122.7843178,
-            49.2785189
+            -122.7843203,
+            49.2784658
           ]
         ]
       }
@@ -46150,8 +46915,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8567679,
-            49.3016292
+            -122.8567642,
+            49.3016435
           ],
           [
             -122.8568774,
@@ -50392,6 +51157,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35197139",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Edinburgh Drive",
@@ -51750,12 +52516,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8550719,
-            49.2588553
-          ],
-          [
-            -122.8550763,
-            49.2588624
+            -122.855048,
+            49.2588359
           ],
           [
             -122.8551554,
@@ -52636,30 +53398,79 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Foxwood Court",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8404664,
-            49.2960893
+            -122.8396715,
+            49.2963303
           ],
           [
-            -122.8403861,
-            49.2961118
+            -122.839641,
+            49.2963019
           ],
           [
-            -122.8403499,
-            49.2961221
+            -122.8396069,
+            49.2962757
           ],
           [
-            -122.8396659,
-            49.2963154
+            -122.8395369,
+            49.2962458
           ],
           [
-            -122.8394375,
-            49.296297
+            -122.8394682,
+            49.2962315
+          ],
+          [
+            -122.8394192,
+            49.2962303
+          ],
+          [
+            -122.8393772,
+            49.2962397
+          ],
+          [
+            -122.8393464,
+            49.2962605
+          ],
+          [
+            -122.8393267,
+            49.2962885
+          ],
+          [
+            -122.8393267,
+            49.2963186
+          ],
+          [
+            -122.8393431,
+            49.2963485
+          ],
+          [
+            -122.8393739,
+            49.2963698
+          ],
+          [
+            -122.8394678,
+            49.2964012
+          ],
+          [
+            -122.8395159,
+            49.2964069
+          ],
+          [
+            -122.839557,
+            49.2964021
+          ],
+          [
+            -122.8396004,
+            49.2963847
+          ],
+          [
+            -122.8396715,
+            49.2963303
           ]
         ]
       }
@@ -52887,8 +53698,8 @@
             49.3068796
           ],
           [
-            -122.7916124,
-            49.307273
+            -122.791613,
+            49.307275
           ],
           [
             -122.7916867,
@@ -54029,12 +54840,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.840254,
-            49.2746463
+            -122.8402483,
+            49.274654
           ],
           [
-            -122.8402289,
-            49.274665
+            -122.8402272,
+            49.2746678
           ],
           [
             -122.8402081,
@@ -54049,12 +54860,12 @@
             49.2747285
           ],
           [
-            -122.8401603,
-            49.2747787
+            -122.8401645,
+            49.2747638
           ],
           [
-            -122.8401529,
-            49.2748454
+            -122.8401588,
+            49.2747902
           ],
           [
             -122.8401505,
@@ -54062,7 +54873,7 @@
           ],
           [
             -122.8401509,
-            49.2751523
+            49.2751402
           ],
           [
             -122.8401529,
@@ -55861,8 +56672,16 @@
             49.2569003
           ],
           [
+            -122.7853086,
+            49.2571907
+          ],
+          [
             -122.7853094,
             49.2572512
+          ],
+          [
+            -122.7853102,
+            49.2573243
           ],
           [
             -122.7853143,
@@ -57245,8 +58064,8 @@
             49.2955773
           ],
           [
-            -122.8397112,
-            49.2956501
+            -122.8397128,
+            49.2956472
           ]
         ]
       }
@@ -57507,19 +58326,35 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8370288,
-            49.2745093
+            -122.8370578,
+            49.2745974
           ],
           [
-            -122.8370248,
-            49.2754449
+            -122.8370527,
+            49.2749626
           ],
           [
-            -122.8370216,
-            49.2761837
+            -122.8370517,
+            49.2750323
           ],
           [
-            -122.837024,
+            -122.8370499,
+            49.275211
+          ],
+          [
+            -122.8370459,
+            49.2754442
+          ],
+          [
+            -122.8370408,
+            49.2758123
+          ],
+          [
+            -122.8370403,
+            49.2758448
+          ],
+          [
+            -122.8370304,
             49.2765528
           ],
           [
@@ -57755,7 +58590,15 @@
           ],
           [
             -122.8907115,
+            49.2595686
+          ],
+          [
+            -122.8907115,
             49.2595759
+          ],
+          [
+            -122.8907113,
+            49.2596053
           ],
           [
             -122.8907109,
@@ -57952,12 +58795,12 @@
             49.3134903
           ],
           [
-            -122.7913803,
-            49.3140281
+            -122.79136,
+            49.3140307
           ],
           [
-            -122.7914654,
-            49.3140745
+            -122.791478,
+            49.3141228
           ],
           [
             -122.7915856,
@@ -59087,8 +59930,8 @@
             49.2566095
           ],
           [
-            -122.8578485,
-            49.2570588
+            -122.8578519,
+            49.2570536
           ]
         ]
       }
@@ -60979,24 +61822,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8578515,
-            49.257964
+            -122.8578469,
+            49.2579535
           ],
           [
-            -122.8578612,
-            49.2579693
+            -122.8578799,
+            49.2579755
           ],
           [
-            -122.8578714,
-            49.2579737
-          ],
-          [
-            -122.8578834,
-            49.2579768
-          ],
-          [
-            -122.8578993,
-            49.2579794
+            -122.8579108,
+            49.2579823
           ],
           [
             -122.8631827,
@@ -61067,8 +61902,16 @@
             49.2572506
           ],
           [
+            -122.7854011,
+            49.2572511
+          ],
+          [
             -122.7853094,
             49.2572512
+          ],
+          [
+            -122.7852181,
+            49.2572513
           ],
           [
             -122.7833813,
@@ -62361,9 +63204,10 @@
         "id": "way/35197940",
         "highway": "residential",
         "lanes": "2",
+        "maxspeed": "30",
         "name": "Hope Street",
         "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 2 because maxspeed is up to 40 km/h, 3 or fewer lanes and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
@@ -62429,8 +63273,8 @@
             49.2751263
           ],
           [
-            -122.850188,
-            49.2751259
+            -122.850184,
+            49.2751255
           ],
           [
             -122.850085,
@@ -62489,8 +63333,12 @@
             49.2750873
           ],
           [
-            -122.8421664,
-            49.2750729
+            -122.8446425,
+            49.2750837
+          ],
+          [
+            -122.8421791,
+            49.2750725
           ]
         ]
       }
@@ -63050,8 +63898,8 @@
             49.2747277
           ],
           [
-            -122.832746,
-            49.2748035
+            -122.832744,
+            49.2748057
           ]
         ]
       }
@@ -63899,22 +64747,27 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Chevalier Court",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8576132,
-            49.3043716
+            -122.8576397,
+            49.3043865
           ],
           [
-            -122.8577992,
-            49.3043727
+            -122.8577983,
+            49.3043882
           ],
           [
-            -122.8588798,
-            49.304379
+            -122.857813,
+            49.3043882
+          ],
+          [
+            -122.8587654,
+            49.3043874
           ]
         ]
       }
@@ -64185,12 +65038,16 @@
             49.2766096
           ],
           [
-            -122.8694607,
-            49.2766197
+            -122.8695059,
+            49.2766245
           ],
           [
-            -122.869351,
-            49.2766242
+            -122.8694612,
+            49.2766256
+          ],
+          [
+            -122.8693483,
+            49.2766339
           ]
         ]
       }
@@ -65073,6 +65930,10 @@
           [
             -122.8861343,
             49.2601474
+          ],
+          [
+            -122.8861352,
+            49.2601889
           ],
           [
             -122.8861366,
@@ -67657,14 +68518,15 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Eagle Crescent",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8491231,
-            49.2971734
+            -122.8491723,
+            49.2972438
           ],
           [
             -122.849251,
@@ -68151,8 +69013,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8478512,
-            49.2788703
+            -122.8478458,
+            49.278871
           ],
           [
             -122.8478451,
@@ -69121,12 +69983,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8841473,
-            49.2594975
+            -122.8841462,
+            49.259498
           ],
           [
-            -122.8860228,
-            49.259517
+            -122.8851689,
+            49.2595081
+          ],
+          [
+            -122.8859896,
+            49.2595164
+          ],
+          [
+            -122.8860008,
+            49.2595166
           ],
           [
             -122.8861358,
@@ -70386,12 +71256,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.868693,
-            49.2766095
+            -122.8688708,
+            49.2766257
           ],
           [
-            -122.869351,
-            49.2766242
+            -122.8689956,
+            49.2766415
+          ],
+          [
+            -122.869228,
+            49.2766392
+          ],
+          [
+            -122.8693483,
+            49.2766339
           ]
         ]
       }
@@ -73698,6 +74576,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35198745",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Edinburgh Place",
@@ -73753,7 +74632,7 @@
       "properties": {
         "id": "way/35198751",
         "highway": "residential",
-        "lanes": "2",
+        "lanes": "1",
         "name": "Parkside Court",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
@@ -73761,36 +74640,72 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.846122,
-            49.2973166
+            -122.8460137,
+            49.2976793
           ],
           [
-            -122.8460659,
-            49.2974112
+            -122.846003,
+            49.2977315
           ],
           [
-            -122.846052,
-            49.2974343
+            -122.8460148,
+            49.2977781
           ],
           [
-            -122.8460198,
-            49.2975035
+            -122.8460856,
+            49.297889
           ],
           [
-            -122.8460002,
-            49.2975593
+            -122.8461095,
+            49.2979066
           ],
           [
-            -122.8459953,
-            49.2976214
+            -122.8461445,
+            49.2979167
           ],
           [
-            -122.8460128,
-            49.2976693
+            -122.8461888,
+            49.2979213
           ],
           [
-            -122.8461417,
-            49.2978412
+            -122.8462313,
+            49.2979164
+          ],
+          [
+            -122.8462692,
+            49.2979024
+          ],
+          [
+            -122.8462925,
+            49.2978823
+          ],
+          [
+            -122.8463056,
+            49.2978582
+          ],
+          [
+            -122.8463061,
+            49.2978326
+          ],
+          [
+            -122.8462935,
+            49.297808
+          ],
+          [
+            -122.8462682,
+            49.297787
+          ],
+          [
+            -122.8462113,
+            49.2977571
+          ],
+          [
+            -122.8461113,
+            49.2977148
+          ],
+          [
+            -122.8460137,
+            49.2976793
           ]
         ]
       }
@@ -74525,24 +75440,24 @@
             49.2579684
           ],
           [
-            -122.846271,
-            49.2579725
+            -122.8462708,
+            49.2579684
           ],
           [
-            -122.8463257,
-            49.2579738
+            -122.8463255,
+            49.257969
           ],
           [
-            -122.846412,
-            49.2579754
+            -122.8464118,
+            49.2579701
           ],
           [
-            -122.8465145,
-            49.2579761
+            -122.8465143,
+            49.2579713
           ],
           [
-            -122.8465605,
-            49.257976
+            -122.8465603,
+            49.2579719
           ],
           [
             -122.8514273,
@@ -75161,40 +76076,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8578485,
-            49.2570588
+            -122.8578519,
+            49.2570536
           ],
           [
-            -122.8578342,
-            49.2575124
+            -122.8578442,
+            49.2574992
           ],
           [
-            -122.8578277,
-            49.2578918
+            -122.8578354,
+            49.2578934
           ],
           [
-            -122.8578282,
-            49.2579175
+            -122.8578359,
+            49.2579191
           ],
           [
-            -122.8578304,
-            49.2579301
-          ],
-          [
-            -122.8578337,
-            49.2579402
-          ],
-          [
-            -122.8578401,
-            49.2579527
-          ],
-          [
-            -122.8578449,
-            49.2579586
-          ],
-          [
-            -122.8578515,
-            49.257964
+            -122.8578469,
+            49.2579535
           ]
         ]
       }
@@ -75220,8 +76119,8 @@
             49.2934908
           ],
           [
-            -122.7587455,
-            49.2937482
+            -122.7587431,
+            49.2937137
           ],
           [
             -122.7587233,
@@ -75752,8 +76651,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7959402,
-            49.3034838
+            -122.7959393,
+            49.3035137
+          ],
+          [
+            -122.7958632,
+            49.3035098
+          ],
+          [
+            -122.7957844,
+            49.30351
           ],
           [
             -122.7950722,
@@ -76350,48 +77257,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8524464,
-            49.2772563
-          ],
-          [
-            -122.852535,
-            49.2772567
-          ],
-          [
-            -122.8538379,
-            49.2772632
-          ],
-          [
-            -122.8545524,
-            49.2772667
-          ],
-          [
-            -122.8546458,
-            49.2772672
-          ],
-          [
-            -122.8547454,
-            49.2772676
-          ],
-          [
-            -122.855336,
-            49.2772697
-          ],
-          [
-            -122.8558343,
-            49.2772715
-          ],
-          [
-            -122.8561485,
-            49.2772727
-          ],
-          [
-            -122.8564817,
-            49.2772739
-          ],
-          [
-            -122.8565905,
-            49.2772743
+            -122.856597,
+            49.2772754
           ],
           [
             -122.8567055,
@@ -78604,6 +79471,10 @@
             49.2579032
           ],
           [
+            -122.778692,
+            49.2579034
+          ],
+          [
             -122.7785691,
             49.257904
           ]
@@ -78840,8 +79711,16 @@
             49.256095
           ],
           [
+            -122.7786717,
+            49.2560949
+          ],
+          [
             -122.7785507,
             49.2560944
+          ],
+          [
+            -122.7784269,
+            49.2560954
           ],
           [
             -122.7783854,
@@ -79794,6 +80673,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35199123",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Windsor Drive",
@@ -81408,8 +82288,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.832746,
-            49.2748035
+            -122.832744,
+            49.2748057
           ],
           [
             -122.832743,
@@ -82499,6 +83379,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/35199315",
+        "construction": "yes",
         "highway": "residential",
         "lanes": "2",
         "name": "Buckingham Drive",
@@ -82628,20 +83509,20 @@
             49.2577512
           ],
           [
-            -122.855101,
-            49.2577857
+            -122.8551042,
+            49.2577871
           ],
           [
-            -122.8550727,
-            49.258449
+            -122.8550812,
+            49.2584893
           ],
           [
-            -122.8550726,
-            49.2584898
+            -122.8550815,
+            49.258778
           ],
           [
-            -122.8550719,
-            49.2588553
+            -122.855048,
+            49.2588359
           ]
         ]
       }
@@ -83253,8 +84134,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.846412,
-            49.2587958
+            -122.8464224,
+            49.258796
           ],
           [
             -122.846526,
@@ -83281,7 +84162,7 @@
             49.2588397
           ],
           [
-            -122.8540824,
+            -122.8540852,
             49.2588564
           ],
           [
@@ -83289,8 +84170,12 @@
             49.2588569
           ],
           [
-            -122.8550719,
-            49.2588553
+            -122.8549696,
+            49.25886
+          ],
+          [
+            -122.855048,
+            49.2588359
           ]
         ]
       }
@@ -83347,20 +84232,44 @@
             49.2943263
           ],
           [
-            -122.8553067,
-            49.2947494
+            -122.8553976,
+            49.2946915
           ],
           [
-            -122.8553182,
-            49.2948218
+            -122.8553687,
+            49.2947242
+          ],
+          [
+            -122.8553579,
+            49.2947543
+          ],
+          [
+            -122.8553567,
+            49.2947838
+          ],
+          [
+            -122.8553629,
+            49.2948091
+          ],
+          [
+            -122.8553768,
+            49.2948328
+          ],
+          [
+            -122.8554071,
+            49.2948614
+          ],
+          [
+            -122.8554541,
+            49.2948899
           ],
           [
             -122.8555728,
             49.29494
           ],
           [
-            -122.8562506,
-            49.2951114
+            -122.8563158,
+            49.295144
           ],
           [
             -122.8568286,
@@ -83518,6 +84427,7 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Wilkes Creek Drive",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -83532,8 +84442,8 @@
             49.2961765
           ],
           [
-            -122.8474061,
-            49.2962874
+            -122.8473484,
+            49.2962177
           ]
         ]
       }
@@ -83853,20 +84763,24 @@
             49.2758191
           ],
           [
-            -122.8355104,
-            49.2758143
+            -122.8355252,
+            49.2758309
           ],
           [
             -122.8354829,
             49.2760324
           ],
           [
+            -122.8353695,
+            49.2760333
+          ],
+          [
             -122.83499,
             49.2760361
           ],
           [
-            -122.8348505,
-            49.2760372
+            -122.834864,
+            49.2760344
           ]
         ]
       }
@@ -85201,8 +86115,8 @@
             49.2761025
           ],
           [
-            -122.8445253,
-            49.2760977
+            -122.8445817,
+            49.2761012
           ]
         ]
       }
@@ -87115,46 +88029,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/35199625",
-        "highway": "residential",
-        "lanes": "2",
-        "name": "Grant Street",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8525073,
-            49.2783706
-          ],
-          [
-            -122.8524533,
-            49.2783857
-          ],
-          [
-            -122.8524274,
-            49.2784316
-          ],
-          [
-            -122.8524179,
-            49.2784934
-          ],
-          [
-            -122.852424,
-            49.2787794
-          ],
-          [
-            -122.8524294,
-            49.2788731
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/35199626",
         "highway": "residential",
         "lanes": "2",
@@ -87477,6 +88351,10 @@
             49.2700016
           ],
           [
+            -122.7907324,
+            49.2700026
+          ],
+          [
             -122.7907768,
             49.2700029
           ],
@@ -87495,6 +88373,10 @@
           [
             -122.7913212,
             49.2702648
+          ],
+          [
+            -122.7913891,
+            49.2702988
           ],
           [
             -122.7922896,
@@ -88110,6 +88992,10 @@
           [
             -122.7792183,
             49.2570112
+          ],
+          [
+            -122.7786762,
+            49.2570144
           ],
           [
             -122.778562,
@@ -89511,7 +90397,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7899632,
+            -122.7899723,
             49.2958219
           ],
           [
@@ -89840,6 +90726,10 @@
           [
             -122.8597758,
             49.2985321
+          ],
+          [
+            -122.8604745,
+            49.2990676
           ],
           [
             -122.8605537,
@@ -98727,8 +99617,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8548448,
-            49.2398049
+            -122.8548461,
+            49.2397664
           ],
           [
             -122.8548406,
@@ -100781,6 +101671,7 @@
         "id": "way/35483683",
         "highway": "residential",
         "lanes": "2",
+        "maxspeed.type": "CA:urban",
         "name": "Nova Scotia Avenue",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
@@ -102720,6 +103611,7 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Lebleu Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -105192,10 +106084,6 @@
           [
             -122.8481113,
             49.2428417
-          ],
-          [
-            -122.8482939,
-            49.2428427
           ],
           [
             -122.849901,
@@ -109015,6 +109903,7 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Lebleu Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -110695,6 +111584,7 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Howse Place",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -110779,16 +111669,16 @@
             49.241977
           ],
           [
-            -122.852999,
-            49.2420123
+            -122.8529983,
+            49.2420499
           ],
           [
-            -122.8534498,
-            49.2420155
+            -122.8536204,
+            49.2420508
           ],
           [
-            -122.853617,
-            49.2420167
+            -122.8536801,
+            49.2420504
           ],
           [
             -122.8548276,
@@ -115270,20 +116160,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7843178,
-            49.2785189
+            -122.7843174,
+            49.2790477
+          ],
+          [
+            -122.7843523,
+            49.2790253
+          ],
+          [
+            -122.7843618,
+            49.2786466
+          ],
+          [
+            -122.7843619,
+            49.2786233
           ],
           [
             -122.7843167,
             49.2785982
-          ],
-          [
-            -122.7843166,
-            49.2786301
-          ],
-          [
-            -122.7843148,
-            49.2790976
           ]
         ]
       }
@@ -115833,7 +116727,7 @@
           ],
           [
             -122.8337874,
-            49.2747991
+            49.274802
           ]
         ]
       }
@@ -116906,10 +117800,6 @@
           [
             -122.8784377,
             49.2626876
-          ],
-          [
-            -122.8784302,
-            49.2630404
           ]
         ]
       }
@@ -116953,8 +117843,10 @@
       "properties": {
         "id": "way/130623415",
         "highway": "residential",
+        "lanes": "2",
         "name": "Robinson Street",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
@@ -116992,12 +117884,12 @@
             49.2532315
           ],
           [
-            -122.8798488,
-            49.2528322
+            -122.8798613,
+            49.2528321
           ],
           [
-            -122.879846,
-            49.252792
+            -122.879866,
+            49.2528229
           ]
         ]
       }
@@ -117609,8 +118501,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.856618,
-            49.2756519
+            -122.8566167,
+            49.2756698
           ],
           [
             -122.856618,
@@ -117641,20 +118533,8 @@
             49.2771799
           ],
           [
-            -122.8565905,
-            49.2772743
-          ],
-          [
-            -122.8565967,
-            49.2776755
-          ],
-          [
-            -122.8565971,
-            49.2777027
-          ],
-          [
-            -122.8565988,
-            49.2777655
+            -122.856597,
+            49.2772754
           ]
         ]
       }
@@ -117685,6 +118565,14 @@
           [
             -122.8455612,
             49.2756057
+          ],
+          [
+            -122.8461612,
+            49.2756082
+          ],
+          [
+            -122.8471425,
+            49.2756123
           ],
           [
             -122.847771,
@@ -117861,16 +118749,16 @@
             49.2756345
           ],
           [
-            -122.8570714,
-            49.275647
+            -122.8570721,
+            49.2756509
           ],
           [
-            -122.856727,
-            49.27565
+            -122.8567263,
+            49.2756609
           ],
           [
-            -122.856618,
-            49.2756519
+            -122.8566167,
+            49.2756698
           ]
         ]
       }
@@ -118858,12 +119746,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8319432,
-            49.276513
+            -122.8320863,
+            49.2765255
           ],
           [
-            -122.8319378,
-            49.2766047
+            -122.8320062,
+            49.2766198
           ]
         ]
       }
@@ -119022,27 +119910,30 @@
       "properties": {
         "id": "way/184690870",
         "highway": "residential",
+        "lanes": "2",
+        "lanes.backward": "1",
+        "lanes.forward": "1",
         "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8319363,
-            49.2769099
+            -122.8320062,
+            49.2766198
           ],
           [
-            -122.8319248,
-            49.2771642
+            -122.8319552,
+            49.2766888
           ],
           [
-            -122.8319865,
-            49.277205
+            -122.8319376,
+            49.2767352
           ],
           [
-            -122.8320652,
-            49.277222
+            -122.8319307,
+            49.2769098
           ]
         ]
       }
@@ -120147,8 +121038,20 @@
             49.2588225
           ],
           [
+            -122.8864379,
+            49.2587999
+          ],
+          [
             -122.8863814,
             49.258799
+          ],
+          [
+            -122.886223,
+            49.2587967
+          ],
+          [
+            -122.8851905,
+            49.2587814
           ],
           [
             -122.8841158,
@@ -122870,6 +123773,38 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/340314326",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Cottonwood Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8923858,
+            49.2588814
+          ],
+          [
+            -122.8920268,
+            49.258874
+          ],
+          [
+            -122.8920112,
+            49.2588739
+          ],
+          [
+            -122.8918871,
+            49.2588728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/350719246",
         "highway": "residential",
         "name": "Edgar Avenue",
@@ -124192,24 +125127,32 @@
             49.2949762
           ],
           [
-            -122.7891182,
-            49.2951185
+            -122.7891449,
+            49.2951137
           ],
           [
-            -122.7893,
-            49.2952862
+            -122.7893239,
+            49.2952802
           ],
           [
-            -122.7894817,
-            49.2954539
+            -122.7894545,
+            49.2954059
+          ],
+          [
+            -122.7895075,
+            49.2954521
           ],
           [
             -122.7897708,
             49.2957207
           ],
           [
-            -122.7899632,
+            -122.7899723,
             49.2958219
+          ],
+          [
+            -122.7902393,
+            49.295893
           ],
           [
             -122.7902874,
@@ -124224,16 +125167,28 @@
             49.2958842
           ],
           [
-            -122.7913312,
-            49.2957635
+            -122.7912951,
+            49.2957813
+          ],
+          [
+            -122.7914075,
+            49.2957315
+          ],
+          [
+            -122.7915212,
+            49.2956807
           ],
           [
             -122.7917278,
             49.2955969
           ],
           [
-            -122.7919287,
-            49.295475
+            -122.7919408,
+            49.2954631
+          ],
+          [
+            -122.7920008,
+            49.295401
           ],
           [
             -122.792168,
@@ -125011,8 +125966,8 @@
             49.2788265
           ],
           [
-            -122.8381936,
-            49.2787825
+            -122.8381427,
+            49.278777
           ],
           [
             -122.8380954,
@@ -127992,7 +128947,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.834901,
+            -122.8349319,
             49.2731384
           ],
           [
@@ -130024,40 +130979,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.834832,
-            49.2767412
+            -122.8348514,
+            49.2767395
           ],
           [
-            -122.8348201,
-            49.2768244
+            -122.8348501,
+            49.2768255
           ],
           [
-            -122.8348197,
-            49.2768534
+            -122.8348496,
+            49.2768617
           ],
           [
-            -122.8348184,
-            49.2770905
+            -122.834846,
+            49.2770946
           ],
           [
-            -122.8348174,
-            49.2772036
+            -122.8348443,
+            49.2772046
           ],
           [
-            -122.8348165,
-            49.2773295
+            -122.8348424,
+            49.2773311
           ],
           [
-            -122.8348149,
-            49.2775334
+            -122.8348393,
+            49.2775328
           ],
           [
-            -122.8348142,
+            -122.8348377,
             49.2776313
-          ],
-          [
-            -122.8349525,
-            49.2776448
           ]
         ]
       }
@@ -131592,8 +132543,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8029114,
-            49.3031228
+            -122.8029946,
+            49.3031371
           ],
           [
             -122.8031456,
@@ -132426,6 +133377,10 @@
           [
             -122.8863814,
             49.258799
+          ],
+          [
+            -122.8863782,
+            49.2588857
           ],
           [
             -122.8863779,
@@ -134125,6 +135080,7 @@
         "id": "way/921461061",
         "highway": "residential",
         "name": "Fairview Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -134139,12 +135095,16 @@
             49.2530506
           ],
           [
+            -122.8827315,
+            49.2528293
+          ],
+          [
             -122.8827246,
             49.2528053
           ],
           [
-            -122.8827108,
-            49.25278
+            -122.8827131,
+            49.2527896
           ]
         ]
       }
@@ -134402,8 +135362,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8391391,
-            49.279051
+            -122.8391284,
+            49.2790423
           ],
           [
             -122.839029,
@@ -134708,6 +135668,10 @@
           [
             -122.7785813,
             49.259075
+          ],
+          [
+            -122.7784763,
+            49.2590753
           ],
           [
             -122.7784423,
@@ -135096,20 +136060,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8828799,
-            49.2586041
+            -122.8828817,
+            49.2585268
           ],
           [
-            -122.8828058,
-            49.2585783
+            -122.8828084,
+            49.2585258
           ],
           [
-            -122.8828007,
-            49.2585762
+            -122.8827792,
+            49.2585249
           ],
           [
-            -122.8827493,
-            49.2585577
+            -122.8827168,
+            49.2585235
+          ],
+          [
+            -122.8826524,
+            49.2585047
           ],
           [
             -122.8825003,
@@ -137159,8 +138127,8 @@
             49.2626078
           ],
           [
-            -122.858143,
-            49.2626075
+            -122.8582671,
+            49.2626055
           ]
         ]
       }
@@ -137857,7 +138825,7 @@
             49.2755775
           ],
           [
-            -122.8415084,
+            -122.8415211,
             49.2755824
           ],
           [
@@ -137869,8 +138837,8 @@
             49.2755859
           ],
           [
-            -122.842219,
-            49.2755868
+            -122.8422296,
+            49.2755875
           ],
           [
             -122.842624,
@@ -140146,6 +141114,64 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/1064110885",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Whiting Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8918871,
+            49.2588728
+          ],
+          [
+            -122.8918867,
+            49.2587834
+          ],
+          [
+            -122.8918832,
+            49.257769
+          ],
+          [
+            -122.8918613,
+            49.2574646
+          ],
+          [
+            -122.8918602,
+            49.2574265
+          ],
+          [
+            -122.8918578,
+            49.2572749
+          ],
+          [
+            -122.8918917,
+            49.2571307
+          ],
+          [
+            -122.8919014,
+            49.2569187
+          ],
+          [
+            -122.8919021,
+            49.2568947
+          ],
+          [
+            -122.8919065,
+            49.2568082
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/1069457421",
         "highway": "residential",
         "name": "North Mall",
@@ -141439,6 +142465,7 @@
       "type": "Feature",
       "properties": {
         "id": "way/1188163427",
+        "access": "destination",
         "highway": "residential",
         "lanes": "2",
         "lit": "yes",
@@ -141453,20 +142480,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8366057,
-            49.2742852
+            -122.8365386,
+            49.2742716
+          ],
+          [
+            -122.8367044,
+            49.2742987
+          ],
+          [
+            -122.8367694,
+            49.2743102
+          ],
+          [
+            -122.8368,
+            49.2743182
+          ],
+          [
+            -122.8368292,
+            49.2743288
           ],
           [
             -122.836885,
             49.274361
           ],
           [
-            -122.8369431,
-            49.2744209
+            -122.8369621,
+            49.2744308
           ],
           [
-            -122.8370288,
-            49.2745093
+            -122.8370023,
+            49.2744759
+          ],
+          [
+            -122.8370286,
+            49.2745129
+          ],
+          [
+            -122.8370472,
+            49.2745528
+          ],
+          [
+            -122.8370578,
+            49.2745974
           ]
         ]
       }
@@ -141606,28 +142661,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1196169102",
-        "highway": "residential",
-        "name": "Flavelle Drive",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8583292,
-            49.3031806
-          ],
-          [
-            -122.8579885,
-            49.3033614
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1211746841",
         "highway": "residential",
         "lanes": "2",
@@ -141688,6 +142721,32 @@
           [
             -122.8228753,
             49.2473503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1212359711",
+        "highway": "residential",
+        "name": "Adler Avenue",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8841179,
+            49.2578942
+          ],
+          [
+            -122.8839984,
+            49.2578939
+          ],
+          [
+            -122.8835531,
+            49.257894
           ]
         ]
       }
@@ -141964,12 +143023,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.836435,
-            49.2959974
+            -122.8362907,
+            49.2960068
           ],
           [
             -122.8361918,
             49.2960056
+          ],
+          [
+            -122.8359849,
+            49.2959831
+          ],
+          [
+            -122.8358499,
+            49.2959522
+          ],
+          [
+            -122.8357085,
+            49.2959033
+          ],
+          [
+            -122.8355756,
+            49.2958773
           ],
           [
             -122.83545,
@@ -142098,8 +143173,12 @@
             49.2756495
           ],
           [
-            -122.856618,
-            49.2756519
+            -122.856332,
+            49.2756709
+          ],
+          [
+            -122.8566167,
+            49.2756698
           ]
         ]
       }
@@ -142402,42 +143481,10 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1257740172",
-        "highway": "residential",
-        "lanes": "2",
-        "lanes.backward": "1",
-        "lanes.forward": "1",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8319378,
-            49.2766047
-          ],
-          [
-            -122.831933,
-            49.2766798
-          ],
-          [
-            -122.831938,
-            49.2767199
-          ],
-          [
-            -122.8319363,
-            49.2769099
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1258092048",
         "highway": "residential",
         "name": "Regan Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
       },
       "geometry": {
@@ -142605,8 +143652,8 @@
             49.2791109
           ],
           [
-            -122.8391391,
-            49.279051
+            -122.8391284,
+            49.2790423
           ]
         ]
       }
@@ -144256,8 +145303,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8835904,
-            49.2578929
+            -122.8835531,
+            49.257894
+          ],
+          [
+            -122.8829962,
+            49.2578914
           ],
           [
             -122.8828945,
@@ -144561,6 +145612,1133 @@
           [
             -122.833253,
             49.2806082
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1377359700",
+        "access": "destination",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "15",
+        "maxspeed.type": "sign",
+        "name": "James Road",
+        "parking.both": "no",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 2 because maxspeed is up to 40 km/h, 3 or fewer lanes and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.836359,
+            49.2739993
+          ],
+          [
+            -122.8362339,
+            49.2740177
+          ],
+          [
+            -122.8361997,
+            49.2740277
+          ],
+          [
+            -122.8361702,
+            49.2740457
+          ],
+          [
+            -122.8361045,
+            49.2741214
+          ],
+          [
+            -122.8360361,
+            49.2742027
+          ],
+          [
+            -122.8360287,
+            49.2742259
+          ],
+          [
+            -122.8360294,
+            49.2742489
+          ],
+          [
+            -122.8360347,
+            49.2742727
+          ],
+          [
+            -122.8360579,
+            49.2743364
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1381405498",
+        "highway": "residential",
+        "name": "Cottonwood Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8926145,
+            49.2588554
+          ],
+          [
+            -122.8923858,
+            49.2588814
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1381405499",
+        "highway": "residential",
+        "name": "Cottonwood Avenue",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8923858,
+            49.2588814
+          ],
+          [
+            -122.8924446,
+            49.2589069
+          ],
+          [
+            -122.8924902,
+            49.2589251
+          ],
+          [
+            -122.8925173,
+            49.2589312
+          ],
+          [
+            -122.8925474,
+            49.2589335
+          ],
+          [
+            -122.8925782,
+            49.2589326
+          ],
+          [
+            -122.8925991,
+            49.2589301
+          ],
+          [
+            -122.8926217,
+            49.2589238
+          ],
+          [
+            -122.8926336,
+            49.2589135
+          ],
+          [
+            -122.8926391,
+            49.2589033
+          ],
+          [
+            -122.8926416,
+            49.2588867
+          ],
+          [
+            -122.8926355,
+            49.2588708
+          ],
+          [
+            -122.8926145,
+            49.2588554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1383635084",
+        "highway": "residential",
+        "lanes": "2",
+        "lanes.backward": "1",
+        "lanes.forward": "1",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8319307,
+            49.2769098
+          ],
+          [
+            -122.8319248,
+            49.2771642
+          ],
+          [
+            -122.8319865,
+            49.277205
+          ],
+          [
+            -122.8320652,
+            49.277222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1410009994",
+        "highway": "residential",
+        "name": "Silver Springs Boulevard",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.791285,
+            49.2953191
+          ],
+          [
+            -122.7912131,
+            49.2953805
+          ],
+          [
+            -122.7911983,
+            49.2954529
+          ],
+          [
+            -122.7914075,
+            49.2957315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254184",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Chevalier Court",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8587832,
+            49.3043435
+          ],
+          [
+            -122.8587686,
+            49.3043644
+          ],
+          [
+            -122.8587654,
+            49.3043874
+          ],
+          [
+            -122.8587735,
+            49.3044089
+          ],
+          [
+            -122.8587917,
+            49.3044276
+          ],
+          [
+            -122.8588181,
+            49.3044416
+          ],
+          [
+            -122.85885,
+            49.3044494
+          ],
+          [
+            -122.858884,
+            49.3044501
+          ],
+          [
+            -122.8589166,
+            49.3044438
+          ],
+          [
+            -122.8589443,
+            49.304431
+          ],
+          [
+            -122.8589644,
+            49.3044131
+          ],
+          [
+            -122.8589747,
+            49.304392
+          ],
+          [
+            -122.8589739,
+            49.304369
+          ],
+          [
+            -122.8589615,
+            49.3043474
+          ],
+          [
+            -122.8589389,
+            49.3043297
+          ],
+          [
+            -122.8589086,
+            49.3043179
+          ],
+          [
+            -122.858874,
+            49.3043133
+          ],
+          [
+            -122.8588391,
+            49.3043164
+          ],
+          [
+            -122.8588076,
+            49.3043269
+          ],
+          [
+            -122.8587832,
+            49.3043435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254186",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Flavelle Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 2 because maxspeed is up to 40 km/h, 3 or fewer lanes and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.85593,
+            49.3053649
+          ],
+          [
+            -122.855969,
+            49.3053656
+          ],
+          [
+            -122.8560044,
+            49.3053584
+          ],
+          [
+            -122.8560344,
+            49.3053441
+          ],
+          [
+            -122.856056,
+            49.3053244
+          ],
+          [
+            -122.8560668,
+            49.3053012
+          ],
+          [
+            -122.8560665,
+            49.3052944
+          ],
+          [
+            -122.8560657,
+            49.305277
+          ],
+          [
+            -122.8560529,
+            49.3052543
+          ],
+          [
+            -122.8560296,
+            49.3052354
+          ],
+          [
+            -122.8559983,
+            49.3052224
+          ],
+          [
+            -122.8559623,
+            49.3052164
+          ],
+          [
+            -122.8559253,
+            49.3052183
+          ],
+          [
+            -122.8558911,
+            49.3052278
+          ],
+          [
+            -122.8558621,
+            49.3052448
+          ],
+          [
+            -122.8558435,
+            49.3052671
+          ],
+          [
+            -122.8558374,
+            49.3052922
+          ],
+          [
+            -122.8558445,
+            49.3053172
+          ],
+          [
+            -122.855864,
+            49.3053393
+          ],
+          [
+            -122.8558936,
+            49.3053558
+          ],
+          [
+            -122.85593,
+            49.3053649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254188",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Eagle Crescent",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8492046,
+            49.2972303
+          ],
+          [
+            -122.8492288,
+            49.2972109
+          ],
+          [
+            -122.8492426,
+            49.2971875
+          ],
+          [
+            -122.8492445,
+            49.2971625
+          ],
+          [
+            -122.8492344,
+            49.2971384
+          ],
+          [
+            -122.8492132,
+            49.2971175
+          ],
+          [
+            -122.8491832,
+            49.297102
+          ],
+          [
+            -122.8491472,
+            49.2970933
+          ],
+          [
+            -122.8491089,
+            49.2970924
+          ],
+          [
+            -122.849072,
+            49.2970993
+          ],
+          [
+            -122.8490407,
+            49.297113
+          ],
+          [
+            -122.8490174,
+            49.2971324
+          ],
+          [
+            -122.8490043,
+            49.2971555
+          ],
+          [
+            -122.8490027,
+            49.2971801
+          ],
+          [
+            -122.8490127,
+            49.2972038
+          ],
+          [
+            -122.8490335,
+            49.2972244
+          ],
+          [
+            -122.8490629,
+            49.2972399
+          ],
+          [
+            -122.8490981,
+            49.2972487
+          ],
+          [
+            -122.8491358,
+            49.29725
+          ],
+          [
+            -122.8491723,
+            49.2972438
+          ],
+          [
+            -122.8492046,
+            49.2972303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254192",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Parkside Court",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.846122,
+            49.2973166
+          ],
+          [
+            -122.8460659,
+            49.2974112
+          ],
+          [
+            -122.846052,
+            49.2974343
+          ],
+          [
+            -122.8460198,
+            49.2975035
+          ],
+          [
+            -122.8460002,
+            49.2975593
+          ],
+          [
+            -122.8459953,
+            49.2976214
+          ],
+          [
+            -122.8460137,
+            49.2976793
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254195",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Wilkes Creek Drive",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8473721,
+            49.2963704
+          ],
+          [
+            -122.8474105,
+            49.2963721
+          ],
+          [
+            -122.8474479,
+            49.296366
+          ],
+          [
+            -122.8474812,
+            49.2963525
+          ],
+          [
+            -122.8475063,
+            49.2963329
+          ],
+          [
+            -122.8475208,
+            49.2963092
+          ],
+          [
+            -122.8475233,
+            49.2962837
+          ],
+          [
+            -122.8475134,
+            49.296259
+          ],
+          [
+            -122.8474923,
+            49.2962375
+          ],
+          [
+            -122.8474619,
+            49.2962213
+          ],
+          [
+            -122.8474253,
+            49.2962122
+          ],
+          [
+            -122.8473862,
+            49.2962109
+          ],
+          [
+            -122.8473484,
+            49.2962177
+          ],
+          [
+            -122.8473162,
+            49.2962315
+          ],
+          [
+            -122.847292,
+            49.296251
+          ],
+          [
+            -122.8472782,
+            49.2962745
+          ],
+          [
+            -122.8472761,
+            49.2962996
+          ],
+          [
+            -122.8472859,
+            49.2963239
+          ],
+          [
+            -122.8473066,
+            49.296345
+          ],
+          [
+            -122.8473363,
+            49.2963611
+          ],
+          [
+            -122.8473721,
+            49.2963704
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254199",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Foxwood Court",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8404799,
+            49.2960887
+          ],
+          [
+            -122.8403754,
+            49.2961212
+          ],
+          [
+            -122.8403457,
+            49.2961315
+          ],
+          [
+            -122.8396715,
+            49.2963303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254201",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Timbercrest Place",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8365119,
+            49.2960588
+          ],
+          [
+            -122.8365325,
+            49.2960367
+          ],
+          [
+            -122.8365415,
+            49.2960116
+          ],
+          [
+            -122.836538,
+            49.2959859
+          ],
+          [
+            -122.8365225,
+            49.2959622
+          ],
+          [
+            -122.8364964,
+            49.2959428
+          ],
+          [
+            -122.8364623,
+            49.2959296
+          ],
+          [
+            -122.8364237,
+            49.295924
+          ],
+          [
+            -122.8363843,
+            49.2959266
+          ],
+          [
+            -122.8363481,
+            49.295937
+          ],
+          [
+            -122.8363187,
+            49.2959542
+          ],
+          [
+            -122.8362977,
+            49.2959789
+          ],
+          [
+            -122.8362907,
+            49.2960068
+          ],
+          [
+            -122.8362987,
+            49.2960345
+          ],
+          [
+            -122.8363206,
+            49.2960588
+          ],
+          [
+            -122.836354,
+            49.2960769
+          ],
+          [
+            -122.8363947,
+            49.2960864
+          ],
+          [
+            -122.8364379,
+            49.2960864
+          ],
+          [
+            -122.8364786,
+            49.2960768
+          ],
+          [
+            -122.8365119,
+            49.2960588
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411254204",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Aspen Court",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8340743,
+            49.2974521
+          ],
+          [
+            -122.834069,
+            49.2974763
+          ],
+          [
+            -122.8340761,
+            49.2975003
+          ],
+          [
+            -122.8340947,
+            49.2975215
+          ],
+          [
+            -122.8341228,
+            49.2975376
+          ],
+          [
+            -122.8341418,
+            49.2975427
+          ],
+          [
+            -122.8341574,
+            49.2975469
+          ],
+          [
+            -122.8341948,
+            49.2975483
+          ],
+          [
+            -122.8342309,
+            49.2975418
+          ],
+          [
+            -122.8342617,
+            49.297528
+          ],
+          [
+            -122.8342841,
+            49.2975084
+          ],
+          [
+            -122.8342954,
+            49.2974851
+          ],
+          [
+            -122.8342946,
+            49.2974607
+          ],
+          [
+            -122.8342817,
+            49.2974378
+          ],
+          [
+            -122.834258,
+            49.2974188
+          ],
+          [
+            -122.8342262,
+            49.2974059
+          ],
+          [
+            -122.8341896,
+            49.2974004
+          ],
+          [
+            -122.8341523,
+            49.297403
+          ],
+          [
+            -122.8341183,
+            49.2974133
+          ],
+          [
+            -122.8340913,
+            49.2974303
+          ],
+          [
+            -122.8340743,
+            49.2974521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1414589910",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Kyle Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.856597,
+            49.2772754
+          ],
+          [
+            -122.8565967,
+            49.2776755
+          ],
+          [
+            -122.8565971,
+            49.2777027
+          ],
+          [
+            -122.8565988,
+            49.2777655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1414589911",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Spring Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8524464,
+            49.2772563
+          ],
+          [
+            -122.852535,
+            49.2772567
+          ],
+          [
+            -122.8538379,
+            49.2772632
+          ],
+          [
+            -122.8545524,
+            49.2772667
+          ],
+          [
+            -122.8546458,
+            49.2772672
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1414589912",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Spring Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8546458,
+            49.2772672
+          ],
+          [
+            -122.8547454,
+            49.2772676
+          ],
+          [
+            -122.855336,
+            49.2772697
+          ],
+          [
+            -122.8558343,
+            49.2772715
+          ],
+          [
+            -122.8561485,
+            49.2772727
+          ],
+          [
+            -122.8564817,
+            49.2772739
+          ],
+          [
+            -122.856597,
+            49.2772754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1416237310",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Kensal Place",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7843203,
+            49.2784658
+          ],
+          [
+            -122.7843178,
+            49.2785189
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1416237311",
+        "highway": "residential",
+        "name": "Kensal Place",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7843167,
+            49.2785982
+          ],
+          [
+            -122.7842758,
+            49.2786386
+          ],
+          [
+            -122.7842767,
+            49.2787637
+          ],
+          [
+            -122.7842854,
+            49.2790275
+          ],
+          [
+            -122.7843174,
+            49.2790477
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1416237312",
+        "highway": "residential",
+        "name": "Kensal Place",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7843178,
+            49.2785189
+          ],
+          [
+            -122.7843171,
+            49.2785704
+          ],
+          [
+            -122.7843167,
+            49.2785982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1416237313",
+        "highway": "residential",
+        "name": "Kensal Place",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7843174,
+            49.2790477
+          ],
+          [
+            -122.7843148,
+            49.2790976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1417259721",
+        "highway": "residential",
+        "name": "Guiltner Street",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8784377,
+            49.2626876
+          ],
+          [
+            -122.8784302,
+            49.2630404
           ]
         ]
       }

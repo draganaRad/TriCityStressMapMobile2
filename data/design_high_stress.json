@@ -1009,6 +1009,10 @@
             49.2462942
           ],
           [
+            -122.8900284,
+            49.2462835
+          ],
+          [
             -122.8900315,
             49.2462625
           ],
@@ -1596,20 +1600,40 @@
             49.2991283
           ],
           [
-            -122.860491,
-            49.2992097
+            -122.8605068,
+            49.299197
           ],
           [
-            -122.8604497,
-            49.299392
+            -122.8604765,
+            49.2992535
           ],
           [
-            -122.8604818,
-            49.2995181
+            -122.8604537,
+            49.2993076
           ],
           [
-            -122.8605708,
-            49.299971
+            -122.8604396,
+            49.2993698
+          ],
+          [
+            -122.8604414,
+            49.2994295
+          ],
+          [
+            -122.8604584,
+            49.2995332
+          ],
+          [
+            -122.8604605,
+            49.2995459
+          ],
+          [
+            -122.8604966,
+            49.2997136
+          ],
+          [
+            -122.8605546,
+            49.2999786
           ],
           [
             -122.8609938,
@@ -1648,40 +1672,76 @@
             49.3033781
           ],
           [
-            -122.8604547,
-            49.3035106
+            -122.8604766,
+            49.3035109
           ],
           [
-            -122.8601366,
-            49.303596
+            -122.860344,
+            49.3035605
           ],
           [
-            -122.85974,
-            49.303642
+            -122.8601838,
+            49.3036015
           ],
           [
-            -122.8594905,
-            49.3036316
+            -122.8600552,
+            49.3036269
           ],
           [
-            -122.8592411,
-            49.3035943
+            -122.8599392,
+            49.3036439
           ],
           [
-            -122.8589736,
-            49.3035087
+            -122.859804,
+            49.3036549
           ],
           [
-            -122.8586712,
-            49.3033863
+            -122.8597011,
+            49.3036568
           ],
           [
-            -122.8584062,
-            49.303227
+            -122.8595822,
+            49.3036546
           ],
           [
-            -122.8583292,
-            49.3031806
+            -122.859459,
+            49.3036455
+          ],
+          [
+            -122.8593415,
+            49.30363
+          ],
+          [
+            -122.8592328,
+            49.30361
+          ],
+          [
+            -122.8592106,
+            49.3036045
+          ],
+          [
+            -122.8590918,
+            49.3035745
+          ],
+          [
+            -122.8589625,
+            49.303533
+          ],
+          [
+            -122.8588017,
+            49.3034688
+          ],
+          [
+            -122.8586464,
+            49.3033916
+          ],
+          [
+            -122.8583805,
+            49.3032343
+          ],
+          [
+            -122.8583152,
+            49.3031833
           ],
           [
             -122.8577999,
@@ -2887,16 +2947,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8666724,
-            49.2778511
+            -122.86668,
+            49.2778395
           ],
           [
-            -122.8667095,
-            49.2779145
+            -122.8667078,
+            49.2778721
           ],
           [
-            -122.866723,
-            49.2779608
+            -122.8667277,
+            49.277906
+          ],
+          [
+            -122.8667475,
+            49.277941
           ],
           [
             -122.8668007,
@@ -4988,6 +5052,10 @@
             49.2563504
           ],
           [
+            -122.8784873,
+            49.2563499
+          ],
+          [
             -122.8702658,
             49.2562847
           ],
@@ -5438,6 +5506,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -5905,6 +5974,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -6433,6 +6503,7 @@
         "cycleway": "shared",
         "highway": "tertiary",
         "name": "Robinson Street",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -7257,9 +7328,10 @@
         "id": "way/138526245",
         "cycleway": "shared_lane",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Rochester Avenue",
         "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
         "type": "LineString",
@@ -7295,6 +7367,10 @@
           [
             -122.8776968,
             49.2453849
+          ],
+          [
+            -122.8771447,
+            49.2453825
           ],
           [
             -122.877058,
@@ -7471,6 +7547,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -8904,7 +8981,9 @@
         "id": "way/350713576",
         "cycleway": "shared_lane",
         "highway": "primary_link",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='primary_link'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+        "lanes": "1",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='primary_link'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
         "type": "LineString",
@@ -9359,8 +9438,8 @@
             49.2590706
           ],
           [
-            -122.8563022,
-            49.2597672
+            -122.8563025,
+            49.2597657
           ],
           [
             -122.8562978,
@@ -9669,8 +9748,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8666574,
-            49.2808062
+            -122.8666553,
+            49.280959
           ],
           [
             -122.8666611,
@@ -9717,12 +9796,12 @@
             49.2782504
           ],
           [
-            -122.866668,
-            49.278627
+            -122.8666764,
+            49.2786072
           ],
           [
-            -122.8666037,
-            49.278857
+            -122.8666223,
+            49.2788377
           ],
           [
             -122.8665729,
@@ -9997,6 +10076,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -10204,6 +10284,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -10241,6 +10322,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -10278,6 +10360,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -10311,6 +10394,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -10348,6 +10432,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -10552,6 +10637,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
       },
@@ -11773,6 +11859,7 @@
         "cycleway": "shared",
         "highway": "tertiary",
         "name": "Alderson Avenue",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
@@ -11805,6 +11892,7 @@
         "cycleway": "shared",
         "highway": "tertiary",
         "name": "Alderson Avenue",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
@@ -12697,6 +12785,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
       },
@@ -12730,6 +12819,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
       },
@@ -12884,6 +12974,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because the maxspeed is between 51-64 km/h and no parking."
       },
@@ -13318,7 +13409,7 @@
             49.2560042
           ],
           [
-            -122.7785505,
+            -122.7785504,
             49.2560381
           ],
           [
@@ -13326,8 +13417,8 @@
             49.2560944
           ],
           [
-            -122.7785515,
-            49.2561605
+            -122.7785516,
+            49.2561597
           ],
           [
             -122.778552,
@@ -13348,10 +13439,6 @@
           [
             -122.7785727,
             49.2580921
-          ],
-          [
-            -122.7785786,
-            49.2585774
           ],
           [
             -122.7785788,
@@ -13873,6 +13960,10 @@
             49.2608842
           ],
           [
+            -122.7782696,
+            49.2608844
+          ],
+          [
             -122.7778426,
             49.2608854
           ],
@@ -14136,6 +14227,7 @@
         "cycleway": "shared_lane",
         "highway": "tertiary",
         "name": "Rochester Avenue",
+        "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
       },
       "geometry": {
@@ -16623,92 +16715,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1064110885",
-        "bicycle": "yes",
-        "cycleway": "shared_lane",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Whiting Way",
-        "surface": "asphalt",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8918871,
-            49.2588728
-          ],
-          [
-            -122.8918867,
-            49.2587834
-          ],
-          [
-            -122.8918832,
-            49.257769
-          ],
-          [
-            -122.8918613,
-            49.2574646
-          ],
-          [
-            -122.8918602,
-            49.2574265
-          ],
-          [
-            -122.8918578,
-            49.2572749
-          ],
-          [
-            -122.8918917,
-            49.2571307
-          ],
-          [
-            -122.8919014,
-            49.2569187
-          ],
-          [
-            -122.8919021,
-            49.2568947
-          ],
-          [
-            -122.8919065,
-            49.2568082
-          ],
-          [
-            -122.8919067,
-            49.2567221
-          ],
-          [
-            -122.8919074,
-            49.2566897
-          ],
-          [
-            -122.8919383,
-            49.2561564
-          ],
-          [
-            -122.8919439,
-            49.2560889
-          ],
-          [
-            -122.8919474,
-            49.2560469
-          ],
-          [
-            -122.8919601,
-            49.2556158
-          ],
-          [
-            -122.8919621,
-            49.2555388
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1086050055",
         "cycleway.right": "lane",
         "highway": "primary_link",
@@ -17829,28 +17835,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8391391,
-            49.279051
+            -122.8391284,
+            49.2790423
           ],
           [
-            -122.839034,
-            49.2791003
+            -122.8390273,
+            49.2790959
           ],
           [
-            -122.8389368,
-            49.2791462
+            -122.8389261,
+            49.2791576
           ],
           [
-            -122.8387096,
-            49.2793129
+            -122.8387244,
+            49.2793146
           ],
           [
-            -122.8385655,
-            49.2794546
+            -122.8385803,
+            49.2794598
           ],
           [
-            -122.8381486,
-            49.2799935
+            -122.8381566,
+            49.2799952
           ],
           [
             -122.8381075,
@@ -17942,89 +17948,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1212146180",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No 'lanes' tag. Assuming default of 2.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.801571,
-            49.2852359
-          ],
-          [
-            -122.801752,
-            49.2852287
-          ],
-          [
-            -122.8018848,
-            49.2852227
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1212146181",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8095441,
-            49.2844823
-          ],
-          [
-            -122.8096825,
-            49.28445
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1212146182",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "1",
-        "maxspeed": "50",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8096825,
-            49.28445
-          ],
-          [
-            -122.8098045,
-            49.2844209
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1212146183",
         "cycleway.left": "no",
         "cycleway.right": "lane",
@@ -18046,87 +17969,6 @@
           [
             -122.8094825,
             49.2843712
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1212146184",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,Increasing LTS to 3 because highway with bike lane is not 'residential' and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8018755,
-            49.2851158
-          ],
-          [
-            -122.801745,
-            49.2851206
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1212146185",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8097448,
-            49.2843233
-          ],
-          [
-            -122.809626,
-            49.2843462
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1212146189",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "3",
-        "maxspeed": "50",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8186318,
-            49.2845178
-          ],
-          [
-            -122.8185338,
-            49.2844888
           ]
         ]
       }
@@ -19665,20 +19507,24 @@
             49.278809
           ],
           [
-            -122.8398004,
-            49.2788456
+            -122.8399615,
+            49.2788221
           ],
           [
-            -122.8394983,
-            49.2789085
+            -122.8397521,
+            49.2788526
           ],
           [
-            -122.8392991,
-            49.2789874
+            -122.8395117,
+            49.278905
           ],
           [
-            -122.8391391,
-            49.279051
+            -122.8392784,
+            49.2789763
+          ],
+          [
+            -122.8391284,
+            49.2790423
           ]
         ]
       }
@@ -20316,6 +20162,7 @@
         "lanes.forward": "4",
         "maxspeed": "50",
         "name": "King Edward Street",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway'='lane'.,Parking is not present.,Increasing LTS to 3 because there are 3 or more lanes and no parking."
       },
@@ -22254,8 +22101,8 @@
             49.2807343
           ],
           [
-            -122.8666574,
-            49.2808062
+            -122.8666553,
+            49.280959
           ]
         ]
       }
@@ -22527,6 +22374,56 @@
           [
             -122.8683659,
             49.2359707
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1381405500",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Whiting Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='tertiary'.,Setting LTS to 3 because maxspeed is up to 50 km/h and lanes are 3 or less on non-residential highway."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8919065,
+            49.2568082
+          ],
+          [
+            -122.8919067,
+            49.2567221
+          ],
+          [
+            -122.8919074,
+            49.2566897
+          ],
+          [
+            -122.8919383,
+            49.2561564
+          ],
+          [
+            -122.8919439,
+            49.2560889
+          ],
+          [
+            -122.8919474,
+            49.2560469
+          ],
+          [
+            -122.8919601,
+            49.2556158
+          ],
+          [
+            -122.8919621,
+            49.2555388
           ]
         ]
       }
@@ -23636,40 +23533,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/35198450",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.798095,
-            49.2851981
-          ],
-          [
-            -122.797941,
-            49.2851919
-          ],
-          [
-            -122.7961362,
-            49.2850652
-          ],
-          [
-            -122.7957397,
-            49.2850379
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/35198684",
         "cycleway.right": "lane",
         "highway": "secondary",
@@ -24035,116 +23898,6 @@
           [
             -122.7922546,
             49.2951328
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/35210821",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.798078,
-            49.2853215
-          ],
-          [
-            -122.79821,
-            49.2853285
-          ],
-          [
-            -122.7985925,
-            49.2853396
-          ],
-          [
-            -122.7986759,
-            49.2853416
-          ],
-          [
-            -122.7987625,
-            49.2853435
-          ],
-          [
-            -122.7988336,
-            49.2853444
-          ],
-          [
-            -122.798909,
-            49.2853447
-          ],
-          [
-            -122.7989847,
-            49.2853448
-          ],
-          [
-            -122.799063,
-            49.285344
-          ],
-          [
-            -122.7992093,
-            49.2853417
-          ],
-          [
-            -122.7993508,
-            49.2853395
-          ],
-          [
-            -122.7994939,
-            49.2853352
-          ],
-          [
-            -122.7996064,
-            49.2853313
-          ],
-          [
-            -122.7997289,
-            49.2853265
-          ],
-          [
-            -122.7998731,
-            49.2853195
-          ],
-          [
-            -122.800015,
-            49.2853119
-          ],
-          [
-            -122.8001408,
-            49.2853041
-          ],
-          [
-            -122.8003119,
-            49.2852931
-          ],
-          [
-            -122.800481,
-            49.2852832
-          ],
-          [
-            -122.8006341,
-            49.2852754
-          ],
-          [
-            -122.8014147,
-            49.2852422
-          ],
-          [
-            -122.801454,
-            49.2852405
-          ],
-          [
-            -122.801571,
-            49.2852359
           ]
         ]
       }
@@ -25679,6 +25432,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },
@@ -25692,39 +25446,6 @@
           [
             -122.871867,
             49.2367372
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/76160131",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.801572,
-            49.2851266
-          ],
-          [
-            -122.801477,
-            49.2851303
-          ],
-          [
-            -122.800473,
-            49.2851726
-          ],
-          [
-            -122.7998029,
-            49.2851977
           ]
         ]
       }
@@ -26510,73 +26231,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/305606781",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7928278,
-            49.28494
-          ],
-          [
-            -122.7933329,
-            49.2849769
-          ],
-          [
-            -122.7936196,
-            49.2849972
-          ],
-          [
-            -122.7937152,
-            49.2850046
-          ],
-          [
-            -122.793816,
-            49.2850129
-          ],
-          [
-            -122.7940322,
-            49.2850325
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/305606783",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.801745,
-            49.2851206
-          ],
-          [
-            -122.801572,
-            49.2851266
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/306933778",
         "bicycle": "designated",
         "cycleway.left": "no",
@@ -26869,32 +26523,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/390357953",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "advisory",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='advisory'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.792564,
-            49.2848032
-          ],
-          [
-            -122.7923977,
-            49.2847913
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/390357955",
         "cycleway.left": "no",
         "cycleway.right": "lane",
@@ -26908,12 +26536,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7923977,
-            49.2847913
-          ],
-          [
-            -122.7922184,
-            49.2847784
+            -122.7920352,
+            49.2847644
           ],
           [
             -122.791451,
@@ -26926,49 +26550,6 @@
           [
             -122.7904378,
             49.2846675
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/390357959",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7941047,
-            49.2849158
-          ],
-          [
-            -122.7940354,
-            49.284911
-          ],
-          [
-            -122.7938062,
-            49.2848938
-          ],
-          [
-            -122.7927432,
-            49.284816
-          ],
-          [
-            -122.7926891,
-            49.2848122
-          ],
-          [
-            -122.792564,
-            49.2848032
           ]
         ]
       }
@@ -27155,96 +26736,6 @@
           [
             -122.8697211,
             49.2362131
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/460228304",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7969736,
-            49.2852521
-          ],
-          [
-            -122.7978869,
-            49.285311
-          ],
-          [
-            -122.797924,
-            49.2853135
-          ],
-          [
-            -122.798078,
-            49.2853215
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/461131151",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7925025,
-            49.284914
-          ],
-          [
-            -122.7926342,
-            49.2849238
-          ],
-          [
-            -122.7928278,
-            49.28494
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/461131152",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "advisory",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='advisory'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7923392,
-            49.284902
-          ],
-          [
-            -122.7925025,
-            49.284914
           ]
         ]
       }
@@ -28004,6 +27495,7 @@
         "lanes": "3",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='primary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
       },
@@ -28518,184 +28010,6 @@
           [
             -122.734061,
             49.2517816
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/479484604",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7913267,
-            49.2848233
-          ],
-          [
-            -122.7921005,
-            49.2848838
-          ],
-          [
-            -122.7921629,
-            49.2848897
-          ],
-          [
-            -122.7923392,
-            49.284902
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/494676736",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7998029,
-            49.2851977
-          ],
-          [
-            -122.7995913,
-            49.2852047
-          ],
-          [
-            -122.7994013,
-            49.2852107
-          ],
-          [
-            -122.7992005,
-            49.2852142
-          ],
-          [
-            -122.7989997,
-            49.2852157
-          ],
-          [
-            -122.7988509,
-            49.285216
-          ],
-          [
-            -122.7987606,
-            49.2852158
-          ],
-          [
-            -122.7986677,
-            49.2852145
-          ],
-          [
-            -122.7985752,
-            49.2852123
-          ],
-          [
-            -122.7984827,
-            49.2852101
-          ],
-          [
-            -122.798262,
-            49.2852045
-          ],
-          [
-            -122.798228,
-            49.2852036
-          ],
-          [
-            -122.798095,
-            49.2851981
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/494680869",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7904345,
-            49.2847714
-          ],
-          [
-            -122.7909799,
-            49.2848014
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/494682487",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8128072,
-            49.283403
-          ],
-          [
-            -122.8126887,
-            49.2834218
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/494682491",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8129194,
-            49.2833852
-          ],
-          [
-            -122.8128072,
-            49.283403
           ]
         ]
       }
@@ -30859,32 +30173,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1212146188",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8185338,
-            49.2844888
-          ],
-          [
-            -122.818421,
-            49.2844467
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1224005735",
         "cycleway.right": "lane",
         "highway": "secondary",
@@ -32278,44 +31566,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1299938836",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7946314,
-            49.2850844
-          ],
-          [
-            -122.794777,
-            49.2850958
-          ],
-          [
-            -122.7955279,
-            49.2851485
-          ],
-          [
-            -122.7962147,
-            49.2851937
-          ],
-          [
-            -122.7969736,
-            49.2852521
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1314908215",
         "cycleway.left": "no",
         "cycleway.right": "shared_lane",
@@ -32562,167 +31812,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1338049311",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7948407,
-            49.2849595
-          ],
-          [
-            -122.7947992,
-            49.2849574
-          ],
-          [
-            -122.7946564,
-            49.2849481
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1338049312",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7957397,
-            49.2850379
-          ],
-          [
-            -122.7953975,
-            49.2850005
-          ],
-          [
-            -122.7948407,
-            49.2849595
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1338049313",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7940322,
-            49.2850325
-          ],
-          [
-            -122.7944232,
-            49.2850669
-          ],
-          [
-            -122.794467,
-            49.2850709
-          ],
-          [
-            -122.7946314,
-            49.2850844
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1338049316",
-        "cycleway.right": "lane",
-        "cycleway.right.lane": "exclusive",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:right'='lane'.,Way has a bike lane because 'cycleway:right:lane'='exclusive'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7946564,
-            49.2849481
-          ],
-          [
-            -122.794488,
-            49.2849363
-          ],
-          [
-            -122.7943007,
-            49.2849274
-          ],
-          [
-            -122.7942304,
-            49.2849236
-          ],
-          [
-            -122.7941622,
-            49.2849195
-          ],
-          [
-            -122.7941047,
-            49.2849158
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/1338049318",
-        "cycleway.left": "no",
-        "cycleway.right": "lane",
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Guildford Way",
-        "surface": "asphalt",
-        "decisionMsg": "Way has a bike lane because 'cycleway:left'='no'.,Way has a bike lane because 'cycleway:right'='lane'.,Parking is not present.,No maxspeed tag. Using default value of 80 when highway='secondary'.,Increasing LTS to 3 because there are 3 or more lanes and no parking.,Increasing LTS to 4 because the maxspeed is over 65 km/h and no parking."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7909799,
-            49.2848014
-          ],
-          [
-            -122.7913267,
-            49.2848233
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1338347863",
         "cycleway.left": "no",
         "cycleway.right": "lane",
@@ -32883,6 +31972,7 @@
         "maxspeed": "60",
         "name": "Lougheed Highway",
         "name.pronunciation": "ˈloʊhiːd ˈhaɪweɪ",
+        "parking.both": "no",
         "surface": "asphalt",
         "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,Setting LTS to 4 because maxspeed is greater than 50 km/h."
       },

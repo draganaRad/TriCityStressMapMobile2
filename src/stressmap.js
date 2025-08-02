@@ -44,7 +44,7 @@ L.tileLayer(
 // Add BikeOttawa attribution
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 if (!L.Browser.mobile) { // add date on desktop. too clutered on mobile
-  map.attributionControl.addAttribution('updated March 2025');
+  map.attributionControl.addAttribution('updated Aug 2025');
 }
 
 // add geolocation on mobile
@@ -298,9 +298,9 @@ function onEachFeature(feature, layer) {
     // }
 
     // for debug
-    // if (feature.properties.id == 'way/35198494'){
-    //   console.log('Dragana:: tag ' + JSON.stringify(feature.properties))
-    // }
+    if (feature.properties.id == 'way/1418444283'){
+      console.log('Dragana:: tag ' + JSON.stringify(feature.properties))
+    }
 
     // customize value for category (road category) tag
     // options based on analysis of Sept 2021 designated data (StressDataExploration.R)
@@ -327,16 +327,23 @@ function onEachFeature(feature, layer) {
         if (highwayValue == "path"){
           if (footValue == "yes" && bicycleValue == "yes"){
             if (feature.properties.segregated && feature.properties.segregated == "yes"){
-              categoryValueToShow = "Bike Path"
+              categoryValueToShow = "Bike "
             }else{
-              categoryValueToShow = "Shared Path"
+              categoryValueToShow = "Shared "
             }
+          }//else{
+            //categoryValueToShow = "Path"
+          //}
+          // path crossings
+          let pathValue = feature.properties.path
+          if (pathValue == "crossing"){
+            categoryValueToShow += "Crossing"
           }else{
-            categoryValueToShow = "Path"
+            categoryValueToShow += "Path"
           }
         // cycleway
         }else if (highwayValue == "cycleway"){
-          if (footValue == "yes"){
+          if ((footValue == "yes") && !(feature.properties.segregated && feature.properties.segregated == "yes")){
             categoryValueToShow = "Shared"
           }else{
             categoryValueToShow = "Bike"
@@ -351,7 +358,11 @@ function onEachFeature(feature, layer) {
           // footway
         }else if (highwayValue == "footway"){
           if (bicycleValue == "yes"){
-            categoryValueToShow = "Shared"
+            if (feature.properties.segregated && feature.properties.segregated == "yes"){
+              categoryValueToShow = "Bike"
+            }else{
+              categoryValueToShow = "Shared"
+            }
           }else{
             categoryValueToShow = "Foot"
           }

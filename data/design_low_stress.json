@@ -33,7 +33,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "segregated": "no",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -65,7 +65,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -151,62 +151,98 @@
         "id": "way/34363586",
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "path",
+        "highway": "track",
         "motor_vehicle": "no",
         "mtb.scale.imba": "0",
-        "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "surface": "fine_gravel",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='track'.,Setting LTS to 1 because motor_vehicle='no'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8509199,
-            49.3013988
+            -122.8509544,
+            49.3014165
           ],
           [
-            -122.8514074,
-            49.3008927
+            -122.8514666,
+            49.3009369
           ],
           [
-            -122.8518295,
-            49.300537
+            -122.8517928,
+            49.300669
           ],
           [
-            -122.8520719,
-            49.3003697
+            -122.8521265,
+            49.3004148
           ],
           [
-            -122.8526194,
-            49.3001383
+            -122.8523536,
+            49.300282
           ],
           [
-            -122.8531386,
-            49.3000409
+            -122.8526409,
+            49.3001547
           ],
           [
-            -122.8538021,
-            49.3000154
+            -122.8529094,
+            49.3000649
           ],
           [
-            -122.8539574,
-            49.3000126
+            -122.8531563,
+            49.3000232
           ],
           [
-            -122.8545166,
-            49.3000834
+            -122.8534092,
+            49.2999971
+          ],
+          [
+            -122.8536966,
+            49.2999947
+          ],
+          [
+            -122.8538343,
+            49.3000041
+          ],
+          [
+            -122.8540579,
+            49.3000484
+          ],
+          [
+            -122.854508,
+            49.3001201
+          ],
+          [
+            -122.8548634,
+            49.3002252
           ],
           [
             -122.8551971,
             49.3003556
           ],
           [
-            -122.855529,
-            49.300568
+            -122.855349,
+            49.3004372
           ],
           [
-            -122.8567679,
-            49.3016292
+            -122.8554839,
+            49.3005337
+          ],
+          [
+            -122.8557562,
+            49.3007426
+          ],
+          [
+            -122.8561261,
+            49.3010599
+          ],
+          [
+            -122.8563467,
+            49.3012625
+          ],
+          [
+            -122.8567642,
+            49.3016435
           ]
         ]
       }
@@ -219,7 +255,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -565,11 +601,178 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/35198450",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.797941,
+            49.2851919
+          ],
+          [
+            -122.7961362,
+            49.2850652
+          ],
+          [
+            -122.7957397,
+            49.2850379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35198682",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Pinetree Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7922842,
+            49.2853086
+          ],
+          [
+            -122.7924231,
+            49.2850575
+          ],
+          [
+            -122.7924379,
+            49.28503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/35210821",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.798078,
+            49.2853215
+          ],
+          [
+            -122.79821,
+            49.2853285
+          ],
+          [
+            -122.7985925,
+            49.2853396
+          ],
+          [
+            -122.7986759,
+            49.2853416
+          ],
+          [
+            -122.7987625,
+            49.2853435
+          ],
+          [
+            -122.7988336,
+            49.2853444
+          ],
+          [
+            -122.798909,
+            49.2853447
+          ],
+          [
+            -122.7989847,
+            49.2853448
+          ],
+          [
+            -122.799063,
+            49.285344
+          ],
+          [
+            -122.7992093,
+            49.2853417
+          ],
+          [
+            -122.7993508,
+            49.2853395
+          ],
+          [
+            -122.7994939,
+            49.2853352
+          ],
+          [
+            -122.7996064,
+            49.2853313
+          ],
+          [
+            -122.7997289,
+            49.2853265
+          ],
+          [
+            -122.7998731,
+            49.2853195
+          ],
+          [
+            -122.800015,
+            49.2853119
+          ],
+          [
+            -122.8001408,
+            49.2853041
+          ],
+          [
+            -122.8003119,
+            49.2852931
+          ],
+          [
+            -122.800481,
+            49.2852832
+          ],
+          [
+            -122.8006341,
+            49.2852754
+          ],
+          [
+            -122.8014147,
+            49.2852422
+          ],
+          [
+            -122.801454,
+            49.2852405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/35212616",
         "bicycle": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -630,7 +833,7 @@
         "highway": "path",
         "name": "Alfred Howe Greenway Path",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -922,7 +1125,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "compacted",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -992,7 +1195,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -1048,7 +1251,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -1085,7 +1288,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -1136,6 +1339,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "yes",
+        "name": "St Johns Klahanie Connector",
         "segregated": "no",
         "surface": "concrete",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -1148,16 +1353,12 @@
             49.2773881
           ],
           [
-            -122.8380625,
-            49.2778756
-          ],
-          [
-            -122.8380534,
+            -122.8380578,
             49.2785954
           ],
           [
-            -122.8380109,
-            49.2785954
+            -122.8380097,
+            49.2785951
           ],
           [
             -122.8380151,
@@ -1173,6 +1374,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "name": "St Johns Klahanie Connector",
         "segregated": "no",
         "surface": "paving_stones",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -1180,10 +1382,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -122.8380754,
-            49.276669
-          ],
           [
             -122.8380795,
             49.2767815
@@ -1314,28 +1512,72 @@
             49.3113503
           ],
           [
-            -122.9146016,
-            49.3111462
+            -122.914609,
+            49.3111117
           ],
           [
-            -122.9149526,
-            49.311032
+            -122.91496,
+            49.3110464
           ],
           [
-            -122.915222,
-            49.3109259
+            -122.9152823,
+            49.3110103
           ],
           [
-            -122.915475,
-            49.310934
+            -122.9153875,
+            49.3109357
           ],
           [
-            -122.9157689,
-            49.310885
+            -122.9154835,
+            49.3108802
           ],
           [
-            -122.9161362,
-            49.3108197
+            -122.9155794,
+            49.3108592
+          ],
+          [
+            -122.9156712,
+            49.3108711
+          ],
+          [
+            -122.9157774,
+            49.3109347
+          ],
+          [
+            -122.9158689,
+            49.3109579
+          ],
+          [
+            -122.915906,
+            49.3109274
+          ],
+          [
+            -122.9159186,
+            49.3108192
+          ],
+          [
+            -122.9159474,
+            49.3107761
+          ],
+          [
+            -122.9160126,
+            49.3107726
+          ],
+          [
+            -122.9161014,
+            49.3108315
+          ],
+          [
+            -122.9162004,
+            49.3108673
+          ],
+          [
+            -122.9162965,
+            49.3108753
+          ],
+          [
+            -122.9165332,
+            49.310798
           ],
           [
             -122.9167816,
@@ -1712,7 +1954,7 @@
         "highway": "path",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -1852,7 +2094,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -1862,16 +2104,40 @@
             49.2948217
           ],
           [
+            -122.7734368,
+            49.2946032
+          ],
+          [
             -122.7734761,
             49.29452
           ],
           [
-            -122.7732879,
-            49.2942576
+            -122.7734413,
+            49.2944323
           ],
           [
-            -122.7731726,
-            49.2940417
+            -122.7733414,
+            49.2943456
+          ],
+          [
+            -122.7733073,
+            49.2943058
+          ],
+          [
+            -122.7732805,
+            49.2942401
+          ],
+          [
+            -122.7732645,
+            49.2941687
+          ],
+          [
+            -122.7732186,
+            49.2941004
+          ],
+          [
+            -122.7731717,
+            49.2940278
           ],
           [
             -122.7731131,
@@ -1882,16 +2148,24 @@
             49.2938898
           ],
           [
-            -122.7729605,
-            49.2936844
+            -122.7730682,
+            49.2938228
           ],
           [
-            -122.7728036,
-            49.2934028
+            -122.7730532,
+            49.2937376
           ],
           [
-            -122.7725936,
-            49.2932133
+            -122.7729339,
+            49.2935877
+          ],
+          [
+            -122.7728379,
+            49.293401
+          ],
+          [
+            -122.7726056,
+            49.293197
           ],
           [
             -122.7725091,
@@ -1906,80 +2180,164 @@
             49.2929815
           ],
           [
-            -122.7724217,
-            49.292899
+            -122.7725023,
+            49.2929171
           ],
           [
-            -122.7724644,
-            49.2927152
+            -122.772551,
+            49.2928095
           ],
           [
-            -122.7721306,
-            49.2921613
+            -122.7725358,
+            49.2927212
           ],
           [
-            -122.7719504,
-            49.2915959
+            -122.7723694,
+            49.2925106
           ],
           [
-            -122.7718388,
-            49.2911816
+            -122.7721454,
+            49.292108
           ],
           [
-            -122.7718137,
-            49.2909471
+            -122.7719963,
+            49.2918635
           ],
           [
-            -122.7717083,
-            49.2904577
+            -122.7719612,
+            49.291756
           ],
           [
-            -122.7716827,
-            49.2902387
+            -122.7719359,
+            49.2915833
           ],
           [
-            -122.7714841,
-            49.2899076
+            -122.7718648,
+            49.2914087
           ],
           [
-            -122.7713238,
-            49.2896813
+            -122.7718373,
+            49.2912941
           ],
           [
-            -122.7713026,
-            49.2896504
+            -122.7718194,
+            49.291189
           ],
           [
-            -122.7711373,
+            -122.7718287,
+            49.2910401
+          ],
+          [
+            -122.7718849,
+            49.2909131
+          ],
+          [
+            -122.7718992,
+            49.2908397
+          ],
+          [
+            -122.7718895,
+            49.2907003
+          ],
+          [
+            -122.7717889,
+            49.290583
+          ],
+          [
+            -122.771742,
+            49.290484
+          ],
+          [
+            -122.7717406,
+            49.2902924
+          ],
+          [
+            -122.771723,
+            49.290244
+          ],
+          [
+            -122.771686,
+            49.2901972
+          ],
+          [
+            -122.7715875,
+            49.2900966
+          ],
+          [
+            -122.7715624,
+            49.2900431
+          ],
+          [
+            -122.7715374,
+            49.2899097
+          ],
+          [
+            -122.7715048,
+            49.2898418
+          ],
+          [
+            -122.7714272,
+            49.2897331
+          ],
+          [
+            -122.7713706,
+            49.2896613
+          ],
+          [
+            -122.771322,
+            49.2896094
+          ],
+          [
+            -122.7712248,
+            49.2895082
+          ],
+          [
+            -122.7711421,
             49.2894091
           ],
           [
-            -122.7709977,
-            49.2892055
+            -122.7710913,
+            49.2893307
           ],
           [
-            -122.7709118,
-            49.2888584
+            -122.7709564,
+            49.2890925
           ],
           [
-            -122.7707323,
-            49.2884274
+            -122.7708731,
+            49.2888026
           ],
           [
-            -122.7706973,
-            49.2883433
+            -122.7707289,
+            49.2884362
           ],
           [
-            -122.7706715,
-            49.288069
+            -122.7706905,
+            49.2883543
           ],
           [
-            -122.7707094,
-            49.2876484
+            -122.7706485,
+            49.2882624
           ],
           [
-            -122.7707487,
-            49.2875324
+            -122.7706495,
+            49.2881969
+          ],
+          [
+            -122.7706925,
+            49.2879883
+          ],
+          [
+            -122.7707033,
+            49.2879067
+          ],
+          [
+            -122.7707234,
+            49.2876545
+          ],
+          [
+            -122.7707604,
+            49.2875354
           ],
           [
             -122.7707639,
@@ -1992,6 +2350,10 @@
           [
             -122.7707933,
             49.2872133
+          ],
+          [
+            -122.7708207,
+            49.2871304
           ],
           [
             -122.7708667,
@@ -2018,16 +2380,28 @@
             49.2865045
           ],
           [
-            -122.7716765,
-            49.2864085
+            -122.7715509,
+            49.2864527
           ],
           [
-            -122.7718428,
-            49.2862364
+            -122.7716835,
+            49.2864039
           ],
           [
-            -122.7719875,
-            49.2860502
+            -122.7717356,
+            49.2863259
+          ],
+          [
+            -122.7717831,
+            49.2862175
+          ],
+          [
+            -122.771967,
+            49.2860668
+          ],
+          [
+            -122.7720107,
+            49.2859954
           ],
           [
             -122.7720379,
@@ -2258,7 +2632,7 @@
         "name": "Poco Trail/TCT",
         "segregated": "no",
         "surface": "wood",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2283,7 +2657,7 @@
         "highway": "path",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2393,7 +2767,7 @@
         "motor_vehicle": "no",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2584,7 +2958,7 @@
         "name": "DeBoville Slough Dyke",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2616,7 +2990,7 @@
         "highway": "path",
         "lit": "yes",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2666,7 +3040,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2768,7 +3142,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -2970,7 +3344,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -3152,7 +3526,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -3266,7 +3640,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -3320,7 +3694,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -3576,7 +3950,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -3880,7 +4254,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -4646,7 +5020,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -4960,7 +5334,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -5042,74 +5416,94 @@
         "id": "way/41745256",
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "path",
+        "highway": "track",
         "motor_vehicle": "no",
         "mtb.scale.imba": "0",
-        "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "surface": "fine_gravel",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='track'.,Setting LTS to 1 because motor_vehicle='no'."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.8435892,
-            49.2982949
+            -122.8517422,
+            49.3020952
           ],
           [
-            -122.8436004,
-            49.2983036
+            -122.8516268,
+            49.3019807
           ],
           [
-            -122.8436097,
-            49.2983123
+            -122.8514889,
+            49.3018474
           ],
           [
-            -122.8436663,
-            49.2984262
+            -122.851215,
+            49.3016448
           ],
           [
-            -122.8439161,
-            49.2985191
-          ],
-          [
-            -122.8449728,
-            49.2989181
-          ],
-          [
-            -122.8461234,
-            49.2994526
-          ],
-          [
-            -122.8462685,
-            49.2995131
-          ],
-          [
-            -122.847136,
-            49.2998752
-          ],
-          [
-            -122.8481413,
-            49.3002944
-          ],
-          [
-            -122.8484026,
-            49.3003751
-          ],
-          [
-            -122.8495393,
-            49.3008459
+            -122.8509544,
+            49.3014165
           ],
           [
             -122.8502028,
             49.301111
           ],
           [
-            -122.8509199,
-            49.3013988
+            -122.8496046,
+            49.3008596
           ],
           [
-            -122.8517011,
-            49.3020994
+            -122.8483361,
+            49.3003686
+          ],
+          [
+            -122.8481413,
+            49.3002944
+          ],
+          [
+            -122.8471725,
+            49.2998944
+          ],
+          [
+            -122.8462571,
+            49.2995253
+          ],
+          [
+            -122.8461437,
+            49.2994791
+          ],
+          [
+            -122.8449691,
+            49.2989237
+          ],
+          [
+            -122.8442743,
+            49.2986134
+          ],
+          [
+            -122.844105,
+            49.2985492
+          ],
+          [
+            -122.8439525,
+            49.2985008
+          ],
+          [
+            -122.8437585,
+            49.2984611
+          ],
+          [
+            -122.8436613,
+            49.2984253
+          ],
+          [
+            -122.843549,
+            49.2983804
+          ],
+          [
+            -122.8434951,
+            49.2983588
           ]
         ]
       }
@@ -5214,7 +5608,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -5475,7 +5869,7 @@
         "highway": "path",
         "lit": "no",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -5621,7 +6015,7 @@
         "highway": "path",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -5731,8 +6125,12 @@
             49.2795844
           ],
           [
-            -122.7761983,
-            49.2797854
+            -122.776136,
+            49.2796684
+          ],
+          [
+            -122.7761537,
+            49.2797778
           ],
           [
             -122.7760478,
@@ -5743,36 +6141,52 @@
             49.2801694
           ],
           [
-            -122.7755507,
-            49.2800885
+            -122.7755391,
+            49.2801151
           ],
           [
-            -122.7752546,
-            49.2799734
+            -122.775243,
+            49.2799544
           ],
           [
-            -122.7750206,
-            49.279854
+            -122.7749954,
+            49.2798654
           ],
           [
-            -122.7745361,
-            49.2797566
+            -122.7747418,
+            49.2797895
+          ],
+          [
+            -122.7745982,
+            49.279777
           ],
           [
             -122.7742759,
             49.2797924
           ],
           [
-            -122.7738264,
-            49.2797569
+            -122.7741606,
+            49.2798076
           ],
           [
-            -122.7737886,
-            49.2797068
+            -122.774057,
+            49.2798101
           ],
           [
-            -122.7737473,
-            49.2796458
+            -122.7739553,
+            49.2797867
+          ],
+          [
+            -122.7738652,
+            49.2797354
+          ],
+          [
+            -122.7737964,
+            49.279684
+          ],
+          [
+            -122.773693,
+            49.2795812
           ],
           [
             -122.7735821,
@@ -5875,16 +6289,20 @@
             49.2803148
           ],
           [
-            -122.7723631,
-            49.280277
+            -122.7723241,
+            49.2802661
           ],
           [
-            -122.772292,
-            49.2801889
+            -122.7722958,
+            49.28023
           ],
           [
-            -122.7722687,
-            49.280132
+            -122.7722742,
+            49.280186
+          ],
+          [
+            -122.772252,
+            49.2801298
           ],
           [
             -122.7722128,
@@ -5895,12 +6313,8 @@
             49.2800486
           ],
           [
-            -122.7721175,
-            49.2800295
-          ],
-          [
-            -122.7721137,
-            49.2800023
+            -122.7721193,
+            49.2800147
           ],
           [
             -122.7720545,
@@ -6134,7 +6548,7 @@
         "lit": "no",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -7113,7 +7527,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -8107,6 +8521,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "yes",
+        "name": "St Johns Klahanie Connector",
         "segregated": "no",
         "surface": "paving_stones",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -8119,8 +8535,12 @@
             49.2782366
           ],
           [
-            -122.838016,
-            49.2782193
+            -122.8380157,
+            49.2782191
+          ],
+          [
+            -122.8380975,
+            49.2782203
           ]
         ]
       }
@@ -8249,7 +8669,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -8302,7 +8722,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -8712,6 +9132,35 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/76160131",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.801477,
+            49.2851303
+          ],
+          [
+            -122.800473,
+            49.2851726
+          ],
+          [
+            -122.7998029,
+            49.2851977
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/76160132",
         "cycleway.right": "track",
         "highway": "secondary",
@@ -8793,10 +9242,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -122.8184528,
-            49.2845769
-          ],
           [
             -122.8185477,
             49.2846147
@@ -8933,7 +9378,7 @@
       "properties": {
         "id": "way/81610491",
         "highway": "cycleway",
-        "name": "Shoreline Trail Bike Route",
+        "name": "Upper Shoreline Trail Multi-Use Path",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
@@ -8955,7 +9400,7 @@
       "properties": {
         "id": "way/81610493",
         "highway": "cycleway",
-        "name": "Shoreline Trail Bike Route",
+        "name": "Upper Shoreline Trail Multi-Use Path",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
@@ -9490,7 +9935,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -9519,7 +9964,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -9815,7 +10260,7 @@
         "lit": "no",
         "segregated": "no",
         "surface": "unpaved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10211,7 +10656,7 @@
         "id": "way/118004019",
         "bicycle": "yes",
         "highway": "cycleway",
-        "name": "Shoreline Trail Bike Route",
+        "name": "Upper Shoreline Trail Multi-Use Path",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
@@ -10247,7 +10692,7 @@
         "id": "way/118004020",
         "bicycle": "yes",
         "highway": "cycleway",
-        "name": "Shoreline Trail Bike Route",
+        "name": "Upper Shoreline Trail Multi-Use Path",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
@@ -10276,7 +10721,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10307,7 +10752,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10450,7 +10895,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10474,7 +10919,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Trans Canada Trail",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10499,7 +10944,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10609,7 +11054,7 @@
         "motor_vehicle": "no",
         "name": "Trans Canada Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10706,7 +11151,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -10885,7 +11330,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -11049,7 +11494,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -11091,7 +11536,7 @@
         "lit": "no",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -11507,7 +11952,7 @@
         "name": "David Bikeway",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -11581,7 +12026,7 @@
         "name": "David Bikeway",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -11940,7 +12385,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -12295,8 +12740,8 @@
             49.2791449
           ],
           [
-            -122.8394232,
-            49.2791302
+            -122.8394072,
+            49.2791354
           ],
           [
             -122.8394585,
@@ -12318,7 +12763,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -12470,7 +12915,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -12750,7 +13195,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -12831,6 +13276,49 @@
           [
             -122.7819699,
             49.2917504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/305606781",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7928278,
+            49.28494
+          ],
+          [
+            -122.7933329,
+            49.2849769
+          ],
+          [
+            -122.7936196,
+            49.2849972
+          ],
+          [
+            -122.7937152,
+            49.2850046
+          ],
+          [
+            -122.793816,
+            49.2850129
+          ],
+          [
+            -122.7940322,
+            49.2850325
           ]
         ]
       }
@@ -13324,7 +13812,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -15261,7 +15749,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -15310,7 +15798,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -15350,6 +15838,44 @@
           [
             -122.7841659,
             49.289134
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/390357959",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7941047,
+            49.2849158
+          ],
+          [
+            -122.7940354,
+            49.284911
+          ],
+          [
+            -122.7938062,
+            49.2848938
+          ],
+          [
+            -122.7927432,
+            49.284816
+          ],
+          [
+            -122.7926891,
+            49.2848122
           ]
         ]
       }
@@ -15690,7 +16216,7 @@
         "motor_vehicle": "no",
         "name": "DeBoville Slough Dyke",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -16168,7 +16694,7 @@
         "motor_vehicle": "no",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -16662,7 +17188,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -16699,7 +17225,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -16784,7 +17310,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -17137,7 +17663,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -17406,7 +17932,7 @@
         "highway": "path",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -17996,7 +18522,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -18160,7 +18686,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -18557,6 +19083,132 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/460228304",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7969736,
+            49.2852521
+          ],
+          [
+            -122.7978869,
+            49.285311
+          ],
+          [
+            -122.797924,
+            49.2853135
+          ],
+          [
+            -122.798078,
+            49.2853215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/461131151",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7926342,
+            49.2849238
+          ],
+          [
+            -122.7928278,
+            49.28494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/494676736",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7998029,
+            49.2851977
+          ],
+          [
+            -122.7995913,
+            49.2852047
+          ],
+          [
+            -122.7994013,
+            49.2852107
+          ],
+          [
+            -122.7992005,
+            49.2852142
+          ],
+          [
+            -122.7989997,
+            49.2852157
+          ],
+          [
+            -122.7988509,
+            49.285216
+          ],
+          [
+            -122.7987606,
+            49.2852158
+          ],
+          [
+            -122.7986677,
+            49.2852145
+          ],
+          [
+            -122.7985752,
+            49.2852123
+          ],
+          [
+            -122.7984827,
+            49.2852101
+          ],
+          [
+            -122.798262,
+            49.2852045
+          ],
+          [
+            -122.798228,
+            49.2852036
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/494682488",
         "cycleway.right": "track",
         "highway": "secondary",
@@ -18772,7 +19424,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -19027,7 +19679,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -19705,7 +20357,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20053,7 +20705,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20087,7 +20739,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20133,7 +20785,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20171,7 +20823,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20213,7 +20865,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20267,7 +20919,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20301,7 +20953,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20359,7 +21011,7 @@
         "motor_vehicle": "no",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20525,7 +21177,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -20658,8 +21310,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7921157,
-            49.2849845
+            -122.7920808,
+            49.2849837
           ],
           [
             -122.792107,
@@ -20700,6 +21352,39 @@
           [
             -122.7911952,
             49.2866908
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/658658263",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.791705,
+            49.2849696
+          ],
+          [
+            -122.7915583,
+            49.2849542
+          ],
+          [
+            -122.7912769,
+            49.2849229
+          ],
+          [
+            -122.7903263,
+            49.2848386
           ]
         ]
       }
@@ -21540,8 +22225,8 @@
             49.2596808
           ],
           [
-            -122.8465265,
-            49.259268
+            -122.8465278,
+            49.2592714
           ],
           [
             -122.846526,
@@ -22078,7 +22763,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -22134,7 +22819,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -22622,57 +23307,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8381658,
-            49.2787158
+            -122.8381446,
+            49.2787095
           ],
           [
-            -122.8381665,
-            49.2787455
+            -122.8386486,
+            49.278739
           ],
           [
-            -122.8381927,
-            49.2787475
+            -122.8387223,
+            49.2787447
           ],
           [
-            -122.8386224,
-            49.2787801
+            -122.8387968,
+            49.278753
           ],
           [
-            -122.8388961,
-            49.2788148
+            -122.8388602,
+            49.2787636
           ],
           [
-            -122.8390388,
-            49.2788688
+            -122.8389204,
+            49.2787778
           ],
           [
-            -122.8391498,
-            49.2789015
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/718314596",
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
-        "segregated": "no",
-        "surface": "paving_stones",
-        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.838016,
-            49.2782193
+            -122.8389712,
+            49.2787982
           ],
           [
-            -122.8380975,
-            49.2782203
+            -122.8390958,
+            49.2788579
+          ],
+          [
+            -122.8391686,
+            49.2788923
           ]
         ]
       }
@@ -22969,7 +23637,7 @@
         "name": "Trans Canada Trail",
         "segregated": "no",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -23142,7 +23810,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "segregated": "no",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -23736,7 +24404,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -23759,7 +24427,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -23867,7 +24535,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -24332,7 +25000,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -25488,8 +26156,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8669633,
-            49.2765197
+            -122.8669625,
+            49.2765205
           ],
           [
             -122.8668037,
@@ -25570,7 +26238,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26043,7 +26711,7 @@
         "incline": "up",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26283,7 +26951,7 @@
         "highway": "path",
         "segregated": "yes",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26346,7 +27014,7 @@
         "highway": "path",
         "segregated": "yes",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26618,7 +27286,7 @@
         "name": "Trans Canada Trail",
         "segregated": "no",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26682,7 +27350,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26707,7 +27375,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26744,7 +27412,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26836,7 +27504,7 @@
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26862,7 +27530,7 @@
         "name": "Trans Canada Trail",
         "segregated": "no",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -26922,8 +27590,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8400897,
-            49.2789823
+            -122.8401248,
+            49.2789743
           ],
           [
             -122.8400472,
@@ -26938,8 +27606,8 @@
             49.2790221
           ],
           [
-            -122.8395798,
-            49.2790689
+            -122.8395878,
+            49.2790686
           ],
           [
             -122.8395332,
@@ -26983,7 +27651,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -27123,8 +27791,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8400897,
-            49.2789823
+            -122.8401248,
+            49.2789743
           ],
           [
             -122.8402693,
@@ -27194,28 +27862,44 @@
             49.2790927
           ],
           [
-            -122.8396058,
-            49.2790959
+            -122.8396069,
+            49.2790931
           ],
           [
-            -122.8396878,
-            49.2790873
+            -122.8396862,
+            49.2790824
           ],
           [
-            -122.8397916,
-            49.2790528
+            -122.8397405,
+            49.2790666
           ],
           [
-            -122.8399986,
-            49.2790348
+            -122.8397905,
+            49.2790549
           ],
           [
-            -122.8400602,
-            49.2790079
+            -122.8398471,
+            49.2790455
           ],
           [
-            -122.8400897,
-            49.2789823
+            -122.8398972,
+            49.2790417
+          ],
+          [
+            -122.8399715,
+            49.2790362
+          ],
+          [
+            -122.8400142,
+            49.2790279
+          ],
+          [
+            -122.8400501,
+            49.2790082
+          ],
+          [
+            -122.8401248,
+            49.2789743
           ]
         ]
       }
@@ -27325,7 +28009,7 @@
         "highway": "path",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -27403,7 +28087,7 @@
         "lit": "yes",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -27432,7 +28116,7 @@
         "highway": "path",
         "name": "Poco Trail/TCT",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -27568,22 +28252,6 @@
           [
             -122.7450132,
             49.3037176
-          ],
-          [
-            -122.7453938,
-            49.3037108
-          ],
-          [
-            -122.7454802,
-            49.3037014
-          ],
-          [
-            -122.7455513,
-            49.3037058
-          ],
-          [
-            -122.7456267,
-            49.303722
           ]
         ]
       }
@@ -27598,7 +28266,7 @@
         "name": "Poco Trail/TCT",
         "segregated": "no",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -28400,69 +29068,8 @@
             49.2845436
           ],
           [
-            -122.7923295,
-            49.2846321
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "way/845767206",
-        "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway",
-        "segregated": "no",
-        "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.7923295,
-            49.2846321
-          ],
-          [
-            -122.7923099,
-            49.2846638
-          ],
-          [
-            -122.7923041,
-            49.2846734
-          ],
-          [
-            -122.7922985,
-            49.2846802
-          ],
-          [
-            -122.7922898,
-            49.2846866
-          ],
-          [
-            -122.7922821,
-            49.28469
-          ],
-          [
-            -122.7922734,
-            49.2846928
-          ],
-          [
-            -122.7922596,
-            49.2846959
-          ],
-          [
-            -122.7922488,
-            49.2846978
-          ],
-          [
-            -122.7922374,
-            49.2846987
-          ],
-          [
-            -122.7922425,
-            49.2847301
+            -122.7922796,
+            49.2846174
           ]
         ]
       }
@@ -28473,31 +29080,39 @@
         "id": "way/845767207",
         "bicycle": "designated",
         "cycleway": "crossing",
+        "cycleway.surface.colour": "green",
         "foot": "designated",
         "highway": "cycleway",
-        "segregated": "no",
+        "segregated": "yes",
         "surface": "asphalt",
-        "surface.colour": "green",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.7922425,
-            49.2847301
+            -122.7922597,
+            49.2846567
           ],
           [
-            -122.7922184,
-            49.2847784
+            -122.7922363,
+            49.2847029
           ],
           [
-            -122.7921629,
-            49.2848897
+            -122.7922238,
+            49.2847277
           ],
           [
-            -122.7921157,
-            49.2849845
+            -122.7922004,
+            49.2847767
+          ],
+          [
+            -122.7921367,
+            49.2848863
+          ],
+          [
+            -122.7920808,
+            49.2849837
           ]
         ]
       }
@@ -30133,7 +30748,7 @@
         "name": "Mundy Creek Trail",
         "segregated": "no",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -30622,7 +31237,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -30646,7 +31261,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -31622,7 +32237,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -32455,7 +33070,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -32870,7 +33485,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -33107,7 +33722,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -33378,7 +33993,7 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -34668,7 +35283,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -34844,7 +35459,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -34935,7 +35550,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -35011,7 +35626,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -35262,7 +35877,7 @@
         "highway": "path",
         "incline": "15%",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -35295,7 +35910,7 @@
         "highway": "path",
         "motor_vehicle": "destination",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -35525,7 +36140,7 @@
         "lit": "yes",
         "segregated": "yes",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -36246,13 +36861,42 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/1000271367",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7786741,
+            49.2591612
+          ],
+          [
+            -122.7785814,
+            49.2591588
+          ],
+          [
+            -122.7785238,
+            49.2591572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/1000662515",
         "bicycle": "designated",
         "foot": "designated",
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -36401,7 +37045,7 @@
         "id": "way/1002221557",
         "bicycle": "yes",
         "highway": "cycleway",
-        "name": "Shoreline Trail Bike Route",
+        "name": "Upper Shoreline Trail Multi-Use Path",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
@@ -36453,7 +37097,7 @@
         "id": "way/1002221558",
         "bicycle": "yes",
         "highway": "cycleway",
-        "name": "Shoreline Trail Bike Route",
+        "name": "Upper Shoreline Trail Multi-Use Path",
         "surface": "wood",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
       },
@@ -36609,7 +37253,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -36738,7 +37382,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -36807,7 +37451,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -36986,7 +37630,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "pebblestone",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -37630,7 +38274,7 @@
         "name": "Poco Trail/TCT",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -38572,7 +39216,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -38701,7 +39345,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -38744,7 +39388,7 @@
         "highway": "path",
         "segregated": "yes",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -38907,7 +39551,7 @@
         "highway": "path",
         "segregated": "yes",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -39546,11 +40190,11 @@
         "coordinates": [
           [
             -122.846513,
-            49.2579187
+            49.2579168
           ],
           [
             -122.8465125,
-            49.2575878
+            49.257579
           ],
           [
             -122.8465108,
@@ -39582,12 +40226,12 @@
             49.2580225
           ],
           [
-            -122.8465145,
-            49.2579761
+            -122.8465143,
+            49.2579713
           ],
           [
             -122.846513,
-            49.2579187
+            49.2579168
           ]
         ]
       }
@@ -40290,7 +40934,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -40395,7 +41039,7 @@
         "lit": "yes",
         "segregated": "yes",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -41298,7 +41942,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -41487,7 +42131,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -41853,6 +42497,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "path": "crossing",
         "segregated": "no",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -41920,6 +42565,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "path": "crossing",
         "segregated": "no",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -41979,6 +42625,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "path": "crossing",
         "segregated": "no",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -42042,6 +42689,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "path": "crossing",
         "segregated": "no",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -42109,6 +42757,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "path": "crossing",
         "segregated": "no",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -42176,6 +42825,7 @@
         "cycleway": "crossing",
         "foot": "designated",
         "highway": "cycleway",
+        "path": "crossing",
         "segregated": "no",
         "surface": "asphalt",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -42208,7 +42858,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -42765,7 +43415,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -42802,7 +43452,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -42879,6 +43529,10 @@
           [
             -122.8577398,
             49.2626615
+          ],
+          [
+            -122.8577409,
+            49.2626364
           ],
           [
             -122.857742,
@@ -43125,7 +43779,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -43175,7 +43829,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -43238,7 +43892,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -43729,7 +44383,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -43786,7 +44440,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -45063,7 +45717,7 @@
         "lit": "no",
         "segregated": "no",
         "surface": "unpaved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -45089,7 +45743,7 @@
         "lit": "no",
         "segregated": "no",
         "surface": "unpaved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -45854,10 +46508,43 @@
           [
             -122.818339,
             49.2845344
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1225522674",
+        "bicycle": "designated",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "no",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8392128,
+            49.278898
           ],
           [
-            -122.8184528,
-            49.2845769
+            -122.8392784,
+            49.2789763
+          ],
+          [
+            -122.839347,
+            49.2790618
+          ],
+          [
+            -122.8393909,
+            49.2791154
+          ],
+          [
+            -122.8394072,
+            49.2791354
           ]
         ]
       }
@@ -45869,6 +46556,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "yes",
+        "name": "St Johns Klahanie Connector",
         "segregated": "no",
         "surface": "paving_stones",
         "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
@@ -45887,10 +46576,6 @@
           [
             -122.8380937,
             49.2787058
-          ],
-          [
-            -122.8381658,
-            49.2787158
           ]
         ]
       }
@@ -45910,12 +46595,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8391498,
-            49.2789015
+            -122.8391686,
+            49.2788923
           ],
           [
-            -122.8392277,
-            49.2789056
+            -122.8392128,
+            49.278898
           ]
         ]
       }
@@ -46019,7 +46704,7 @@
         "highway": "path",
         "name": "Poco Trail",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -46297,7 +46982,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -46414,7 +47099,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -46440,7 +47125,7 @@
         "name": "Mundy Park Community Path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -46706,7 +47391,7 @@
         "highway": "path",
         "name": "Trans Canada Trail",
         "surface": "compacted",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -46877,7 +47562,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -47753,7 +48438,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -48035,6 +48720,41 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/1299938836",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.794777,
+            49.2850958
+          ],
+          [
+            -122.7955279,
+            49.2851485
+          ],
+          [
+            -122.7962147,
+            49.2851937
+          ],
+          [
+            -122.7969736,
+            49.2852521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/1300969138",
         "foot": "yes",
         "highway": "cycleway",
@@ -48145,7 +48865,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "paved",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -48181,7 +48901,7 @@
         "foot": "designated",
         "highway": "path",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -48286,7 +49006,7 @@
         "name": "Mundy Creek Trail",
         "segregated": "no",
         "surface": "fine_gravel",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -48417,6 +49137,103 @@
           [
             -122.8095441,
             49.2844823
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1338049312",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7957397,
+            49.2850379
+          ],
+          [
+            -122.7953975,
+            49.2850005
+          ],
+          [
+            -122.7948407,
+            49.2849595
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1338049313",
+        "cycleway.right": "track",
+        "cycleway.right.oneway": "yes",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7940322,
+            49.2850325
+          ],
+          [
+            -122.7944232,
+            49.2850669
+          ],
+          [
+            -122.794467,
+            49.2850709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1338049316",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.794488,
+            49.2849363
+          ],
+          [
+            -122.7943007,
+            49.2849274
+          ],
+          [
+            -122.7942304,
+            49.2849236
+          ],
+          [
+            -122.7941622,
+            49.2849195
+          ],
+          [
+            -122.7941047,
+            49.2849158
           ]
         ]
       }
@@ -49507,7 +50324,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50281,7 +51098,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50306,7 +51123,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50335,7 +51152,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50364,7 +51181,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50842,7 +51659,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "concrete",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50938,7 +51755,7 @@
         "lit": "yes",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -50971,7 +51788,7 @@
         "highway": "path",
         "lit": "yes",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -51171,7 +51988,7 @@
         "highway": "path",
         "segregated": "no",
         "surface": "asphalt",
-        "decisionMsg": "This way is a separated path because highway='path'.,Separated paths are always LTS=1."
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
       },
       "geometry": {
         "type": "LineString",
@@ -51215,6 +52032,300 @@
           [
             -122.8215603,
             49.2492236
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1411260579",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "mtb.scale.imba": "0",
+        "surface": "gravel",
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8435892,
+            49.2982949
+          ],
+          [
+            -122.8436004,
+            49.2983036
+          ],
+          [
+            -122.8436097,
+            49.2983123
+          ],
+          [
+            -122.8436613,
+            49.2984253
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1415275741",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "no",
+        "surface": "paving_stones",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8380937,
+            49.2787058
+          ],
+          [
+            -122.8381446,
+            49.2787095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1416188657",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "no",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8669625,
+            49.2765205
+          ],
+          [
+            -122.8670691,
+            49.2765191
+          ],
+          [
+            -122.8673087,
+            49.2765141
+          ],
+          [
+            -122.8675189,
+            49.2765135
+          ],
+          [
+            -122.8681128,
+            49.2765019
+          ],
+          [
+            -122.8685244,
+            49.2764929
+          ],
+          [
+            -122.8686476,
+            49.2764849
+          ],
+          [
+            -122.8687761,
+            49.27647
+          ],
+          [
+            -122.8689088,
+            49.2764369
+          ],
+          [
+            -122.8689605,
+            49.2764151
+          ],
+          [
+            -122.869019,
+            49.2763868
+          ],
+          [
+            -122.8690589,
+            49.2763561
+          ],
+          [
+            -122.8690888,
+            49.2763297
+          ],
+          [
+            -122.8691264,
+            49.2762868
+          ],
+          [
+            -122.8691459,
+            49.2762513
+          ],
+          [
+            -122.8691611,
+            49.276204
+          ],
+          [
+            -122.8691755,
+            49.2760233
+          ],
+          [
+            -122.8691974,
+            49.2758657
+          ],
+          [
+            -122.8692119,
+            49.2756969
+          ],
+          [
+            -122.8692487,
+            49.2755878
+          ],
+          [
+            -122.8693036,
+            49.2755162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418133011",
+        "highway": "cycleway",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7922363,
+            49.2847029
+          ],
+          [
+            -122.7920352,
+            49.2847644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418157181",
+        "bicycle": "designated",
+        "cycleway.surface": "asphalt",
+        "foot": "designated",
+        "footway.surface": "concrete",
+        "highway": "cycleway",
+        "segregated": "yes",
+        "decisionMsg": "This way is a separated path because highway='cycleway'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7922796,
+            49.2846174
+          ],
+          [
+            -122.7922625,
+            49.2846512
+          ],
+          [
+            -122.7922597,
+            49.2846567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418168844",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "yes",
+        "segregated": "no",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7902614,
+            49.2848335
+          ],
+          [
+            -122.7903263,
+            49.2848386
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418168845",
+        "bicycle": "designated",
+        "cycleway.surface": "asphalt",
+        "foot": "designated",
+        "footway.surface": "concrete",
+        "highway": "path",
+        "segregated": "yes",
+        "decisionMsg": "This way is a separated path because highway='path' but it is not a crossing.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.792107,
+            49.2850175
+          ],
+          [
+            -122.7918271,
+            49.2849825
+          ],
+          [
+            -122.791705,
+            49.2849696
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418444281",
+        "cycleway.left": "no",
+        "cycleway.right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Guildford Way",
+        "surface": "asphalt",
+        "decisionMsg": "This way is a separated path because cycleway* is defined as 'track'.,Separated paths are always LTS=1."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7948407,
+            49.2849595
+          ],
+          [
+            -122.7947992,
+            49.2849574
           ]
         ]
       }
@@ -51378,11 +52489,11 @@
           ],
           [
             -122.8828799,
-            49.2586756
+            49.2586717
           ],
           [
-            -122.8828799,
-            49.2586041
+            -122.8828817,
+            49.2585268
           ],
           [
             -122.8828945,
@@ -52031,8 +53142,12 @@
             49.2902793
           ],
           [
-            -122.8468438,
-            49.2902568
+            -122.8467826,
+            49.29027
+          ],
+          [
+            -122.8469342,
+            49.290254
           ],
           [
             -122.8471449,
@@ -52366,6 +53481,10 @@
           [
             -122.8349525,
             49.2776448
+          ],
+          [
+            -122.8348377,
+            49.2776313
           ]
         ]
       }
@@ -52469,8 +53588,8 @@
             49.2590742
           ],
           [
-            -122.7787059,
-            49.2590744
+            -122.7787082,
+            49.2590742
           ],
           [
             -122.7785813,
@@ -52538,7 +53657,7 @@
             49.272353
           ],
           [
-            -122.766506,
+            -122.766552,
             49.2723582
           ],
           [
@@ -53048,7 +54167,15 @@
           ],
           [
             -122.8907115,
+            49.2595686
+          ],
+          [
+            -122.8907115,
             49.2595759
+          ],
+          [
+            -122.8907113,
+            49.2596053
           ],
           [
             -122.8907109,
@@ -53591,48 +54718,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.8524464,
-            49.2772563
-          ],
-          [
-            -122.852535,
-            49.2772567
-          ],
-          [
-            -122.8538379,
-            49.2772632
-          ],
-          [
-            -122.8545524,
-            49.2772667
-          ],
-          [
-            -122.8546458,
-            49.2772672
-          ],
-          [
-            -122.8547454,
-            49.2772676
-          ],
-          [
-            -122.855336,
-            49.2772697
-          ],
-          [
-            -122.8558343,
-            49.2772715
-          ],
-          [
-            -122.8561485,
-            49.2772727
-          ],
-          [
-            -122.8564817,
-            49.2772739
-          ],
-          [
-            -122.8565905,
-            49.2772743
+            -122.856597,
+            49.2772754
           ],
           [
             -122.8567055,
@@ -53756,8 +54843,16 @@
             49.256095
           ],
           [
+            -122.7786717,
+            49.2560949
+          ],
+          [
             -122.7785507,
             49.2560944
+          ],
+          [
+            -122.7784269,
+            49.2560954
           ],
           [
             -122.7783854,
@@ -54417,6 +55512,14 @@
             49.2756057
           ],
           [
+            -122.8461612,
+            49.2756082
+          ],
+          [
+            -122.8471425,
+            49.2756123
+          ],
+          [
             -122.847771,
             49.2756149
           ],
@@ -54591,16 +55694,16 @@
             49.2756345
           ],
           [
-            -122.8570714,
-            49.275647
+            -122.8570721,
+            49.2756509
           ],
           [
-            -122.856727,
-            49.27565
+            -122.8567263,
+            49.2756609
           ],
           [
-            -122.856618,
-            49.2756519
+            -122.8566167,
+            49.2756698
           ]
         ]
       }
@@ -54815,6 +55918,129 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/357578752",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "track",
+        "mtb.scale.imba": "0",
+        "mtb.scale.uphill": "4",
+        "name": "Harper Road Access",
+        "surface": "gravel",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='track'.,Setting LTS to 2 because highway='track'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7491998,
+            49.3135254
+          ],
+          [
+            -122.7491334,
+            49.3136042
+          ],
+          [
+            -122.7490079,
+            49.3136806
+          ],
+          [
+            -122.7489724,
+            49.3136988
+          ],
+          [
+            -122.748858,
+            49.3137538
+          ],
+          [
+            -122.7487507,
+            49.313783
+          ],
+          [
+            -122.7486013,
+            49.3138079
+          ],
+          [
+            -122.7484446,
+            49.3138228
+          ],
+          [
+            -122.7482443,
+            49.3138378
+          ],
+          [
+            -122.7480512,
+            49.3138551
+          ],
+          [
+            -122.747824,
+            49.313883
+          ],
+          [
+            -122.7476805,
+            49.3138897
+          ],
+          [
+            -122.7475371,
+            49.3138824
+          ],
+          [
+            -122.7473777,
+            49.3138602
+          ],
+          [
+            -122.747184,
+            49.313824
+          ],
+          [
+            -122.746618,
+            49.313711
+          ],
+          [
+            -122.746304,
+            49.313671
+          ],
+          [
+            -122.745802,
+            49.313555
+          ],
+          [
+            -122.7452883,
+            49.3133847
+          ],
+          [
+            -122.744822,
+            49.313154
+          ],
+          [
+            -122.7445428,
+            49.3128924
+          ],
+          [
+            -122.7444707,
+            49.3128282
+          ],
+          [
+            -122.7443929,
+            49.3127705
+          ],
+          [
+            -122.744299,
+            49.3127381
+          ],
+          [
+            -122.7441852,
+            49.312732
+          ],
+          [
+            -122.7440941,
+            49.3127419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/366893392",
         "bicycle": "designated",
         "cycleway": "shared",
@@ -54985,8 +56211,8 @@
             49.2788265
           ],
           [
-            -122.8381936,
-            49.2787825
+            -122.8381427,
+            49.278777
           ],
           [
             -122.8380954,
@@ -55388,6 +56614,40 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/518692925",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7982364,
+            49.2851436
+          ],
+          [
+            -122.798228,
+            49.2852036
+          ],
+          [
+            -122.79821,
+            49.2853285
+          ],
+          [
+            -122.7982033,
+            49.2853836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/585523263",
         "bicycle": "designated",
         "footway": "crossing",
@@ -55646,6 +56906,41 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/658283611",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "foot": "designated",
+        "highway": "path",
+        "path": "crossing",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='path'.,Setting LTS to 2 because highway='path' and path='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.792107,
+            49.2850175
+          ],
+          [
+            -122.79227,
+            49.2850236
+          ],
+          [
+            -122.7924379,
+            49.28503
+          ],
+          [
+            -122.7926217,
+            49.2850675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/675708349",
         "cycleway.right": "shared_lane",
         "highway": "residential",
@@ -55658,40 +56953,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.834832,
-            49.2767412
+            -122.8348514,
+            49.2767395
           ],
           [
-            -122.8348201,
-            49.2768244
+            -122.8348501,
+            49.2768255
           ],
           [
-            -122.8348197,
-            49.2768534
+            -122.8348496,
+            49.2768617
           ],
           [
-            -122.8348184,
-            49.2770905
+            -122.834846,
+            49.2770946
           ],
           [
-            -122.8348174,
-            49.2772036
+            -122.8348443,
+            49.2772046
           ],
           [
-            -122.8348165,
-            49.2773295
+            -122.8348424,
+            49.2773311
           ],
           [
-            -122.8348149,
-            49.2775334
+            -122.8348393,
+            49.2775328
           ],
           [
-            -122.8348142,
+            -122.8348377,
             49.2776313
-          ],
-          [
-            -122.8349525,
-            49.2776448
           ]
         ]
       }
@@ -56017,6 +57308,419 @@
           [
             -122.7384352,
             49.282838
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839163950",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8098445,
+            49.2844886
+          ],
+          [
+            -122.8097211,
+            49.2845192
+          ],
+          [
+            -122.8095834,
+            49.2845533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839163951",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "foot": "designated",
+        "highway": "path",
+        "path": "crossing",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='path'.,Setting LTS to 2 because highway='path' and path='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.794454,
+            49.2851489
+          ],
+          [
+            -122.794621,
+            49.2851646
+          ],
+          [
+            -122.7947644,
+            49.2851776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839163952",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7945014,
+            49.2848553
+          ],
+          [
+            -122.794488,
+            49.2849363
+          ],
+          [
+            -122.794467,
+            49.2850709
+          ],
+          [
+            -122.794454,
+            49.2851489
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839163953",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7947644,
+            49.2851776
+          ],
+          [
+            -122.794777,
+            49.2850958
+          ],
+          [
+            -122.794787,
+            49.2850362
+          ],
+          [
+            -122.7947992,
+            49.2849574
+          ],
+          [
+            -122.7948137,
+            49.2848775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839163955",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7979172,
+            49.2853691
+          ],
+          [
+            -122.797924,
+            49.2853135
+          ],
+          [
+            -122.797941,
+            49.2851919
+          ],
+          [
+            -122.7979506,
+            49.2851268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839216249",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8014205,
+            49.2853423
+          ],
+          [
+            -122.8015697,
+            49.2853341
+          ],
+          [
+            -122.8017548,
+            49.285324
+          ],
+          [
+            -122.8018937,
+            49.2853164
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/839216250",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8018697,
+            49.2850418
+          ],
+          [
+            -122.8017425,
+            49.2850502
+          ],
+          [
+            -122.8015735,
+            49.2850615
+          ],
+          [
+            -122.8014836,
+            49.2850675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/841039559",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8127136,
+            49.2833453
+          ],
+          [
+            -122.8127958,
+            49.2833343
+          ],
+          [
+            -122.8128983,
+            49.2833204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/841039564",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8186882,
+            49.284453
+          ],
+          [
+            -122.8185961,
+            49.2844191
+          ],
+          [
+            -122.8184853,
+            49.2843784
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/841039565",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.818272,
+            49.2846059
+          ],
+          [
+            -122.8183932,
+            49.2846452
+          ],
+          [
+            -122.8184936,
+            49.2846778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/841039575",
+        "bicycle": "designated",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8094389,
+            49.2842925
+          ],
+          [
+            -122.8095831,
+            49.2842646
+          ],
+          [
+            -122.8097009,
+            49.2842417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/845767167",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "foot": "designated",
+        "highway": "path",
+        "path": "crossing",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='path'.,Setting LTS to 2 because highway='path' and path='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7926217,
+            49.2850675
+          ],
+          [
+            -122.7926342,
+            49.2849238
+          ],
+          [
+            -122.7926891,
+            49.2848122
+          ],
+          [
+            -122.7927468,
+            49.2846947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/860272907",
+        "bicycle": "designated",
+        "cycleway.surface.color": "green",
+        "foot": "designated",
+        "highway": "path",
+        "path": "crossing",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='path'.,Setting LTS to 2 because highway='path' and path='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7927468,
+            49.2846947
+          ],
+          [
+            -122.7926299,
+            49.2846863
+          ],
+          [
+            -122.7924659,
+            49.2846746
+          ],
+          [
+            -122.7922597,
+            49.2846567
           ]
         ]
       }
@@ -56630,6 +58334,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "way/978772362",
+        "bicycle": "designated",
+        "cycleway.surface.colour": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7982364,
+            49.2851436
+          ],
+          [
+            -122.798103,
+            49.2851358
+          ],
+          [
+            -122.7979506,
+            49.2851268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "way/1021151439",
         "cycleway": "shared_lane",
         "highway": "residential",
@@ -56714,7 +58448,7 @@
             49.2755775
           ],
           [
-            -122.8415084,
+            -122.8415211,
             49.2755824
           ],
           [
@@ -56726,8 +58460,8 @@
             49.2755859
           ],
           [
-            -122.842219,
-            49.2755868
+            -122.8422296,
+            49.2755875
           ],
           [
             -122.842624,
@@ -56883,6 +58617,64 @@
           [
             -122.8496983,
             49.2320981
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1064110885",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Whiting Way",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8918871,
+            49.2588728
+          ],
+          [
+            -122.8918867,
+            49.2587834
+          ],
+          [
+            -122.8918832,
+            49.257769
+          ],
+          [
+            -122.8918613,
+            49.2574646
+          ],
+          [
+            -122.8918602,
+            49.2574265
+          ],
+          [
+            -122.8918578,
+            49.2572749
+          ],
+          [
+            -122.8918917,
+            49.2571307
+          ],
+          [
+            -122.8919014,
+            49.2569187
+          ],
+          [
+            -122.8919021,
+            49.2568947
+          ],
+          [
+            -122.8919065,
+            49.2568082
           ]
         ]
       }
@@ -57344,42 +59136,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "way/1225522674",
-        "bicycle": "designated",
-        "footway": "crossing",
-        "highway": "footway",
-        "segregated": "no",
-        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.8392277,
-            49.2789056
-          ],
-          [
-            -122.8392991,
-            49.2789874
-          ],
-          [
-            -122.8393592,
-            49.2790563
-          ],
-          [
-            -122.839406,
-            49.2791099
-          ],
-          [
-            -122.8394232,
-            49.2791302
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "way/1231689427",
         "bicycle": "designated",
         "foot": "designated",
@@ -57461,8 +59217,12 @@
             49.2756495
           ],
           [
-            -122.856618,
-            49.2756519
+            -122.856332,
+            49.2756709
+          ],
+          [
+            -122.8566167,
+            49.2756698
           ]
         ]
       }
@@ -58114,6 +59874,118 @@
           [
             -122.8453862,
             49.2772289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1414589911",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Spring Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8524464,
+            49.2772563
+          ],
+          [
+            -122.852535,
+            49.2772567
+          ],
+          [
+            -122.8538379,
+            49.2772632
+          ],
+          [
+            -122.8545524,
+            49.2772667
+          ],
+          [
+            -122.8546458,
+            49.2772672
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1414589912",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Spring Street",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No maxspeed tag. Using default value of 50 when highway='residential'.,Setting LTS to 2 because maxspeed is up to 50 km/h and lanes are 2 or less and highway='residential'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.8546458,
+            49.2772672
+          ],
+          [
+            -122.8547454,
+            49.2772676
+          ],
+          [
+            -122.855336,
+            49.2772697
+          ],
+          [
+            -122.8558343,
+            49.2772715
+          ],
+          [
+            -122.8561485,
+            49.2772727
+          ],
+          [
+            -122.8564817,
+            49.2772739
+          ],
+          [
+            -122.856597,
+            49.2772754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "way/1418444283",
+        "bicycle": "designated",
+        "cycleway.surface.color": "green",
+        "footway": "crossing",
+        "highway": "footway",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "decisionMsg": "Does not meet criteria for Separated Path or Bike Lane. Treating as Mixed Traffic.,No 'lanes' tag. Assuming default of 2.,No maxspeed tag. Using default value of 50 when highway='footway'.,Setting LTS to 2 because highway='footway' and footway='crossing'."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.7945014,
+            49.2848553
+          ],
+          [
+            -122.7946728,
+            49.2848675
+          ],
+          [
+            -122.7948137,
+            49.2848775
           ]
         ]
       }
