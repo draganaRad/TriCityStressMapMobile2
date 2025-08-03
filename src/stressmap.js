@@ -298,14 +298,14 @@ function onEachFeature(feature, layer) {
     // }
 
     // for debug
-    if (feature.properties.id == 'way/1418444283'){
-      console.log('Dragana:: tag ' + JSON.stringify(feature.properties))
-    }
+    // if (feature.properties.id == 'way/48732376'){
+    //   console.log('Dragana:: tag ' + JSON.stringify(feature.properties))
+    // }
 
     // customize value for category (road category) tag
     // options based on analysis of Sept 2021 designated data (StressDataExploration.R)
-    let highwayValueToShow = null
-    let categoryValueToShow = null
+    let highwayValueToShow = ""
+    let categoryValueToShow = ""
     if (feature.properties.highway) {
       let highwayValue = feature.properties.highway
 
@@ -389,7 +389,7 @@ function onEachFeature(feature, layer) {
             if (highwayValue == "secondary" || highwayValue == "secondary_link"){
               highwayValueToShow = "arterial"
             }
-            if (highwayValueToShow == null){
+            if (highwayValueToShow === ""){
               highwayValueToShow = highwayValue
             }
             // if "service" then add what kind of service
@@ -411,7 +411,7 @@ function onEachFeature(feature, layer) {
               }
             }
             // figure out bike infra categories ("cycleway" tag)
-            let cyclewayValue = null
+            let cyclewayValue = ""
             if (feature.properties.cycleway) {
               cyclewayValue = feature.properties.cycleway
               // check if there's cycleway.both, cycleway.right, cycleway.left
@@ -422,7 +422,7 @@ function onEachFeature(feature, layer) {
             }else if(feature.properties["cycleway.left"]){
               cyclewayValue = feature.properties["cycleway.left"]
             }
-            if (cyclewayValue){
+            if (cyclewayValue !== ""){
               if (cyclewayValue == "shared_lane"  || cyclewayValue == "shared" || cyclewayValue == "share_busway"){
                 categoryValueToShow = "Shared Lane"
               }
@@ -442,7 +442,7 @@ function onEachFeature(feature, layer) {
       }
     }
     // add bike category first
-    if (categoryValueToShow){
+    if (categoryValueToShow !== ""){
       popupContent += "<b>";
       popupContent += categoryValueToShow;
       popupContent += "</b>";
@@ -457,7 +457,7 @@ function onEachFeature(feature, layer) {
       popupContent += feature.properties.name;
     }
     // then road category
-    if (highwayValueToShow){
+    if (highwayValueToShow !== ""){
       if (popupContent != ""){
         popupContent += "<br>"
       }
