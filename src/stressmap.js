@@ -44,7 +44,7 @@ L.tileLayer(
 // Add BikeOttawa attribution
 map.attributionControl.addAttribution('<a href="https://github.com/BikeOttawa">BikeOttawa</a>');
 if (!L.Browser.mobile) { // add date on desktop. too clutered on mobile
-  map.attributionControl.addAttribution('updated Aug 2025');
+  map.attributionControl.addAttribution('updated Oct 2025');
 }
 
 // add geolocation on mobile
@@ -309,71 +309,76 @@ function onEachFeature(feature, layer) {
     if (feature.properties.highway) {
       let highwayValue = feature.properties.highway
 
-      if (highwayValue == "path" || highwayValue == "cycleway" || highwayValue == "footway"){
+      //if (highwayValue == "path" || highwayValue == "cycleway" || highwayValue == "footway"){
+      if (feature.properties.bikeInfraType){
+        categoryValueToShow = feature.properties.bikeInfraType
         // separated bike infrastructure
-        let footValue = feature.properties.foot
-        if (footValue == "designated" ||  footValue == "yes" || footValue == "permissive" || footValue == "yes;permissive"){
-          footValue = "yes"
-        }else{
-          footValue = "no"
-        }
-        let bicycleValue = feature.properties.bicycle
-        if (bicycleValue == "designated" ||  bicycleValue == "yes" || bicycleValue == "permissive" || bicycleValue == "yes;permissive"){
-          bicycleValue = "yes"
-        }else{
-          bicycleValue = "no"
-        }
-        // path
-        if (highwayValue == "path"){
-          if (footValue == "yes" && bicycleValue == "yes"){
-            if (feature.properties.segregated && feature.properties.segregated == "yes"){
-              categoryValueToShow = "Bike "
-            }else{
-              categoryValueToShow = "Shared "
-            }
-          }//else{
-            //categoryValueToShow = "Path"
-          //}
-          // path crossings
-          let pathValue = feature.properties.path
-          if (pathValue == "crossing"){
-            categoryValueToShow += "Crossing"
-          }else{
-            categoryValueToShow += "Path"
-          }
-        // cycleway
-        }else if (highwayValue == "cycleway"){
-          if ((footValue == "yes") && !(feature.properties.segregated && feature.properties.segregated == "yes")){
-            categoryValueToShow = "Shared"
-          }else{
-            categoryValueToShow = "Bike"
-          }
-          // cycleway crossings
-          let cyclewayValue = feature.properties.cycleway
-          if (cyclewayValue == "crossing"){
-            categoryValueToShow += " Crossing"
-          }else{
-            categoryValueToShow += " Path"
-          }
-          // footway
-        }else if (highwayValue == "footway"){
-          if (bicycleValue == "yes"){
-            if (feature.properties.segregated && feature.properties.segregated == "yes"){
-              categoryValueToShow = "Bike"
-            }else{
-              categoryValueToShow = "Shared"
-            }
-          }else{
-            categoryValueToShow = "Foot"
-          }
-          // footway crossings
-          let footwayValue = feature.properties.footway
-          if (footwayValue == "crossing"){
-            categoryValueToShow += " Crossing"
-          }else{
-            categoryValueToShow += " Path"
-          }
-        }
+        // [Oct 2025] let's use value from file that was created in ltsanalyzer
+
+        // leave this here for now
+        // let footValue = feature.properties.foot
+        // if (footValue == "designated" ||  footValue == "yes" || footValue == "permissive" || footValue == "yes;permissive"){
+        //   footValue = "yes"
+        // }else{
+        //   footValue = "no"
+        // }
+        // let bicycleValue = feature.properties.bicycle
+        // if (bicycleValue == "designated" ||  bicycleValue == "yes" || bicycleValue == "permissive" || bicycleValue == "yes;permissive"){
+        //   bicycleValue = "yes"
+        // }else{
+        //   bicycleValue = "no"
+        // }
+        // // path
+        // if (highwayValue == "path"){
+        //   if (footValue == "yes" && bicycleValue == "yes"){
+        //     if (feature.properties.segregated && feature.properties.segregated == "yes"){
+        //       categoryValueToShow = "Bike "
+        //     }else{
+        //       categoryValueToShow = "Shared "
+        //     }
+        //   }//else{
+        //     //categoryValueToShow = "Path"
+        //   //}
+        //   // path crossings
+        //   let pathValue = feature.properties.path
+        //   if (pathValue == "crossing"){
+        //     categoryValueToShow += "Crossing"
+        //   }else{
+        //     categoryValueToShow += "Path"
+        //   }
+        // // cycleway
+        // }else if (highwayValue == "cycleway"){
+        //   if ((footValue == "yes") && !(feature.properties.segregated && feature.properties.segregated == "yes")){
+        //     categoryValueToShow = "Shared"
+        //   }else{
+        //     categoryValueToShow = "Bike"
+        //   }
+        //   // cycleway crossings
+        //   let cyclewayValue = feature.properties.cycleway
+        //   if (cyclewayValue == "crossing"){
+        //     categoryValueToShow += " Crossing"
+        //   }else{
+        //     categoryValueToShow += " Path"
+        //   }
+        //   // footway
+        // }else if (highwayValue == "footway"){
+        //   if (bicycleValue == "yes"){
+        //     if (feature.properties.segregated && feature.properties.segregated == "yes"){
+        //       categoryValueToShow = "Bike"
+        //     }else{
+        //       categoryValueToShow = "Shared"
+        //     }
+        //   }else{
+        //     categoryValueToShow = "Foot"
+        //   }
+        //   // footway crossings
+        //   let footwayValue = feature.properties.footway
+        //   if (footwayValue == "crossing"){
+        //     categoryValueToShow += " Crossing"
+        //   }else{
+        //     categoryValueToShow += " Path"
+        //   }
+        // }
       }else if (highwayValue == "motorway" || highwayValue == "trunk" || highwayValue == "primary" || 
           highwayValue == "secondary" || highwayValue == "tertiary" || highwayValue == "service" ||
           highwayValue == "unclassified" || highwayValue == "residential" || 
@@ -404,38 +409,38 @@ function onEachFeature(feature, layer) {
               }
             }
             // check if there's bike accessible shoulder
-            if (feature.properties["shoulder.bicycle"]){
-              let shoulderBicycleValue = feature.properties["shoulder.bicycle"]
-              if (shoulderBicycleValue == "yes"){
-                categoryValueToShow = "Bicycle accessible shoulder"
-              }
-            }
+            // if (feature.properties["shoulder.bicycle"]){
+            //   let shoulderBicycleValue = feature.properties["shoulder.bicycle"]
+            //   if (shoulderBicycleValue == "yes"){
+            //     categoryValueToShow = "Bicycle accessible shoulder"
+            //   }
+            // }
             // figure out bike infra categories ("cycleway" tag)
-            let cyclewayValue = ""
-            if (feature.properties.cycleway) {
-              cyclewayValue = feature.properties.cycleway
-              // check if there's cycleway.both, cycleway.right, cycleway.left
-            }else if(feature.properties["cycleway.both"]){
-              cyclewayValue = feature.properties["cycleway.both"]
-            }else if(feature.properties["cycleway.right"]){
-              cyclewayValue = feature.properties["cycleway.right"]
-            }else if(feature.properties["cycleway.left"]){
-              cyclewayValue = feature.properties["cycleway.left"]
-            }
-            if (cyclewayValue !== ""){
-              if (cyclewayValue == "shared_lane"  || cyclewayValue == "shared" || cyclewayValue == "share_busway"){
-                categoryValueToShow = "Shared Lane"
-              }
-              if (cyclewayValue == "lane"){
-                categoryValueToShow = "Painted Lane"
-              }              
-              if (cyclewayValue == "track"){
-                categoryValueToShow = "Protected Lane"
-              }
-              if (cyclewayValue == "crossing"){
-                categoryValueToShow = "Crossing"
-              }
-            }
+            // let cyclewayValue = ""
+            // if (feature.properties.cycleway) {
+            //   cyclewayValue = feature.properties.cycleway
+            //   // check if there's cycleway.both, cycleway.right, cycleway.left
+            // }else if(feature.properties["cycleway.both"]){
+            //   cyclewayValue = feature.properties["cycleway.both"]
+            // }else if(feature.properties["cycleway.right"]){
+            //   cyclewayValue = feature.properties["cycleway.right"]
+            // }else if(feature.properties["cycleway.left"]){
+            //   cyclewayValue = feature.properties["cycleway.left"]
+            // }
+            // if (cyclewayValue !== ""){
+            //   if (cyclewayValue == "shared_lane"  || cyclewayValue == "shared" || cyclewayValue == "share_busway"){
+            //     categoryValueToShow = "Shared Lane"
+            //   }
+            //   if (cyclewayValue == "lane"){
+            //     categoryValueToShow = "Painted Lane"
+            //   }              
+            //   if (cyclewayValue == "track"){
+            //     categoryValueToShow = "Protected Lane"
+            //   }
+            //   if (cyclewayValue == "crossing"){
+            //     categoryValueToShow = "Crossing"
+            //   }
+            // }
       }else{
         // everything else
         categoryValueToShow = highwayValue
